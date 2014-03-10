@@ -163,8 +163,9 @@ a {
     bottom: 150px;
     left: 489px;
     top: 285px;
+}
+.room #door.locked {
     background: url(../img/door.png);
-
 }
 .room #key {
     width: 40px;
