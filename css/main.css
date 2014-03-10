@@ -91,16 +91,106 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#game {
+background: #000;
+height: 640px;
+width: 1136px;
+margin: 0 auto;
+position: relative;
+font-family: 'VT323', cursive;
+}
+* {
+    background-repeat: no-repeat;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+#game.room {
+    background: url(../img/room.png) center center;
+}
+a {
+    cursor: pointer;
+    position: absolute;
+}
+.glowing {
+    box-shadow: 0px 0px 10px #fff;
+}
+#sprite.glowing {
+    box-shadow: none;
+}
+#sprite {
+    height: 132px;
+    width: 52px;
+    background: url(../img/sprite.png) 0 0;
+    bottom: 128px;
+    left: 182px;
+    -webkit-animation: standing 6s steps(5) infinite;
+}
+@-webkit-keyframes standing {
+   from { background-position:    0 0px; }
+     to { background-position: 0 -660px; }
+}
+#sprite span {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 500px;
+    color: #fff;
+    font-size: 30px;
+}
+#sprite.right span {
+    left: auto;
+    right: 0;
+}
+#sprite.right, #sprite.right span {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+#sprite.walking {
+    background-image: url(../img/walking.png);
+    -webkit-animation: walking .5s steps(5) infinite;
+}
+@-webkit-keyframes walking {
+   from { background-position:    0 0px; }
+     to { background-position: 0 -660px; }
+}
+.room #door {
+    width: 76px;
+    height: 215px;
+    bottom: 150px;
+    left: 489px;
+    top: 285px;
+    background: url(../img/door.png);
 
+}
+.room #key {
+    width: 40px;
+    height: 40px;
+    background: url(../img/key.png) center center no-repeat;
+    bottom: 110px;
+    right: 100px;
+}
 
-
-
-
-
-
-
-
-
+#inventory {
+    position: absolute;
+    bottom: 0;
+    height: 88px;
+    width: 100%;
+}
+#inventory div {
+    height: 80px;
+    width: 80px;
+    border: 4px solid #fff;
+    float: left;
+    color: #fff;
+    cursor: pointer;
+}
+#inventory .active {
+    border-color: #555;
+}
 
 
 
