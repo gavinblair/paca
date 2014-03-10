@@ -102,7 +102,7 @@ function arrivedat(id){
 				$('#door').removeClass('locked');
 				$('#inventory [data-tool=key]').removeClass('has').attr('data-tool', '').text('');
 				$('#inventory [data-tool=eye]').click();
-				say("What was easy");
+				say("That was easy");
 			}
 		break;
 		case 'key':
@@ -117,7 +117,7 @@ function arrivedat(id){
 	}
 }
 function say(text){
-	var t = $('#sprite span');
+	var t = $('#text');
 	var pos = t.position();
 	pos = pos.left;
 	if(pos.left > ($('#game').width - t.width())){
@@ -125,5 +125,5 @@ function say(text){
 	} else {
 		t.css('right', 'auto').css('left', '0').css('text-align', 'left');
 	}
-	$('#sprite span').text(text);
+	$('#text').text(text);
 }

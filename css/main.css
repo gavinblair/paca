@@ -129,19 +129,16 @@ a {
    from { background-position:    0 0px; }
      to { background-position: 0 -660px; }
 }
-#sprite span {
+#text {
     position: absolute;
-    top: -100px;
+    top: 2em;
     left: 0;
-    width: 500px;
+    width: 100%;
+    padding-left: 4em;
     color: #fff;
     font-size: 30px;
 }
-#sprite.right span {
-    left: auto;
-    right: 0;
-}
-#sprite.right, #sprite.right span {
+#sprite.right {
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
