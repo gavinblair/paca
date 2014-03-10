@@ -1,8 +1,8 @@
 jQuery(document).ready(function($){
 
-	$('#game').addClass('room');
+	scene('room1');
 
-	$('#game').click(function(e){
+	$('#game').on('click',function(e){
 		if(!glowaction) {
 			var target = e.offsetX;
 			//walk to position
@@ -17,14 +17,14 @@ jQuery(document).ready(function($){
 		walkto(pos.left, el.width(), el.attr('id'));
 		return false;
 	});
-	$('#inventory div').click(function(){
+	$('#inventory div').on('click',function(){
 		if($(this).hasClass('has')) {
 			$('#inventory .active').removeClass('active');
 			$(this).addClass('active');
 		}
 		return false;
 	});
-	$('#sprite').click(function(e){
+	$('#sprite').on('click', function(e){
 		e.preventDefault();
 	});
 	$('#game').on('mousedown touchstart', function(){
@@ -78,52 +78,12 @@ function walkto(target, targetwidth, id){
 function hastool(tool){
 	return $('#inventory [data-tool='+tool+']').length;
 }
-function arrivedat(id){
-	var tool = $('#inventory .active').attr('data-tool');
-	switch(id){
-		case 'door':
-			if(tool === 'eye'){
-				if($('#door').hasClass('locked')){
-					say("It's a door.");
-				} else {
-					say("It's an open door. I wonder what's on the other side?");
-				}
-			} else if(tool === 'hand'){
-				if(hastool('key')) {
-					say("It's still locked. I wonder if this key will work?");
-				} else {
-					if($('#door').hasClass('locked')) {
-						say("It's locked. I wonder where the key is?");
-					} else {
-						say("you win!");
-					}
-				}
-			} else if(tool === 'key'){
-				$('#door').removeClass('locked');
-				$('#inventory [data-tool=key]').removeClass('has').attr('data-tool', '').text('');
-				$('#inventory [data-tool=eye]').click();
-				say("That was easy");
-			}
-		break;
-		case 'key':
-			if(tool === 'eye'){
-				say("It's a key. How convenient.");
-			} else if(tool === 'hand'){
-				$('#key').remove();
-				haskey = true;
-				$('#inventory .has:last').next().addClass('has').attr('data-tool', 'key').text('key');
-			}
-		break;
-	}
-}
+
 function say(text){
 	var t = $('#text');
-	var pos = t.position();
-	pos = pos.left;
-	if(pos.left > ($('#game').width - t.width())){
-		t.css('left', 'auto').css('right', '0').css('text-align', 'right');
-	} else {
-		t.css('right', 'auto').css('left', '0').css('text-align', 'left');
-	}
-	$('#text').text(text);
+	t.text(text);
+}
+function scene(thescene){
+	$('#sprite').attr('style', '');
+	$('#scene').html(ich[thescene]());
 }

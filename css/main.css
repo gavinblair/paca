@@ -99,13 +99,17 @@ margin: 0 auto;
 position: relative;
 font-family: 'VT323', cursive;
 }
+#scene {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 * {
     background-repeat: no-repeat;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
-}
-#game.room {
-    background: url(../img/room.png) center center;
 }
 a {
     cursor: pointer;
@@ -122,7 +126,6 @@ a {
     width: 52px;
     background: url(../img/sprite.png) 0 0;
     bottom: 128px;
-    left: 182px;
     -webkit-animation: standing 6s steps(5) infinite;
 }
 @-webkit-keyframes standing {
@@ -153,23 +156,6 @@ a {
 @-webkit-keyframes walking {
    from { background-position:    0 0px; }
      to { background-position: 0 -660px; }
-}
-.room #door {
-    width: 76px;
-    height: 215px;
-    bottom: 150px;
-    left: 489px;
-    top: 285px;
-}
-.room #door.locked {
-    background: url(../img/door.png);
-}
-.room #key {
-    width: 40px;
-    height: 40px;
-    background: url(../img/key.png) center center no-repeat;
-    bottom: 110px;
-    right: 100px;
 }
 
 #inventory {

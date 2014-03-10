@@ -11,7 +11,94 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <script src="js/icanhaz.min.js"></script>
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+        <script id="menu" type="text/html">
+          
+        </script>
+        <script id="room1" type="text/html">
+            <a id='door' class='locked'></a>
+            <a id='key'></a>
+            <style>
+                #game {
+                    background: url(../img/room.png) center center;
+                }
+                #sprite {
+                    left: 182px;
+                }
+                #door {
+                    width: 76px;
+                    height: 215px;
+                    bottom: 150px;
+                    left: 489px;
+                    top: 285px;
+                }
+                #door.locked {
+                    background: url(../img/door.png);
+                }
+                #key {
+                    width: 40px;
+                    height: 40px;
+                    background: url(../img/key.png) center center no-repeat;
+                    bottom: 110px;
+                    right: 100px;
+                }
+            </style>
+            <script>
+                function arrivedat(id){
+                    var tool = $('#inventory .active').attr('data-tool');
+                    switch(id){
+                        case 'door':
+                            if(tool === 'eye'){
+                                if($('#door').hasClass('locked')){
+                                    say("It's a door.");
+                                } else {
+                                    say("It's an open door. I wonder what's on the other side?");
+                                }
+                            } else if(tool === 'hand'){
+                                if(hastool('key')) {
+                                    say("It's still locked. I wonder if this key will work?");
+                                } else {
+                                    if($('#door').hasClass('locked')) {
+                                        say("It's locked. I wonder where the key is?");
+                                    } else {
+                                        say("you win!");
+                                    }
+                                }
+                            } else if(tool === 'key'){
+                                $('#door').removeClass('locked');
+                                $('#inventory [data-tool=key]').removeClass('has').attr('data-tool', '').text('');
+                                $('#inventory [data-tool=eye]').click();
+                                say("That was easy");
+                            }
+                        break;
+                        case 'key':
+                            if(tool === 'eye'){
+                                say("It's a key. How convenient.");
+                            } else if(tool === 'hand'){
+                                $('#key').remove();
+                                haskey = true;
+                                $('#inventory .has:last').next().addClass('has').attr('data-tool', 'key').text('key');
+                            }
+                        break;
+                    }
+                }
+            </script>
+        </script>
+        <script id="room2" type="text/html">
+            <style>
+            </style>
+            <script>
+                function arrivedat(id){
+                    var tool = $('#inventory .active').attr('data-tool');
+                    switch(id){
+                        case 'door':
+                            say("wut.");
+                        break;
+                    }
+                }
+            </script>
+        </script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -20,9 +107,8 @@
 
         <!-- Add your site or application content here -->
         <div id='game'>
+            <div id='scene'></div>
             <div id='text'></div>
-            <a id='door' class='locked'></a>
-            <a id='key'></a>
             <a id='sprite'></a>
             <div id='inventory'>
                 <div data-tool='eye' class='has active'>eye</div>
