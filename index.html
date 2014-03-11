@@ -21,7 +21,7 @@
             <a id='key'></a>
             <style>
                 #game {
-                    background: url(../img/room.png) center center;
+                    background: url(img/room.png) center center;
                 }
                 #sprite {
                     left: 182px;
@@ -34,12 +34,12 @@
                     top: 285px;
                 }
                 #door.locked {
-                    background: url(../img/door.png);
+                    background: url(img/door.png);
                 }
                 #key {
                     width: 40px;
                     height: 40px;
-                    background: url(../img/key.png) center center no-repeat;
+                    background: url(img/key.png) center center no-repeat;
                     bottom: 110px;
                     right: 100px;
                 }
@@ -62,7 +62,7 @@
                                     if($('#door').hasClass('locked')) {
                                         say("It's locked. I wonder where the key is?");
                                     } else {
-                                        say("you win!");
+                                        scene('room2');
                                     }
                                 }
                             } else if(tool === 'key'){
