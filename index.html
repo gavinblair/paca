@@ -14,11 +14,51 @@
         <script src="js/icanhaz.min.js"></script>
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
         <script id="menu" type="text/html">
-          
+            <h1>HTML Adventure</h1>
+            <span class='btn' id='continue'>Continue</span>
+            <span class='btn' id='newgame'>New Game</span>
+            <span class='btn' id='options'>Options</span>
+            <style>
+                h1 {
+                    position: absolute;
+                    width: 100%;
+                    text-align: center;
+                    top: 200px;
+                    color: #fff;
+                }
+                #continue {
+                    top: 400px;
+                    display: none;
+                }
+                #newgame {
+                    top: 450px;
+                }
+                #options {
+                    top: 500px;
+                }
+                #inventory {
+                    display: none;
+                }
+            </style>
+            <script>
+                if(localStorage.game != undefined && localStorage.game.length > 0) {
+                    $('#continue').show();
+                } else {
+                    $('#continue').hide();
+                }
+                $('#newgame').on('click', function(){
+                    scene('room1');
+                    localStorage.game = '';
+                });
+                $('#continue').on('click', function(){
+                    load();
+                });
+            </script>
         </script>
         <script id="room1" type="text/html">
             <a id='door' class='locked'></a>
             <a id='key'></a>
+            <a id='sprite'></a>
             <style>
                 #game {
                     background: url(img/room.png) center center;
@@ -46,9 +86,15 @@
                 #inventory [data-tool=key]{
                     background-image: url(../img/bigkey.png);
                 }
-
             </style>
             <script>
+                //ready the room with any necessary states
+                if(states.door === 'unlocked') {
+                    $('#door').removeClass('locked');
+                }
+                if(states.key === 'taken') {
+                    $('#key').remove();
+                }
                 function arrivedat(id){
                     var tool = $('#inventory .active').attr('data-tool');
                     switch(id){
@@ -71,9 +117,10 @@
                                 }
                             } else if(tool === 'key'){
                                 $('#door').removeClass('locked');
+                                states.door = 'unlocked';
                                 $('#inventory [data-tool=key]').removeClass('has').attr('data-tool', '').text('');
                                 $('#inventory [data-tool=eye]').click();
-                                say("That was easy");
+                                say("That was easy.");
                             }
                         break;
                         case 'key':
@@ -81,7 +128,7 @@
                                 say("It's a key. How convenient.");
                             } else if(tool === 'hand'){
                                 $('#key').remove();
-                                haskey = true;
+                                states.key = 'taken';
                                 $('#inventory .has:last').next().addClass('has').attr('data-tool', 'key').text('key');
                             }
                         break;
@@ -90,6 +137,7 @@
             </script>
         </script>
         <script id="room2" type="text/html">
+            <a id='sprite'></a>
             <style>
             </style>
             <script>
@@ -113,7 +161,6 @@
         <div id='game'>
             <div id='scene'></div>
             <div id='text'></div>
-            <a id='sprite'></a>
             <div id='inventory'>
                 <div data-tool='eye' class='has active'>eye</div>
                 <div data-tool='hand' class='has'>hand</div>

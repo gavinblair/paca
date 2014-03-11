@@ -1,22 +1,19 @@
 jQuery(document).ready(function($){
 
-	scene('room1');
+	scene('menu');
 
 	$('#game').on('click',function(e){
-		if(!glowaction) {
-			var target = e.offsetX;
-			//walk to position
-			walkto(target, 40);
+		if($('#sprite').length) {
+			if(!glowaction) {
+				var target = e.offsetX;
+				//walk to position
+				walkto(target, 40);
+				
+			}
+			glowaction = false;
 		}
-		glowaction = false;
 	});
-	$('a').on('click touchup',function(){
-		//walk to the object
-		var el = $(this);
-		var pos = el.position();
-		walkto(pos.left, el.width(), el.attr('id'));
-		return false;
-	});
+	
 	$('#inventory div').on('click',function(){
 		if($(this).hasClass('has')) {
 			$('#inventory .active').removeClass('active');
@@ -28,19 +25,23 @@ jQuery(document).ready(function($){
 		e.preventDefault();
 	});
 	$('#game').on('mousedown touchstart', function(){
-		say('');
-		pressing = true;
-		setTimeout(function(){
-			if(pressing) {
-				$('#game a').addClass('glowing');
-				pressing = false;
-				glowaction = true;
-			}
-		}, 1000);
+		if($('#sprite').length) {
+			say('');
+			pressing = true;
+			setTimeout(function(){
+				if(pressing) {
+					$('#game a').addClass('glowing');
+					pressing = false;
+					glowaction = true;
+				}
+			}, 1000);
+		}
 	});
 	$('#game').on('mouseup touchend', function(){
-		pressing = false;
-		$('#game a').removeClass('glowing');
+		if($('#sprite').length) {
+			pressing = false;
+			$('#game a').removeClass('glowing');
+		}
 	});
 });
 var pressing = false;
@@ -70,10 +71,41 @@ function walkto(target, targetwidth, id){
 			sprite.removeClass('walking');
 			if(id !== undefined) {
 				arrivedat(id);
+				//save the game
+				save();
 			}
 			clearInterval(walking);
 		}
 	}, 100);
+}
+var states = {};
+function save(){
+	var pos = $('#sprite').position();
+	var inventory = [];
+	$('#inventory .has').each(function(){
+		if($(this).attr('data-tool') !== 'eye' && $(this).attr('data-tool') !== 'hand') {
+			inventory.push($(this).attr('data-tool'));
+		}
+	});
+	localStorage.game = JSON.stringify({
+		scene: $('#game').attr('data-scene'),
+		left: pos.left,
+		inventory: inventory,
+		states: states
+	});
+}
+function load(){
+	if(localStorage.game.length > 0) {
+		var game = JSON.parse(localStorage.game);
+		states = game.states;
+		for(var i in game.inventory){
+			$('#inventory .has:last').next().addClass('has').attr('data-tool', game.inventory[i]).text(game.inventory[i]);
+		}
+		scene(game.scene);
+		$('#sprite').css('left', game.left);
+	} else {
+		$('#newgame').click();
+	}
 }
 function hastool(tool){
 	return $('#inventory [data-tool='+tool+']').length;
@@ -86,4 +118,11 @@ function say(text){
 function scene(thescene){
 	$('#sprite').attr('style', '');
 	$('#scene').html(ich[thescene]());
+	$('#game').attr('data-scene', thescene);
+	$('a').on('click touchup',function(){
+		//walk to the object
+		var pos = $(this).position();
+		walkto(pos.left, $(this).width(), $(this).attr('id'));
+		return false;
+	});
 }
