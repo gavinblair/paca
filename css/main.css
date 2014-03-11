@@ -90,7 +90,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+#preload {
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    bottom: -2px;
+}
 #game {
 background: #000;
 height: 640px;
@@ -171,12 +177,19 @@ a {
     float: left;
     color: #fff;
     cursor: pointer;
+    background: #000 no-repeat center center;
 }
 #inventory .active {
-    border-color: #555;
+    background-color: #555;
 }
-
-
+#inventory [data-tool=eye]{
+    background-image: url(../img/eye.png);
+    text-indent: -9999px;
+}
+#inventory [data-tool=hand]{
+    background-image: url(../img/hand.png);
+    text-indent: -9999px;
+}
 
 
 
