@@ -52,6 +52,7 @@
                 }
                 $('#newgame').on('click', function(){
                     scene('room1');
+                    states = {};
                     localStorage.game = '';
                 });
                 $('#continue').on('click', function(){
@@ -99,6 +100,9 @@
                 if(states.key === 'taken') {
                     $('#key').remove();
                 }
+                if(states.used_door = 'true'){
+                    $('#sprite').css('left', $('#door').css('left'));
+                }
                 function arrivedat(id){
                     var tool = $('#inventory .active').attr('data-tool');
                     switch(id){
@@ -116,6 +120,7 @@
                                     if($('#door').hasClass('locked')) {
                                         say("It's locked. I wonder where the key is?");
                                     } else {
+                                        states.used_door = 'true';
                                         scene('room2');
                                     }
                                 }
@@ -142,14 +147,56 @@
         </script>
         <script id="room2" type="text/html">
             <a id='sprite'></a>
+            <a id='door'></a>
+            <a id='wizard'></a>
             <style>
+                #game {
+                    background: url(img/room2.png) center center;
+                }
+                #sprite {
+                    left: 182px;
+                }
+                #door {
+                    width: 76px;
+                    height: 215px;
+                    bottom: 150px;
+                    left: 134px;
+                    top: 280px;
+                }
+                #wizard {
+                    height: 152px;
+                    width: 82px;
+                    bottom: 128px;
+                    right: 50px;
+                    
+                    -webkit-animation: wizarding 6s steps(5) infinite;
+                }
+                #wizard.shown {
+                    background: url(img/wizard.png?b) 0 0;
+                }
+                @-webkit-keyframes wizarding {
+                   from { background-position:    0 0px; }
+                     to { background-position: 0 -760px; }
+                }
             </style>
             <script>
                 function arrivedat(id){
                     var tool = $('#inventory .active').attr('data-tool');
                     switch(id){
                         case 'door':
-                            say("wut.");
+                            if(tool === 'hand') {
+                                scene('room1');
+                            } else if(tool === 'eye'){
+                                say("The only light is coming from the door.");
+                            }
+                        break;
+                        case 'wizard':
+                            if(tool === 'eye') {
+                                $('#wizard').addClass('shown');
+                                say("AAH!");
+                            } else if (tool === 'hand') {
+                                say("dialogue here");
+                            }
                         break;
                     }
                 }

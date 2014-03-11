@@ -63,20 +63,29 @@ function walkto(target, targetwidth, id){
 		//face right
 		sprite.addClass('right');
 	}
-	walking = setInterval(function(){
-		var pos = sprite.position();
-		pos = pos.left;
-		sprite.css('left', pos+step);
-		if((pos < (target +targetwidth + 20) && pos > (target + targetwidth - 20)) || ((pos+52) < (target + 20) && (pos+52) > (target - 20))) {
-			sprite.removeClass('walking');
-			if(id !== undefined) {
-				arrivedat(id);
-				//save the game
-				save();
-			}
-			clearInterval(walking);
+	if(pos < (target +targetwidth + 20) && (pos+52) > (target - 20)) {
+		sprite.removeClass('walking');
+		if(id !== undefined) {
+			arrivedat(id);
+			//save the game
+			save();
 		}
-	}, 100);
+	} else {
+		walking = setInterval(function(){
+			var pos = sprite.position();
+			pos = pos.left;
+			sprite.css('left', pos+step);
+			if(pos < (target +targetwidth + 20) && (pos+52) > (target - 20)) {
+				sprite.removeClass('walking');
+				if(id !== undefined) {
+					arrivedat(id);
+					//save the game
+					save();
+				}
+				clearInterval(walking);
+			}
+		}, 100);
+	}
 }
 var states = {};
 function save(){
