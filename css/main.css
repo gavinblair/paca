@@ -198,6 +198,7 @@ span {
 }
 .btn {
     width: 500px;
+    height: 40px;
     left: 50%;
     margin-left: -250px;
     border: 4px solid #fff;
