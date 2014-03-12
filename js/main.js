@@ -4,6 +4,7 @@ jQuery(document).ready(function($){
 
 	$('#game').on('click',function(e){
 		if($('#sprite').length) {
+			say('');
 			if(!glowaction) {
 				var target = e.offsetX;
 				//walk to position
@@ -26,7 +27,6 @@ jQuery(document).ready(function($){
 	});
 	$('#game').on('mousedown touchstart', function(){
 		if($('#sprite').length) {
-			say('');
 			pressing = true;
 			setTimeout(function(){
 				if(pressing) {
@@ -42,6 +42,9 @@ jQuery(document).ready(function($){
 			pressing = false;
 			$('#game a').removeClass('glowing');
 		}
+	});
+	$('#text').on('click', function(){
+		return false;
 	});
 });
 var pressing = false;
@@ -120,18 +123,44 @@ function hastool(tool){
 	return $('#inventory [data-tool='+tool+']').length;
 }
 
-function say(text){
+function say(text, color){
+	if(typeof color === 'undefined') {
+		color = '#fff';
+	} else {
+		text = '"'+text+'"';
+	}
 	var t = $('#text');
 	t.text(text);
+	t.css('color', color);
+}
+function ask(options) {
+	var t = $('#text');
+	h = "";
+	for(var i in options){
+		h += "<span data-say='"+i+"'>\""+options[i]+"\"</span>";
+	}
+	t.html(h);
+	t.css('color', '#fff');
 }
 function scene(thescene){
 	$('#sprite').attr('style', '');
 	$('#scene').html(ich[thescene]());
 	$('#game').attr('data-scene', thescene);
 	$('a').on('click touchup',function(){
+		say('');
 		//walk to the object
 		var pos = $(this).position();
 		walkto(pos.left, $(this).width(), $(this).attr('id'));
 		return false;
 	});
+}
+function current_tool(){
+	return $('#inventory .active').attr('data-tool');
+}
+function add_tool(tool){
+	$('#inventory .has:last').next().addClass('has').attr('data-tool', tool).text(tool);
+}
+function lose_tool(tool){
+	$('#inventory [data-tool='+tool+']').removeClass('has').attr('data-tool', '').text('');
+	$('#inventory [data-tool=eye]').click();
 }

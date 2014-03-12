@@ -54,9 +54,11 @@
                     scene('room1');
                     states = {};
                     localStorage.game = '';
+                    return false;
                 });
                 $('#continue').on('click', function(){
                     load();
+                    return false;
                 });
             </script>
         </script>
@@ -100,11 +102,11 @@
                 if(states.key === 'taken') {
                     $('#key').remove();
                 }
-                if(states.used_door = 'true'){
+                if(states.used_door === 'true'){
                     $('#sprite').css('left', $('#door').css('left'));
                 }
                 function arrivedat(id){
-                    var tool = $('#inventory .active').attr('data-tool');
+                    var tool = current_tool();
                     switch(id){
                         case 'door':
                             if(tool === 'eye'){
@@ -127,8 +129,8 @@
                             } else if(tool === 'key'){
                                 $('#door').removeClass('locked');
                                 states.door = 'unlocked';
-                                $('#inventory [data-tool=key]').removeClass('has').attr('data-tool', '').text('');
-                                $('#inventory [data-tool=eye]').click();
+                                lose_tool('key');
+                                
                                 say("That was easy.");
                             }
                         break;
@@ -138,7 +140,7 @@
                             } else if(tool === 'hand'){
                                 $('#key').remove();
                                 states.key = 'taken';
-                                $('#inventory .has:last').next().addClass('has').attr('data-tool', 'key').text('key');
+                                add_tool('key');
                             }
                         break;
                     }
@@ -169,10 +171,8 @@
                     bottom: 128px;
                     right: 50px;
                     
-                    -webkit-animation: wizarding 6s steps(5) infinite;
-                }
-                #wizard.shown {
                     background: url(img/wizard.png?b) 0 0;
+                    -webkit-animation: wizarding 6s steps(5) infinite;
                 }
                 @-webkit-keyframes wizarding {
                    from { background-position:    0 0px; }
@@ -181,7 +181,7 @@
             </style>
             <script>
                 function arrivedat(id){
-                    var tool = $('#inventory .active').attr('data-tool');
+                    var tool = current_tool();
                     switch(id){
                         case 'door':
                             if(tool === 'hand') {
@@ -192,14 +192,37 @@
                         break;
                         case 'wizard':
                             if(tool === 'eye') {
-                                $('#wizard').addClass('shown');
                                 say("AAH!");
                             } else if (tool === 'hand') {
-                                say("dialogue here");
+                                ask({
+                                    who: 'Who are you?',
+                                    what: 'What are you doing here?',
+                                    where: 'What is this place?',
+                                    bye: 'Goodbye'
+                                });
+                                $('#text span').on('click', function(){
+                                    var t = $(this).attr('data-say');
+                                    switch(t){
+                                        case 'who':
+                                            say("I am a Wizard. Duh.", "purple");
+                                        break;
+                                        case 'what':
+                                            say("I'm being magical!", "purple");
+                                        break;
+                                        case 'where':
+                                            say("This is a dark room. It is also something that I talk about a lot. There sure is a lot of talking happening right now, and it is coming from me. You are stuck listening to me.", "purple");
+                                        break;
+                                        case 'bye':
+                                            say("See ya, sucker!", "purple");
+                                        break;
+                                    }
+                                    return false;
+                                });
                             }
                         break;
                     }
                 }
+                
             </script>
         </script>
     </head>

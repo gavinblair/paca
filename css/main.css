@@ -157,6 +157,11 @@ span {
     color: #fff;
     font-size: 30px;
 }
+#text span {
+    display: block;
+    cursor: pointer;
+    position: static;
+}
 #sprite.right {
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
