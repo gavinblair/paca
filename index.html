@@ -178,6 +178,9 @@
                    from { background-position:    0 0px; }
                      to { background-position: 0 -760px; }
                 }
+                #inventory [data-tool=sword]{
+                    background-image: url(img/sword.png);
+                }
             </style>
             <script>
                 function arrivedat(id){
@@ -194,12 +197,28 @@
                             if(tool === 'eye') {
                                 say("AAH!");
                             } else if (tool === 'hand') {
-                                ask({
+                                var askoptions = {
                                     who: 'Who are you?',
                                     what: 'What are you doing here?',
                                     where: 'What is this place?',
-                                    bye: 'Goodbye'
-                                });
+                                };
+                                if(states.asked_where === 'true') {
+                                    delete askoptions.where;
+                                    askoptions.more = 'Tell me more about this place.';
+                                }
+                                if(states.asked_more === 'true'){
+                                    delete askoptions.more;
+                                    askoptions.sword = 'Can you please give me a sword?';
+                                }
+                                if(states.asked_sword === 'true') {
+                                    delete askoptions.sword;
+                                    askoptions.bye = 'Thanks for the sword!';
+                                } else {
+                                    //make sure this is last
+                                    askoptions.bye = 'Goodbye';
+                                }
+                                ask(askoptions);
+
                                 $('#text span').on('click', function(){
                                     var t = $(this).attr('data-say');
                                     switch(t){
@@ -211,13 +230,25 @@
                                         break;
                                         case 'where':
                                             say("This is a dark room. It is also something that I talk about a lot. There sure is a lot of talking happening right now, and it is coming from me. You are stuck listening to me.", "purple");
+                                            states.asked_where = 'true';
                                         break;
                                         case 'bye':
                                             say("See ya, sucker!", "purple");
                                         break;
+                                        case 'more':
+                                            say("This is a magical land where everyone's a baby, baby hearts baby hands. Baby policeman! Baby D.A.! Baby court appointed defence attorney! Baby bus driver! Baby Hobo! Incredible babies, go babies go!", "purple");
+                                            states.asked_more = 'true';
+                                        break;
+                                        case 'sword':
+                                            say("Well... OK. Here you go", "purple");
+                                            states.asked_sword = 'true';
+                                            add_tool('sword');
+                                        break;
                                     }
                                     return false;
                                 });
+                            } else if (tool === 'sword') {
+                                say("I don't think that's a good idea. He looks dangerous.");
                             }
                         break;
                     }
