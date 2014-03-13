@@ -67,8 +67,15 @@
             <div id='text'>Created by Gavin Blair</div>
             <style>
                 #text {
-                    top: 50%;
+                    top: 40%;
+                    left: 5%;
+                    /*-webkit-animation: scrolling 13s steps(24) forwards;
+                    animation-iteration-count: 1;*/
                 }
+                /*@-webkit-keyframes scrolling {
+                   from { left: 5% }
+                     to { left: 10% }
+                } */               
                 #game {
                     background: url(img/intro1.png) center center;
                 }
@@ -103,34 +110,124 @@
             <div id='text'>Music by Brandon Blair</div>
             <style>
                 #text {
-                    top: 50%;
+                    top: 40%;
+                    /*-webkit-animation: scrolling 13s steps(24) forwards;
+                    animation-iteration-count: 1;*/
                 }
+                /*@-webkit-keyframes scrolling {
+                   from { top: 40% }
+                     to { top: 50% }
+                }*/
                 #game {
                     background: url(img/intro2.png) center center;
                 }
                 #shuttle {
-                    height: 94px;
-                    width: 140px;
-                    top: 238px;
-                    left: 808px;
-                    background-image: url(img/shuttle.png?d);
-                    -webkit-animation: rocketing .3s steps(5) infinite;
+                    height: 132px;
+                    width: 112px;
+                    top: 100px;
+                    left: 508px;
+                    background-image: url(img/parachute.png?c);
+                    -webkit-animation: falling 6s forwards steps(24);
+                    animation-iteration-count: 1;
+                }
+                @-webkit-keyframes falling {
+                   from { top: 100px; }
+                     to { top: 500px; }
+                }
+                #shuttle.landing {
+                    -webkit-animation: landing 2s steps(4);
+                    animation-iteration-count: 1;
+                    background-position: 0 -660px;
+                }
+                @-webkit-keyframes landing {
+                   from { background-position:    0 -132px; }
+                     to { background-position: 0 -660px; }
                 }
                 #inventory {
                     display: none;
                 }
-                @-webkit-keyframes rocketing {
-                   from { background-position:    0 0px; }
-                     to { background-position: 0 -470px; }
-                }
             </style>
             <script>
-                $('#audioTitle')[0].play();
+                setTimeout(function(){
+                    $('#shuttle').css('background-position', '0 -132px');
+                    setTimeout(function(){
+                        $('#shuttle').css('top', '500px').addClass('landing');
+                        setTimeout(function(){
+                            $('#shuttle').css('background-position', 'bottom center');
+                        }, 1500);
+                    }, 3000);
+                }, 3000);
                 //13 seconds intro 2: parachute
+                
                 setTimeout(function(){
                     scene('intro3');
                 }, 13000);
                 //intro 3 = crash
+            </script>
+        </script>
+        <script id="intro3" type="text/html">
+            <div id='mover'><a id='shuttle' class='sinking'></a></div>
+            <div id='foreground'></div>
+            <div id='text'>Artwork by Gavin Blair</div>
+            <style>
+                #text {
+                    top: 20%;
+                    -webkit-animation: scrolling 6s steps(24) forwards;
+                    animation-iteration-count: 1;
+                }
+                @-webkit-keyframes scrolling {
+                   from { top: 40% }
+                     to { top: 10% }
+                }
+                #game {
+                    background: url(img/intro3.png) center center;
+                }
+                #foreground {
+                    position: absolute;
+                    z-index: 999;
+                    height: 100%;
+                    width: 100%;
+                    background: url(img/intro3_fg.png) center center;
+                }
+                #shuttle {
+                    height: 72px;
+                    width: 80px;
+                    top: 0;
+                    left: 0;
+                    background-image: url(img/sinking.png?c);
+                }
+                #shuttle.sinking {
+                    -webkit-animation: sinking 1s steps(5) infinite;
+                }
+                @-webkit-keyframes sinking {
+                   from { background-position: 0 0; }
+                     to { background-position: 0 -360px; }
+                }
+                #mover {
+                    position: absolute;
+                    top: 100px;
+                    left: 508px;
+                    height: 72px;
+                    width: 80px;
+                    -webkit-animation: falling 6s forwards steps(24);
+                    animation-iteration-count: 1;
+                }
+                @-webkit-keyframes falling {
+                    from { top: 100px; }
+                    to { top: 500px; }
+                }
+                #inventory {
+                    display: none;
+                }
+            </style>
+            <script>
+                setTimeout(function(){
+                    $('#shuttle').removeClass('sinking');
+                    $('#shuttle').css('background', 'url(img/underwater.png) no-repeat bottom center');
+                }, 6000);
+                setTimeout(function(){
+                    scene('intro4');
+                }, 13000);
             </script>
         </script>
         <script id="room1" type="text/html">
