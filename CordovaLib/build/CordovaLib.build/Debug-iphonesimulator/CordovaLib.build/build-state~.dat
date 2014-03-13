@@ -1,0 +1,1184 @@
+TCordovaLib
+v6
+r1
+cCheck dependencies
+cCpHeader Classes/NSDictionary+Extensions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+cCpHeader Classes/CDVInvokedUrlCommand.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/NSData+Base64.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+cCpHeader Classes/CDVPluginResult.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+cCpHeader Classes/CDVPlugin.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+cCpHeader Classes/CDVDebug.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+cCpHeader Classes/CDVWhitelist.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+cCpHeader Classes/CDVURLProtocol.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+cCpHeader Classes/CDVViewController.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVCommandDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+cCpHeader Classes/CDV.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDV.h
+cCpHeader Classes/CDVAvailability.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDVLocalStorage.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+cCpHeader Classes/UIDevice+Extensions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/NSArray+Comparisons.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+cCpHeader Classes/CDVCommandQueue.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVShared.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+cCpHeader Classes/CDVScreenOrientationDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+cCpHeader Classes/CDVConfigParser.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+cCpHeader Classes/CDVWebViewDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVUserAgentUtil.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+cCpHeader Classes/CDVTimer.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+cProcessPCH /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /websites/paca-phonegap/platforms/ios/build/emulator/libCordova.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c0000000052838E360000000000000176
+t1384353334
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000525F420400000000000003B5
+t1381974532
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005267E04C00000000000001A0
+t1382539340
+s416
+
+N/var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch.pch
+t1394509496
+s3201968
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDV.h
+c00000000531E85950000000000000516
+t1394509205
+s1302
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+c00000000531E85950000000000000CBF
+t1394509205
+s3263
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+c00000000531E859500000000000008BA
+t1394509205
+s2234
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+c00000000531E85950000000000000473
+t1394509205
+s1139
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+c00000000531E8595000000000000127C
+t1394509205
+s4732
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+c00000000531E85950000000000000501
+t1394509205
+s1281
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+c00000000531E859500000000000017C5
+t1394509205
+s6085
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+c00000000531E859500000000000004CB
+t1394509205
+s1227
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+c00000000531E85950000000000000EB2
+t1394509205
+s3762
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+c00000000531E85950000000000000401
+t1394509205
+s1025
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+c00000000531E859500000000000007E6
+t1394509205
+s2022
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+c00000000531E85950000000000000DDE
+t1394509205
+s3550
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+c00000000531E859500000000000003DA
+t1394509205
+s986
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m
+c00000000531E8595000000000000098E
+t1394509205
+s2446
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+c00000000531E859500000000000006CF
+t1394509205
+s1743
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+c00000000531E85950000000000004C7E
+t1394509205
+s19582
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+c00000000531E85950000000000000892
+t1394509205
+s2194
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+c00000000531E859500000000000016AE
+t1394509205
+s5806
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+c00000000531E85950000000000000C13
+t1394509205
+s3091
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+c00000000531E85950000000000001B29
+t1394509205
+s6953
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+c00000000531E85950000000000000408
+t1394509205
+s1032
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVShared.h
+c00000000531E859500000000000003E6
+t1394509205
+s998
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m
+c00000000531E859500000000000006B6
+t1394509205
+s1718
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+c00000000531E8595000000000000038D
+t1394509205
+s909
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m
+c00000000531E85950000000000000AA2
+t1394509205
+s2722
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+c00000000531E8595000000000000041C
+t1394509205
+s1052
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+c00000000531E85950000000000002514
+t1394509205
+s9492
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+c00000000531E85950000000000000421
+t1394509205
+s1057
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+c00000000531E859500000000000012A2
+t1394509205
+s4770
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+c00000000531E85950000000000000ACC
+t1394509205
+s2764
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m
+c00000000531E8595000000000000879D
+t1394509205
+s34717
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+c00000000531E859500000000000005A2
+t1394509205
+s1442
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+c00000000531E85950000000000003804
+t1394509205
+s14340
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+c00000000531E859500000000000004B4
+t1394509205
+s1204
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+c00000000531E859500000000000027D3
+t1394509205
+s10195
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+c00000000531E85950000000000000392
+t1394509205
+s914
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+c00000000531E859500000000000004D8
+t1394509205
+s1240
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+c00000000531E8595000000000000037D
+t1394509205
+s893
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+c00000000531E859500000000000022CC
+t1394509205
+s8908
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+c00000000531E859500000000000005DA
+t1394509205
+s1498
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+c00000000531E85950000000000001059
+t1394509205
+s4185
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+c00000000531E859500000000000003A0
+t1394509205
+s928
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+c00000000531E85950000000000000584
+t1394509205
+s1412
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+c00000000531E85950000000000000476
+t1394509205
+s1142
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+c00000000531E85950000000000000620
+t1394509205
+s1568
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+c00000000531E85950000000000000346
+t1394509205
+s838
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+t1394509496
+s63132
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+t1394509496
+s60140
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+t1394509496
+s27708
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+t1394509496
+s18680
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+t1394509496
+s10836
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+t1394509496
+s109592
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+t1394509496
+s59484
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+t1394509496
+s37196
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+t1394509497
+s9360
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+t1394509497
+s22908
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+t1394509496
+s71204
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+t1394509497
+s52672
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+t1394509496
+s162520
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+t1394509497
+s71276
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+t1394509496
+s42324
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
+c00000000531E86B70000000000000BB3
+t1394509495
+s2995
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+t1394509496
+s7440
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+t1394509496
+s11104
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+t1394509496
+s17816
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+t1394509496
+s6952
+
+N/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+t1394509496
+s9572
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDV.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+t2
+s0
+
+N/websites/paca-phonegap/platforms/ios/build/emulator/libCordova.a
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies19c5b637beceb841^728cc837beceb841^---0#1#1#--18"Check dependencies36"A0A08E13-4F94-4D07-8F41-74E04DAA5C88-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.809617
+e416202296.922275
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m216"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2f6ecf38beceb841^111bec38beceb841^---0#0#1#-19%DVTDocumentLocation2@88"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^4035"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o36"B443BF66-F65F-4208-A472-46AF983CEC43-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.758137
+e416202296.887622
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDV.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler033fc238beceb841^103be338beceb841^---0#0#1#-19%DVTDocumentLocation2@81"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3993"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o36"27213525-EEE2-4E82-9563-A9793BC9E9E1-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.887963
+e416202296.913672
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2e76e338beceb841^47e6e938beceb841^---0#0#1#-19%DVTDocumentLocation2@81"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3993"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o36"8DECF749-25E3-40AE-BFF9-B9B9487753BF-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.175991
+e416202296.245313
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m212"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere63e2d38beceb841^b4cc3e38beceb841^---0#0#1#-19%DVTDocumentLocation2@86"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^4023"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o36"7F798CAC-8C58-4AF9-B2E8-FCF5BD58376E-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.913935
+e416202296.937736
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m186"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerde1cea38beceb841^cb0ff038beceb841^---0#0#1#-19%DVTDocumentLocation2@73"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3945"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o36"B47414C9-FDCC-4E9F-85D2-6FCFB0AC3AE9-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.487582
+e416202296.642607
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDV.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler67ef7c38beceb841^2383a438beceb841^---0#0#1#-19%DVTDocumentLocation2@81"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3993"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o36"D81154FF-FD60-4485-BA86-0BDF0C50649B-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.274777
+e416202296.465756
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m190"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf67b4638beceb841^4f3c7738beceb841^---0#0#1#-19%DVTDocumentLocation2@75"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3957"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o36"88EBE70B-62B0-4E95-9DA9-F3DD465A82B9-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.245723
+e416202296.285594
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb3063f38beceb841^8f1c4938beceb841^---0#0#1#-19%DVTDocumentLocation2@81"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3993"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o36"9B0932B1-8093-4A4A-8A61-45E5EA055B1C-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202297.063446
+e416202297.091239
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m190"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler86701039beceb841^e25c1739beceb841^---0#0#1#-19%DVTDocumentLocation2@75"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^3957"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o36"FA080DB0-9B8E-48DC-BD75-D6063E449FE4-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202297.035549
+e416202297.063189
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m188"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8b380939beceb841^f92f1039beceb841^---0#0#1#-19%DVTDocumentLocation2@74"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3951"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o36"ACD04DDE-7395-4721-9FDF-05024D33DCB0-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.350311
+e416202296.487219
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m200"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler01db5938beceb841^73ba7c38beceb841^---0#0#1#-19%DVTDocumentLocation2@80"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3987"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o36"D9D9BCCA-01E3-409B-BCC3-54686EC34C60-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.922634
+e416202297.035307
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m204"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf852ec38beceb841^e1090939beceb841^---0#0#1#-19%DVTDocumentLocation2@82"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3999"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o36"F76FDFCE-47FA-4A1B-995E-21A3C354E959-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.466037
+e416202296.809317
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDV.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m206"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf3737738beceb841^0e30cf38beceb841^---0#0#1#-19%DVTDocumentLocation2@83"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^4005"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o36"468F2A5C-D284-46BC-826E-9ADDA949DFDA-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.937981
+e416202297.063704
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m208"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera33bf038beceb841^9c501039beceb841^---0#0#1#-19%DVTDocumentLocation2@84"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^4011"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o36"3646FD12-4C46-481E-B9E7-2EEC3B2C88EC-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.305837
+e416202296.350070
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m196"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileref754e38beceb841^a59e5938beceb841^---0#0#1#-19%DVTDocumentLocation2@78"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3975"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o36"D573A15F-6FFD-4487-A42E-36860639CB85-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.738045
+e416202296.757895
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m210"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0f0fbd38beceb841^4705c238beceb841^---0#0#1#-19%DVTDocumentLocation2@85"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^4017"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o36"AEFE6DB1-4296-4A2B-ABB8-71B62092E063-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.240821
+e416202296.274421
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m198"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4cc23d38beceb841^bc3f4638beceb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3981"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o36"C1D29BEF-F77C-41A4-9007-65816A722C78-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.175701
+e416202296.240589
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m218"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler72322d38beceb841^2d973d38beceb841^---0#0#1#-19%DVTDocumentLocation2@89"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^4041"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o36"5C4303A6-F737-48D4-B298-6ED682BA421B-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.285864
+e416202296.305585
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m230"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb0564938beceb841^8b374e38beceb841^---0#0#1#-19%DVTDocumentLocation2@95"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^4077"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o36"F888570F-72BA-446D-B04A-D71DD6C117C8-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202296.642990
+e416202296.737795
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+x/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+d/websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m210"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6ec3a438beceb841^cedfbc38beceb841^---0#0#1#-19%DVTDocumentLocation2@85"file:///websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^4017"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.dia -c /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o36"0B361D60-903B-4DD6-AA2E-980F41CACD03-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDV.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDV.h
+s416202295.793094
+e416202295.793925
+r1
+xCpHeader
+xClasses/CDV.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDV.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDV.h97"CpHeader Classes/CDV.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDV.h651ccb37beceb841^963fcb37beceb841^---0#0#1#-19%DVTDocumentLocation2@81"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDV.h0034dc76dcffdf42^1064"CpHeader Classes/CDV.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDV.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDV.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"6347B09C-80D1-475D-B3C4-CB7C7FC7B279-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVAvailability.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+s416202295.794038
+e416202295.795021
+r1
+xCpHeader
+xClasses/CDVAvailability.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h121"CpHeader Classes/CDVAvailability.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h8c68cb37beceb841^7688cb37beceb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h0034dc76dcffdf42^1100"CpHeader Classes/CDVAvailability.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"9F13CBC0-341C-488E-B8C9-F867A6EFF6F5-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVCommandDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+s416202295.792934
+e416202295.794065
+r1
+xCpHeader
+xClasses/CDVCommandDelegate.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h127"CpHeader Classes/CDVCommandDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h2a1ecb37beceb841^7e54cb37beceb841^---0#0#1#-19%DVTDocumentLocation2@96"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h0034dc76dcffdf42^1109"CpHeader Classes/CDVCommandDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"86CCE6D0-90C9-4682-A01B-358B60A00DBE-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVCommandDelegateImpl.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+s416202295.796701
+e416202295.797697
+r1
+xCpHeader
+xClasses/CDVCommandDelegateImpl.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h135"CpHeader Classes/CDVCommandDelegateImpl.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h390ecc37beceb841^f833cc37beceb841^---0#0#1#-19%DVTDocumentLocation2@100"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h0034dc76dcffdf42^1121"CpHeader Classes/CDVCommandDelegateImpl.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"9B3368EC-3A6E-4480-A06F-FE66532AF9AF-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVCommandQueue.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+s416202295.796487
+e416202295.797445
+r1
+xCpHeader
+xClasses/CDVCommandQueue.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h121"CpHeader Classes/CDVCommandQueue.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h3e05cc37beceb841^0326cc37beceb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h0034dc76dcffdf42^1100"CpHeader Classes/CDVCommandQueue.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"46A1387F-493A-4285-8874-32468EB403B3-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVConfigParser.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+s416202295.798978
+e416202295.799952
+r1
+xCpHeader
+xClasses/CDVConfigParser.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h121"CpHeader Classes/CDVConfigParser.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.he7a7cc37beceb841^53cdcc37beceb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h0034dc76dcffdf42^1100"CpHeader Classes/CDVConfigParser.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"DEDFA848-C4CD-4EC1-A7AF-74701C661E7C-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVDebug.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+s416202295.789279
+e416202295.790248
+r1
+xCpHeader
+xClasses/CDVDebug.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVDebug.h107"CpHeader Classes/CDVDebug.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVDebug.h3524ca37beceb841^5453ca37beceb841^---0#0#1#-19%DVTDocumentLocation2@86"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVDebug.h0034dc76dcffdf42^1079"CpHeader Classes/CDVDebug.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVDebug.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"1E4C7DDE-E015-4795-8A5E-E1766A1E686C-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVInvokedUrlCommand.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+s416202295.786061
+e416202295.787485
+r1
+xCpHeader
+xClasses/CDVInvokedUrlCommand.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h131"CpHeader Classes/CDVInvokedUrlCommand.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h8a5bc937beceb841^e0a0c937beceb841^---0#0#1#-19%DVTDocumentLocation2@98"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h0034dc76dcffdf42^1115"CpHeader Classes/CDVInvokedUrlCommand.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"B9D2220B-387B-41E8-9827-6E7ADC425018-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVJSON.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+s416202295.799247
+e416202295.800125
+r1
+xCpHeader
+xClasses/CDVJSON.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVJSON.h105"CpHeader Classes/CDVJSON.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVJSON.h8aadcc37beceb841^b1decc37beceb841^---0#0#1#-19%DVTDocumentLocation2@85"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVJSON.h0034dc76dcffdf42^1076"CpHeader Classes/CDVJSON.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVJSON.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"EF8A61B3-B1D8-4F6B-B3AA-EAD46C89C208-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVLocalStorage.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+s416202295.794257
+e416202295.795212
+r1
+xCpHeader
+xClasses/CDVLocalStorage.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h121"CpHeader Classes/CDVLocalStorage.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.hde74cb37beceb841^7099cb37beceb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h0034dc76dcffdf42^1100"CpHeader Classes/CDVLocalStorage.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"99AAD85F-2AF2-4D38-B8FD-E7BF8720D0F9-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVPlugin.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+s416202295.788965
+e416202295.790066
+r1
+xCpHeader
+xClasses/CDVPlugin.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h109"CpHeader Classes/CDVPlugin.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h2e1eca37beceb841^6f45ca37beceb841^---0#0#1#-19%DVTDocumentLocation2@87"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h0034dc76dcffdf42^1082"CpHeader Classes/CDVPlugin.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"225AA009-1F68-42A7-8A8D-2419ED3C773F-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVPluginResult.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+s416202295.787982
+e416202295.789153
+r1
+xCpHeader
+xClasses/CDVPluginResult.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h121"CpHeader Classes/CDVPluginResult.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h6adac937beceb841^1904ca37beceb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h0034dc76dcffdf42^1100"CpHeader Classes/CDVPluginResult.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"1C841802-7E85-4835-8433-BD986FD4CB8E-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVScreenOrientationDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+s416202295.797869
+e416202295.798912
+r1
+xCpHeader
+xClasses/CDVScreenOrientationDelegate.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h147"CpHeader Classes/CDVScreenOrientationDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h145ccc37beceb841^b588cc37beceb841^---0#0#1#-19%DVTDocumentLocation2@106"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h0034dc76dcffdf42^1139"CpHeader Classes/CDVScreenOrientationDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"D9208C72-57E4-4C50-A294-5144E36E7ADE-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVShared.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+s416202295.797585
+e416202295.798680
+r1
+xCpHeader
+xClasses/CDVShared.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVShared.h109"CpHeader Classes/CDVShared.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVShared.h9356cc37beceb841^b076cc37beceb841^---0#0#1#-19%DVTDocumentLocation2@87"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVShared.h0034dc76dcffdf42^1082"CpHeader Classes/CDVShared.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVShared.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVShared.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"D4817F03-72B2-4008-B7DC-3840E12F0D77-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVTimer.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+s416202295.801312
+e416202295.802332
+r1
+xCpHeader
+xClasses/CDVTimer.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVTimer.h107"CpHeader Classes/CDVTimer.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVTimer.hff40cd37beceb841^1766cd37beceb841^---0#0#1#-19%DVTDocumentLocation2@86"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVTimer.h0034dc76dcffdf42^1079"CpHeader Classes/CDVTimer.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVTimer.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"4EB8D6A2-B996-4A34-B655-4C90CC32F574-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVURLProtocol.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+s416202295.791524
+e416202295.792662
+r1
+xCpHeader
+xClasses/CDVURLProtocol.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h119"CpHeader Classes/CDVURLProtocol.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h9bc6ca37beceb841^63eeca37beceb841^---0#0#1#-19%DVTDocumentLocation2@92"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h0034dc76dcffdf42^1097"CpHeader Classes/CDVURLProtocol.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"9000B9BA-35A4-44D9-8F45-F19164B0E67F-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVUserAgentUtil.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+s416202295.800316
+e416202295.801303
+r1
+xCpHeader
+xClasses/CDVUserAgentUtil.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h123"CpHeader Classes/CDVUserAgentUtil.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h72f8cc37beceb841^6c24cd37beceb841^---0#0#1#-19%DVTDocumentLocation2@94"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h0034dc76dcffdf42^1103"CpHeader Classes/CDVUserAgentUtil.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"CB8E57DD-14EF-4E17-BFFE-959B10EF4B2E-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVViewController.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+s416202295.791772
+e416202295.792954
+r1
+xCpHeader
+xClasses/CDVViewController.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVViewController.h125"CpHeader Classes/CDVViewController.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVViewController.hb2d4ca37beceb841^4cffca37beceb841^---0#0#1#-19%DVTDocumentLocation2@95"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVViewController.h0034dc76dcffdf42^1106"CpHeader Classes/CDVViewController.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVViewController.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"9C23158F-C0A7-4B8D-BAB1-9F1200113472-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVWebViewDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+s416202295.800110
+e416202295.801025
+r1
+xCpHeader
+xClasses/CDVWebViewDelegate.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h127"CpHeader Classes/CDVWebViewDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h1bf1cc37beceb841^a110cd37beceb841^---0#0#1#-19%DVTDocumentLocation2@96"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h0034dc76dcffdf42^1109"CpHeader Classes/CDVWebViewDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"4EEDE16E-5153-4987-AF66-A8836E1E03CD-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/CDVWhitelist.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+s416202295.790451
+e416202295.791595
+r1
+xCpHeader
+xClasses/CDVWhitelist.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h115"CpHeader Classes/CDVWhitelist.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h1974ca37beceb841^3ba6ca37beceb841^---0#0#1#-19%DVTDocumentLocation2@90"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h0034dc76dcffdf42^1091"CpHeader Classes/CDVWhitelist.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"183AE104-2AAA-49C9-AE69-BD354CA5F2F9-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/NSArray+Comparisons.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+s416202295.795475
+e416202295.796430
+r1
+xCpHeader
+xClasses/NSArray+Comparisons.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h129"CpHeader Classes/NSArray+Comparisons.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.haab6cb37beceb841^c9e9cb37beceb841^---0#0#1#-19%DVTDocumentLocation2@97"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h0034dc76dcffdf42^1112"CpHeader Classes/NSArray+Comparisons.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"6436E5C6-2A3D-4B3B-BBCA-2799CFE2BB3A-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/NSData+Base64.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+s416202295.787698
+e416202295.788797
+r1
+xCpHeader
+xClasses/NSData+Base64.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h117"CpHeader Classes/NSData+Base64.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h7ec6c937beceb841^bbeec937beceb841^---0#0#1#-19%DVTDocumentLocation2@91"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h0034dc76dcffdf42^1094"CpHeader Classes/NSData+Base64.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"87F11A24-25D0-4722-A165-4A49FF059CCF-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/NSDictionary+Extensions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+s416202295.785944
+e416202295.787471
+r1
+xCpHeader
+xClasses/NSDictionary+Extensions.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h137"CpHeader Classes/NSDictionary+Extensions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h7558c937beceb841^9297c937beceb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h002c469dd9ecdf42^1124"CpHeader Classes/NSDictionary+Extensions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"DD362DBE-3F3F-4734-BAA5-82CF2B764321-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/NSMutableArray+QueueAdditions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+s416202295.790277
+e416202295.791314
+r1
+xCpHeader
+xClasses/NSMutableArray+QueueAdditions.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h149"CpHeader Classes/NSMutableArray+QueueAdditions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h2671ca37beceb841^8e93ca37beceb841^---0#0#1#-19%DVTDocumentLocation2@107"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h0034dc76dcffdf42^1142"CpHeader Classes/NSMutableArray+QueueAdditions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"C18B00BA-B5D6-47BA-BED4-28D70ADB47DA-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CCpHeader Classes/UIDevice+Extensions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+s416202295.795200
+e416202295.796289
+r1
+xCpHeader
+xClasses/UIDevice+Extensions.h
+x/websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h129"CpHeader Classes/UIDevice+Extensions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.hb7b3cb37beceb841^2bdbcb37beceb841^---0#0#1#-19%DVTDocumentLocation2@97"file:///websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h0034dc76dcffdf42^1112"CpHeader Classes/UIDevice+Extensions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /websites/paca-phonegap/platforms/ios/build/emulator/include/Cordova36"92628DBC-EED7-453F-BDDF-1BC74C73F668-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CLibtool /websites/paca-phonegap/platforms/ios/build/emulator/libCordova.a normal i386
+s416202297.092433
+e416202297.105078
+r1
+xLibtool
+x/websites/paca-phonegap/platforms/ios/build/emulator/libCordova.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Libtool /websites/paca-phonegap/platforms/ios/build/emulator/libCordova.a normal i38685"Libtool /websites/paca-phonegap/platforms/ios/build/emulator/libCordova.a normal i3866ec01739beceb841^2ee71a39beceb841^---0#0#1#--1387"Libtool /websites/paca-phonegap/platforms/ios/build/emulator/libCordova.a normal i386    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/websites/paca-phonegap/platforms/ios/build/emulator -filelist /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /websites/paca-phonegap/platforms/ios/build/emulator/libCordova.a36"E43A1CD2-7CB7-46B7-B8FC-68726A49CC8A-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
+CProcessPCH /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416202295.802996
+e416202296.174823
+r1
+xProcessPCH
+x/var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch.pch
+xCordovaLib_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/websites/paca-phonegap/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch291"ProcessPCH /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd5b2cd37beceb841^72c22c38beceb841^---0#0#1#-19%DVTDocumentLocation2@77"file:///websites/paca-phonegap/platforms/ios/CordovaLib/CordovaLib_Prefix.pch0000000000000000^4011"ProcessPCH /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/websites/paca-phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/emulator -DDEBUG --serialize-diagnostics /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch.d -c /websites/paca-phonegap/platforms/ios/CordovaLib/CordovaLib_Prefix.pch -o /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-guxqmupomfstamhkwnkbtzxdjffq/CordovaLib_Prefix.pch.pch36"5A9115FC-0FE2-4735-88AA-6AC5E6AF8665-
+b53F9056C-732E-469A-BA9A-E6700F8437C1
+
