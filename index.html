@@ -168,6 +168,7 @@
         <script id="intro3" type="text/html">
             <div id='mover'><a id='shuttle' class='sinking'></a></div>
             <div id='foreground'></div>
+            <div id='swimming'><a id='swimmer'></a></div>
             <div id='text'>Artwork by Gavin Blair</div>
             <style>
                 #text {
@@ -203,6 +204,31 @@
                    from { background-position: 0 0; }
                      to { background-position: 0 -360px; }
                 }
+                #swimming.shown {
+                    position: absolute;
+                    height: 36px;
+                    width: 28px;
+                    top: 500px;
+                    left: 508px;
+                    -webkit-animation: floating 6s steps(24) forwards;
+                    animation-iteration-count: 1;
+                }
+                @-webkit-keyframes floating {
+                   from { top: 500px; }
+                     to { top: -40px; }
+                }
+                .shown #swimmer {
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    background-image: url(img/swimming.png);
+                    -webkit-animation: swimming .3s steps(2) infinite;
+                }
+                @-webkit-keyframes swimming {
+                   from { background-position: 0 0; }
+                     to { background-position: 0 -72px; }
+                }
                 #mover {
                     position: absolute;
                     top: 100px;
@@ -224,6 +250,7 @@
                 setTimeout(function(){
                     $('#shuttle').removeClass('sinking');
                     $('#shuttle').css('background', 'url(img/underwater.png) no-repeat bottom center');
+                    $('#swimming').addClass('shown');
                 }, 6000);
                 setTimeout(function(){
                     scene('intro4');
