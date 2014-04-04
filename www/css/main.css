@@ -104,6 +104,7 @@ textarea {
    ========================================================================== */
 body {
     background: #000;
+    touch-action: none;
 }
 #preload {
     overflow: hidden;
@@ -139,27 +140,12 @@ font-family: 'VT323', cursive;
 a {
     cursor: pointer;
     position: absolute;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
 }
 span {
     position: absolute;
     cursor: pointer;
-}
-.glowing {
-    box-shadow: 0px 0px 10px #fff;
-}
-#sprite.glowing {
-    box-shadow: none;
-}
-#sprite {
-    height: 132px;
-    width: 52px;
-    background: url(../img/sprite.png) 0 0;
-    bottom: 128px;
-    -webkit-animation: standing 6s steps(5) infinite;
-}
-@-webkit-keyframes standing {
-   from { background-position:    0 0px; }
-     to { background-position: 0 -660px; }
 }
 #text {
     position: absolute;
@@ -169,13 +155,29 @@ span {
     padding-left: 4em;
     color: #fff;
     font-size: 2em;
+    background: #000;
 }
 #text span {
     display: block;
     cursor: pointer;
     position: static;
 }
-#sprite.right {
+.glowing:after {
+    content: '*';
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -.5em;
+    margin-top: -.5em;
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;   
+}
+#sprite.glowing:after {
+    display: none;
+}
+
+.right {
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -183,20 +185,14 @@ span {
     filter: FlipH;
     -ms-filter: "FlipH";
 }
-#sprite.walking {
-    background-image: url(../img/walking.png);
-    -webkit-animation: walking .5s steps(5) infinite;
-}
-@-webkit-keyframes walking {
-   from { background-position:    0 0px; }
-     to { background-position: 0 -660px; }
-}
+
 
 #inventory {
     position: absolute;
     bottom: 0;
     height: 88px;
     width: 100%;
+    display: none;
 }
 #inventory div {
     height: 80px;

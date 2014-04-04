@@ -1,0 +1,5 @@
+- follow the camera (wide scenes)
+- elevation (stairs)
+- shaky camera (a la sword and sworcery)
+- use buttons to close dialog, no other way to close
+- ios: tiptap to move - single tap only for buttons

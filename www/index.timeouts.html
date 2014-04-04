@@ -14,12 +14,11 @@
  
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-    <script src="js/icanhaz.min.js"></script>
-    <script src="phonegap.js"></script>
+	<script src="js/icanhaz.min.js"></script>
+	<script src="phonegap.js"></script>
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
         <script id="menu" type="text/html">
             <h1>HTML Adventure</h1>
-            <span class='btn' id='skip'>CLICK HERE NOW</span>
             <span class='btn' id='continue'>Continue</span>
             <span class='btn' id='newgame'>New Game</span>
             <span class='btn' id='options'>Options</span>
@@ -35,9 +34,6 @@
                 #continue {
                     top: 300px;
                     display: none;
-                }
-                #skip {
-                    top: 200px;
                 }
                 #newgame {
                     top: 400px;
@@ -55,10 +51,6 @@
                 } else {
                     $('#continue').hide();
                 }
-                $('#skip').on('click', function(){
-                    scene('beach');
-                    return false;
-                });
                 $('#newgame').on('click', function(){
                     scene('intro1');
                     states = {};
@@ -99,17 +91,13 @@
                 }
             </style>
             <script>
-                titleMusic.play();
+                $('#audioTitle')[0].play();
                 //12 seconds intro 1: shuttle rocketing to earth -- 13 seconds may be too long
-                var musicTime = requestAnimationFrame(music);
-                function music(){
-                    if(titleMusic.currentTime >= 13.5){
-                        cancelAnimationFrame(musicTime);
-                        musicTime = false;
-                        scene('intro2');
-                    }
-                    if(musicTime) musicTime = requestAnimationFrame(music);
-                }
+                setTimeout(function(){
+                    scene('intro2');
+                }, 13500);
+                //13 seconds intro 2: parachute
+                //intro 3 = crash
             </script>
         </script>
         <script id="intro2" type="text/html">
@@ -126,14 +114,14 @@
                      to { top: 50% }
                 }*/
                 #game {
-                    background: url(img/intro2.png?v=1) center center;
+                    background: url(img/intro2.png) center center;
                 }
                 #shuttle {
                     height: 132px;
                     width: 112px;
                     top: 100px;
                     left: 508px;
-                    background-image: url(img/parachute.png?d);
+                    background-image: url(img/parachute.png?c);
                     -webkit-animation: falling 6s forwards steps(24);
                     animation-iteration-count: 1;
                 }
@@ -155,22 +143,21 @@
                 }
             </style>
             <script>
-                var musicTime = requestAnimationFrame(music);
-                function music(){
-
-                    if(titleMusic.currentTime >= 26.5){
-                        cancelAnimationFrame(musicTime);
-                        musicTime = false;
-                        scene('intro3');
-                    } else if(titleMusic.currentTime >= 21){
-                        $('#shuttle').css('background-position', 'bottom center');
-                    } else if(titleMusic.currentTime >= 19.5){
+                setTimeout(function(){
+                    $('#shuttle').css('background-position', '0 -132px');
+                    setTimeout(function(){
                         $('#shuttle').css('top', '500px').addClass('landing');
-                    } else if(titleMusic.currentTime >= 16.5){
-                        $('#shuttle').css('background-position', '0 -132px');    
-                    }
-                    if(musicTime) musicTime = requestAnimationFrame(music);
-                }
+                        setTimeout(function(){
+                            $('#shuttle').css('background-position', 'bottom center');
+                        }, 1500);
+                    }, 3000);
+                }, 3000);
+                //13 seconds intro 2: parachute
+                
+                setTimeout(function(){
+                    scene('intro3');
+                }, 13000);
+                //intro 3 = crash
             </script>
         </script>
         <script id="intro3" type="text/html">
@@ -255,23 +242,17 @@
                 }
             </style>
             <script>
-                var musicTime = requestAnimationFrame(music);
-                function music(){
-                    if(titleMusic.currentTime >= 39.5){
-                        cancelAnimationFrame(musicTime);
-                        musicTime = false;
-                        titleMusic.pause();
-                        scene('beach');
-                    } else if(titleMusic.currentTime >= 32.5){
-                        $('#shuttle').removeClass('sinking');
-                        $('#shuttle').css('background', 'url(img/underwater.png) no-repeat bottom center');
-                        $('#swimming').addClass('shown');
-                    }
-                    if(musicTime) musicTime = requestAnimationFrame(music);
-                }
+                setTimeout(function(){
+                    $('#shuttle').removeClass('sinking');
+                    $('#shuttle').css('background', 'url(img/underwater.png) no-repeat bottom center');
+                    $('#swimming').addClass('shown');
+                }, 6000);
+                setTimeout(function(){
+                    scene('beach');
+                }, 13000);
             </script>
         </script>
-        <script id="showinventory" class="partial" type="text/html">
+        <script id="inventory" type="text/html">
             <style>
                 #inventory {
                     display: block;
@@ -279,38 +260,16 @@
                 #inventory [data-tool=key]{
                     background-image: url(img/bigkey.png);
                 }
-                #inventory [data-tool=sword]{
-                    background-image: url(img/sword.png);
-                }
             </style>
         </script>
         <script id="template" type="text/html">
             <a id="sprite"></a>
-            {{>showinventory}}
             <style>
                 #game {
                     background: url(img/.png) center center;
                 }
                 #sprite {
                     left: 20px;
-                    bottom: 128px;
-                    height: 200px;
-                    width: 52px;
-                    background: url(img/sprite.png?j) 0 0;
-                    -webkit-animation: standing 12s steps(2) infinite;
-                }
-                @-webkit-keyframes standing {
-                   from { background-position:    0 0px; }
-                     to { background-position: 0 -400px; }
-                }
-                #sprite.walking {
-                    background-image: url(img/walking.png?u);
-                    width: 60px;
-                    -webkit-animation: walking .8s steps(5) infinite;
-                }
-                @-webkit-keyframes walking {
-                   from { background-position:    0 0px; }
-                     to { background-position:  0 -1000px; }
                 }
             </style>
             <script>
@@ -324,221 +283,16 @@
                     }
                 }
             </script>
+            {{>inventory}}
         </script>
         <script id="beach" type="text/html">
-            <a id="sprite" class="reflection"></a>
-            <a id="bird"></a>
-            <div class='flies'>
-                <span class="fly"></span>
-                <span class="fly"></span>
-                <span class="fly"></span>
-                <span class="fly"></span>
-            </div>
-            <div id='foreground'></div>
-            <a id="ocean"></a>
-            <a id="toforest"></a>
-            {{>showinventory}}
-            <style>
-                #bird, .fly {
-                    top: 100px;
-                    left: 170px;
-                    background: url(img/bird.gif?a);
-                    height: 32px;
-                    width: 36px;
-                }
-                .fly {
-                    background: url(img/fly.gif?a);
-                    top: 400px;
-                    left: 400px;
-                    cursor: default;
-                    pointer-events: none;
-                }
-                .fly:nth-child(2){
-                    top: 350px;
-                    left: 300px;
-                     -moz-transform: scaleX(-1);
-                    -o-transform: scaleX(-1);
-                    -webkit-transform: scaleX(-1);
-                    transform: scaleX(-1);
-                    filter: FlipH;
-                    -ms-filter: "FlipH";
-                }
-                .fly:nth-child(3){
-                    top: 375px;
-                    left: 100px;
-                    -moz-transform: scaleY(-1);
-                    -o-transform: scaleY(-1);
-                    -webkit-transform: scaleY(-1);
-                    transform: scaleY(-1);
-                    filter: FlipV;
-                    -ms-filter: "FlipV";
-
-                }
-                .fly:nth-child(4){
-                    top: 100px;
-                    left: 220px;
-                }
-                #ocean {
-                    right: 0;
-                    width: 250px;
-                    height: 100%;
-                    top: 0;
-                }
-                #toforest {
-                    left: 0;
-                    width: 70px;
-                    height: 100%;
-                    top: 0;
-                }
-                #game {
-                    background: url(img/beach.png?d) center center;
-                }
-                #foreground {
-                    pointer-events:none;
-                    position: absolute;
-                    z-index: 999;
-                    height: 100%;
-                    width: 100%;
-                    background: url(img/beach_foreground.png) center center;
-                    z-index: 10;
-                }
-                #text, a, #inventory {
-                    z-index: 9999;
-                }
-                #sprite {
-                    cursor: pointer;
-                    z-index: 9;
-                    left: 790px;
-                    bottom: 83px;
-                    height: 203px;
-                    width: 26px;
-                    background: url(img/sprite_reflection.png?l) 0 0 no-repeat;
-                    background-size: 25px 406px;
-                    -webkit-animation: standing_reflection 12s steps(2) infinite;
-                }
-                @-webkit-keyframes standing_reflection {
-                   from { background-position:    0 0px; }
-                     to { background-position: 0 -406px; }
-                }
-                #sprite.walking {
-                    background-image: url(img/walking_reflection.png?v);
-                    width: 30px;
-                    background-size: 30px 1016px;
-                    -webkit-animation: walking_reflection .8s steps(5) infinite;
-                }
-                @-webkit-keyframes walking_reflection {
-                   from { background-position:    0 0px; }
-                     to { background-position:  0 -1016px; }
-                }
-
-            </style>
-            <script>
-                //ready the room with any necessary states
-                if(states.comingfrom == "forest"){
-                    $('#sprite').css('left', '10px');
-                }
-                if(!states.monologuecomplete) {
-                    monologue();
-                    $('*').on('click', function(){
-                        if(!states.monologuecomplete) {
-                            var t = $('#text span').attr('data-say');
-                            switch(t){
-                                case 'one':
-                                    ask({two: "Now I just have to wait around for NASA to pick me up!"});
-                                break;
-                                case 'two':
-                                    ask({three: "I wonder where I am? Probably somewhere on the west coast - Washington maybe?"});
-                                break;
-                                case 'three':
-                                    ask({last: "I hope I'm not too far from NASA."});
-                                break;
-                                case 'last':
-                                    say("\"I'm getting hungry. I wonder if there is some food nearby.\"");
-                                    states.monologuecomplete = true;
-                                break;
-                            }
-                            return false;
-                        }
-                    });
-                }
-                function monologue(){
-                    states.monologuecomplete = false;
-                    ask({one: "WOOO! I can't believe I survived! I am a new person. It's time to start living my life in honour of those I have left behind."});
-                }
-                function arrivedat(id){
-                    var tool = current_tool();
-                    switch(id){
-                        case 'sprite':
-                            monologue();
-                        break;
-                        case 'ocean':
-                            switch(tool) {
-                                case 'eye':
-                                    say("My pod is down there. I'll let the rescue crew worry about it.");
-                                break;
-                                case 'hand':
-                                    scene('pod');
-                                break;
-                            }
-                        break;
-                        case 'toforest':
-                            switch(tool) {
-                                case 'eye':
-                                    say("I'd better not stray TOO far away from the landing site, but I really have to find some food!");
-                                break;
-                                case 'hand':
-                                    scene('forest');
-                                break;
-                            }
-                        break;
-                        case 'bird':
-                            switch(tool){
-                                case 'eye':
-                                    say("I've never seen a bird like that before. It's beautiful.");
-                                break;
-                                case 'hand':
-                                    say("I can't reach it.");
-                                break;
-                            }
-                        break;
-                    }
-                }
-            </script>
-        </script>
-        <script id="forest" type="text/html">
             <a id="sprite"></a>
-            <a id="tobeach"></a>
-            {{>showinventory}}
             <style>
                 #game {
-                    background: url(img/forest.png?a) center center;
-                }
-                #tobeach {
-                    right: 0;
-                    width: 70px;
-                    height: 100%;
-                    top: 0;
+                    background: url(img/beach.png) center center;
                 }
                 #sprite {
-                    right: 20px;
-                    bottom: 196px;
-                    height: 200px;
-                    width: 52px;
-                    background: url(img/sprite.png?j) 0 0;
-                    -webkit-animation: standing 12s steps(2) infinite;
-                }
-                @-webkit-keyframes standing {
-                   from { background-position:    0 0px; }
-                     to { background-position: 0 -400px; }
-                }
-                #sprite.walking {
-                    background-image: url(img/walking.png?u);
-                    width: 60px;
-                    -webkit-animation: walking .8s steps(5) infinite;
-                }
-                @-webkit-keyframes walking {
-                   from { background-position:    0 0px; }
-                     to { background-position:  0 -1000px; }
+                    left: 20px;
                 }
             </style>
             <script>
@@ -548,29 +302,16 @@
                 function arrivedat(id){
                     var tool = current_tool();
                     switch(id){
-                        case 'tobeach':
-                            switch(tool){
-                                case 'eye':
-                                    say("Back to the beach.");
-                                break;
-                                case 'hand':
-                                    states.comingfrom = "forest";
-                                    scene('beach');
-                                break;
-                            }
-                        break;
+                        
                     }
                 }
             </script>
-        </script>
-        <script id="pod" type="text/html">
-            
+            {{>inventory}}
         </script>
         <script id="room1" type="text/html">
             <a id='door' class='locked'></a>
             <a id='key'></a>
             <a id='sprite'></a>
-            {{>showinventory}}
             <style>
                 #game {
                     background: url(img/room.png) center center;
@@ -649,12 +390,12 @@
                     }
                 }
             </script>
+            {{>inventory}}
         </script>
         <script id="room2" type="text/html">
             <a id='sprite'></a>
             <a id='door'></a>
             <a id='wizard'></a>
-            {{>showinventory}}
             <style>
                 #game {
                     background: url(img/room2.png) center center;
@@ -759,6 +500,7 @@
                 }
                 
             </script>
+            {{>inventory}}
         </script>
     </head>
     <body>

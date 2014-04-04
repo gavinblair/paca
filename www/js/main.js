@@ -2,13 +2,22 @@ jQuery(document).ready(function($){
     
     scene('menu');
 
+    $('#preload div').each(function(){
+    	var p = $(this);
+    	p.css('background-image', p.data('preload'));
+    	/**/
+    });
+
 	$('#game').on('click',function(e){
+
 		if($('#sprite').length) {
-			say('');
+			if($('#text').text() != "") {
+				say('');
+			}
 			if(!glowaction) {
 				var target = e.offsetX;
 				//walk to position
-				walkto(target, 40);
+				walkto(target, 10);
 				
 			}
 			glowaction = false;
@@ -49,45 +58,60 @@ jQuery(document).ready(function($){
 });
 var pressing = false;
 var glowaction = false;
-var walking;
+var walking = {};
 function walkto(target, targetwidth, id){
-	if(walking) clearInterval(walking);
-	var sprite = $('#sprite');
-	sprite.addClass('walking');
-	var pos = sprite.position();
-	pos = pos.left;
-	var diff = target - pos;
-	var step = 8;
-	if(diff < 0) {
+	if(walking.animation){
+		cancelAnimationFrame(walking.animation);
+	}
+
+	walking.sprite = $('#sprite');
+	walking.sprite.addClass('walking');
+	walking.pos = walking.sprite.position();
+	walking.pos = walking.pos.left;
+	walking.target = target;
+	walking.targetwidth = targetwidth;
+	walking.id = id;
+	walking.diff = walking.target - walking.pos;
+	walking.step = 8;
+	if(walking.diff < 0) {
 		//face left
-		sprite.removeClass('right');
-		step *= -1;
+		walking.sprite.removeClass('right');
+		walking.step *= -1;
 	} else {
 		//face right
-		sprite.addClass('right');
+		walking.sprite.addClass('right');
 	}
-	if(pos < (target +targetwidth + 20) && (pos+52) > (target - 20)) {
-		sprite.removeClass('walking');
+	if(walking.pos < (walking.target +walking.targetwidth + 10) && (walking.pos+26) > (walking.target - 10)) {
+		walking.sprite.removeClass('walking');
+		cancelAnimationFrame(walking.animation);
 		if(id !== undefined) {
-			arrivedat(id);
+			arrivedat(walking.id);
 			//save the game
 			save();
 		}
 	} else {
-		walking = setInterval(function(){
-			var pos = sprite.position();
-			pos = pos.left;
-			sprite.css('left', pos+step);
-			if(pos < (target +targetwidth + 20) && (pos+52) > (target - 20)) {
-				sprite.removeClass('walking');
-				if(id !== undefined) {
-					arrivedat(id);
-					//save the game
-					save();
-				}
-				clearInterval(walking);
-			}
-		}, 100);
+		walking.animation = requestAnimationFrame(walk);
+		walking.lastFrame = +new Date;
+	}
+}
+function walk(){
+	var now = +new Date;
+	if(now > (walking.lastFrame + 110)) {
+		walking.lastFrame = now;
+		walking.pos = walking.sprite.position();
+		walking.pos = walking.pos.left;
+		walking.sprite.css('left', walking.pos+walking.step);
+	}
+	if(walking.pos < (walking.target +walking.targetwidth + 10) && (walking.pos+26) > (walking.target - 10)) {
+		cancelAnimationFrame(walking.animation);
+		walking.sprite.removeClass('walking');
+		if(walking.id !== undefined) {
+			arrivedat(walking.id);
+			//save the game
+			save();
+		}
+	} else {
+		walking.animation = requestAnimationFrame(walk);
 	}
 }
 var states = {};
@@ -143,6 +167,7 @@ function ask(options) {
 	t.css('color', '#fff');
 }
 function scene(thescene){
+	console.log('loading '+thescene);
 	$('#sprite').attr('style', '');
 	$('#scene').html(ich[thescene]());
 	$('#game').attr('data-scene', thescene);
@@ -164,3 +189,7 @@ function lose_tool(tool){
 	$('#inventory [data-tool='+tool+']').removeClass('has').attr('data-tool', '').text('');
 	$('#inventory [data-tool=eye]').click();
 }
+
+var isPlaying = false;
+var readyStateInterval = null;
+var titleMusic = new Audio('audio/title.mp3');
