@@ -472,24 +472,10 @@
                             monologue();
                         break;
                         case 'ocean':
-                            switch(tool) {
-                                case 'eye':
-                                    say("My pod is down there. I'll let the rescue crew worry about it.");
-                                break;
-                                case 'hand':
-                                    scene('pod');
-                                break;
-                            }
+                            say("My pod is down there. I'll let the rescue crew worry about it.");
                         break;
                         case 'toforest':
-                            switch(tool) {
-                                case 'eye':
-                                    say("I'd better not stray TOO far away from the landing site, but I really have to find some food!");
-                                break;
-                                case 'hand':
-                                    scene('forest');
-                                break;
-                            }
+                            scene('forest');
                         break;
                         case 'bird':
                             switch(tool){
@@ -543,21 +529,16 @@
             </style>
             <script>
                 //ready the room with any necessary states
-                
+                if(!states.leavingthesite){
+                    say("I'd better not stray TOO far away from the landing site, but I really have to find some food!");
+                }
 
                 function arrivedat(id){
                     var tool = current_tool();
                     switch(id){
                         case 'tobeach':
-                            switch(tool){
-                                case 'eye':
-                                    say("Back to the beach.");
-                                break;
-                                case 'hand':
-                                    states.comingfrom = "forest";
-                                    scene('beach');
-                                break;
-                            }
+                            states.comingfrom = "forest";
+                            scene('beach');
                         break;
                     }
                 }
