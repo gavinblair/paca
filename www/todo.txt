@@ -1,5 +1,9 @@
-- follow the camera (wide scenes)
-- elevation (stairs)
-- shaky camera (a la sword and sworcery)
+- double click to exit immediately (exits we've already been to)
+- per-scene character speed
 - use buttons to close dialog, no other way to close
 - ios: tiptap to move - single tap only for buttons
+- elevation (stairs)
+
+maybe
+- follow the camera (wide scenes) ?
+- shaky camera (a la sword and sworcery) ?

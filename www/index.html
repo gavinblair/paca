@@ -328,6 +328,7 @@
         <script id="beach" type="text/html">
             <a id="sprite" class="reflection"></a>
             <a id="bird"></a>
+            <a id="fireplace"></a>
             <div class='flies'>
                 <span class="fly"></span>
                 <span class="fly"></span>
@@ -339,6 +340,14 @@
             <a id="toforest"></a>
             {{>showinventory}}
             <style>
+                #fireplace {
+                    background: url(img/fireplace.png);
+                    height: 76px;
+                    width: 65px;
+                    top: 417px;
+                    left: 417px;
+                    z-index: 8;
+                }
                 #bird, .fly {
                     top: 100px;
                     left: 170px;
@@ -485,6 +494,30 @@
                                 case 'hand':
                                     say("I can't reach it.");
                                 break;
+                                case 'stick':
+                                    say("Let's leave the bird alone.");
+                                break;
+                                case 'rock':
+                                    say("I COULD throw this rock at that bird, but what would that accomplish?");
+                                break;
+                            }
+                        break;
+                        case 'fireplace':
+                            if(!hastool('gas')) {
+                                switch(tool){
+                                    case 'eye':
+                                        say("This looks like it would be a nice place for a campfire.");
+                                    break;
+                                    case 'hand':
+                                        say("I don't have anything to start a fire with.");
+                                    break;
+                                    case 'stick':
+                                        say("This stick would burn, but it is so sturdy! I'm sure it will be more useful elsewhere.");
+                                    break;
+                                    case 'rock':
+                                        say("I COULD put this rock with those other rocks, but let's hang onto it just in case it comes in handy elsewhere.");
+                                    break;
+                                }
                             }
                         break;
                     }
@@ -494,10 +527,28 @@
         <script id="forest" type="text/html">
             <a id="sprite"></a>
             <a id="tobeach"></a>
+            <a id="stick"></a>
+            <a id="rock"></a>
             {{>showinventory}}
             <style>
                 #game {
                     background: url(img/forest.png?a) center center;
+                }
+                #stick {
+                    top: 436px;
+                    left: 546px;
+                    height: 40px;
+                    width: 364px;
+                    z-index: 8;
+                    background: url(img/stick.png);
+                }
+                #rock {
+                    height: 40px;
+                    width: 60px;
+                    top: 430px;
+                    left: 298px;
+                    background: url(img/rock.png);
+                    z-index: 10;
                 }
                 #tobeach {
                     right: 0;
@@ -532,13 +583,48 @@
                 if(!states.leavingthesite){
                     say("I'd better not stray TOO far away from the landing site, but I really have to find some food!");
                 }
-
+                if(hastool("rock")){
+                    $("#rock").hide();
+                }
+                if(hastool("stick")){
+                    $("#stick").hide();
+                }
                 function arrivedat(id){
                     var tool = current_tool();
                     switch(id){
                         case 'tobeach':
                             states.comingfrom = "forest";
                             scene('beach');
+                        break;
+                        case 'stick':
+                            switch(tool){
+                                case 'eye':
+                                    say("It looks like a sturdy stick.");
+                                break;
+                                case 'hand':
+                                    say("This could come in handy.");
+                                    add_tool("stick");
+                                    $("#stick").hide();
+                                break;
+                                case 'rock':
+                                    say("I COULD smash that stick with this rock... But why?");
+                                break;
+                            }
+                        break;
+                        case 'rock':
+                            switch(tool){
+                                case 'eye':
+                                    say("Now THAT is a nice rock.");
+                                break;
+                                case 'hand':
+                                    say("This could come in handy.");
+                                    add_tool("rock");
+                                    $("#rock").hide();
+                                break;
+                                case 'stick':
+                                    say("Poking the rock with the stick accomplished... nothing.");
+                                break;
+                            }
                         break;
                     }
                 }

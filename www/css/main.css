@@ -176,6 +176,9 @@ span {
 #sprite.glowing:after {
     display: none;
 }
+#sprite {
+    z-index: 9;
+}
 
 .right {
     -moz-transform: scaleX(-1);
