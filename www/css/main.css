@@ -149,18 +149,26 @@ span {
 }
 #text {
     position: absolute;
-    top: 1em;
+    top: 2.5em;
     left: 0;
     width: 100%;
-    padding-left: 1em;
+    padding: 1em;
     color: #fff;
     font-size: 2em;
     background: #000;
+    cursor: pointer;
+    display: none;
 }
 #text span {
     display: block;
     cursor: pointer;
     position: static;
+}
+a, #inventory {
+    z-index: 9999;
+}
+#text {
+    z-index: 99999;
 }
 .glowing:after {
     content: '*';
@@ -208,13 +216,7 @@ span {
     text-indent: -9999px;
 }
 #inventory .active {
-    background-color: #555;
-}
-#inventory [data-tool=eye]{
-    background-image: url(../img/eye.png);
-}
-#inventory [data-tool=hand]{
-    background-image: url(../img/hand.png);
+    background-color: #c00;
 }
 .btn {
     width: 500px;

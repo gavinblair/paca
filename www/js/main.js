@@ -11,9 +11,6 @@ jQuery(document).ready(function($){
 	$('#game').on('click',function(e){
 
 		if($('#sprite').length) {
-			if($('#text').text() != "") {
-				say('');
-			}
 			if(!glowaction) {
 				var target = e.offsetX;
 				//walk to position
@@ -25,9 +22,11 @@ jQuery(document).ready(function($){
 	});
 	
 	$('#inventory div').on('click',function(){
-		if($(this).hasClass('has')) {
-			$('#inventory .active').removeClass('active');
-			$(this).addClass('active');
+		if($('#text').text() === "") {
+			if($(this).hasClass('has')) {
+				$('#inventory .active').removeClass('active');
+				$(this).addClass('active');
+			}
 		}
 		return false;
 	});
@@ -53,45 +52,55 @@ jQuery(document).ready(function($){
 		}
 	});
 	$('#text').on('click', function(){
-		return false;
+		if($(this).children('span').length === 0) {
+			$('#text').text('').hide();
+			return false;
+		}
 	});
+
 });
 var pressing = false;
 var glowaction = false;
 var walking = {};
 function walkto(target, targetwidth, id){
-	if(walking.animation){
-		cancelAnimationFrame(walking.animation);
-	}
-
-	walking.sprite = $('#sprite');
-	walking.sprite.addClass('walking');
-	walking.pos = walking.sprite.position();
-	walking.pos = walking.pos.left;
-	walking.target = target;
-	walking.targetwidth = targetwidth;
-	walking.id = id;
-	walking.diff = walking.target - walking.pos;
-	walking.step = 8;
-	if(walking.diff < 0) {
-		//face left
-		walking.sprite.removeClass('right');
-		walking.step *= -1;
-	} else {
-		//face right
-		walking.sprite.addClass('right');
-	}
-	if(walking.pos < (walking.target +walking.targetwidth + 10) && (walking.pos+26) > (walking.target - 10)) {
-		walking.sprite.removeClass('walking');
-		cancelAnimationFrame(walking.animation);
-		if(id !== undefined) {
-			arrivedat(walking.id);
-			//save the game
-			save();
+	//only do something if there is no dialogue happening
+	if($("#text").text() == "") {
+		if(walking.animation){
+			cancelAnimationFrame(walking.animation);
 		}
-	} else {
-		walking.animation = requestAnimationFrame(walk);
-		walking.lastFrame = +new Date;
+
+		walking.sprite = $('#sprite');
+		walking.sprite.addClass('walking');
+		walking.pos = walking.sprite.position();
+		walking.pos = walking.pos.left;
+		walking.target = target;
+		walking.targetwidth = targetwidth;
+		walking.id = id;
+		walking.diff = walking.target - walking.pos;
+		if(typeof states.speed == 'undefined') {
+			states.speed = 8;
+		}
+		walking.step = states.speed;
+		if(walking.diff < 0) {
+			//face left
+			walking.sprite.removeClass('right');
+			walking.step *= -1;
+		} else {
+			//face right
+			walking.sprite.addClass('right');
+		}
+		if(walking.pos < (walking.target +walking.targetwidth + 10) && (walking.pos+26) > (walking.target - 10)) {
+			walking.sprite.removeClass('walking');
+			cancelAnimationFrame(walking.animation);
+			if(id !== undefined) {
+				arrivedat(walking.id);
+				//save the game
+				save();
+			}
+		} else {
+			walking.animation = requestAnimationFrame(walk);
+			walking.lastFrame = +new Date;
+		}
 	}
 }
 function walk(){
@@ -154,7 +163,10 @@ function say(text, color){
 		text = '"'+text+'"';
 	}
 	var t = $('#text');
-	t.text(text);
+	t.text(text).show();
+	if(text === '') {
+		t.hide();
+	}
 	t.css('color', color);
 }
 function ask(options) {
@@ -163,7 +175,7 @@ function ask(options) {
 	for(var i in options){
 		h += "<span data-say='"+i+"'>\""+options[i]+"\"</span>";
 	}
-	t.html(h);
+	t.html(h).show();
 	t.css('color', '#fff');
 }
 function scene(thescene){
@@ -172,7 +184,6 @@ function scene(thescene){
 	$('#scene').html(ich[thescene]());
 	$('#game').attr('data-scene', thescene);
 	$('a').on('click touchup',function(){
-		say('');
 		//walk to the object
 		var pos = $(this).position();
 		walkto(pos.left, $(this).width(), $(this).attr('id'));

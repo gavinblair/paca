@@ -19,7 +19,6 @@
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
         <script id="menu" type="text/html">
             <h1>HTML Adventure</h1>
-            <span class='btn' id='skip'>CLICK HERE NOW</span>
             <span class='btn' id='continue'>Continue</span>
             <span class='btn' id='newgame'>New Game</span>
             <span class='btn' id='options'>Options</span>
@@ -35,9 +34,6 @@
                 #continue {
                     top: 300px;
                     display: none;
-                }
-                #skip {
-                    top: 200px;
                 }
                 #newgame {
                     top: 400px;
@@ -55,10 +51,6 @@
                 } else {
                     $('#continue').hide();
                 }
-                $('#skip').on('click', function(){
-                    scene('beach');
-                    return false;
-                });
                 $('#newgame').on('click', function(){
                     scene('intro1');
                     states = {};
@@ -71,14 +63,31 @@
                 });
             </script>
         </script>
+        <script id="skipintro" class="partial" type="text/html">
+            <span id='skip'>skip &raquo;</span>
+            <style>
+                #skip {
+                    bottom: .5em;
+                    z-index: 999;
+                    right: .5em;
+                    background: #000;
+                    border: 4px solid #fff;
+                    color: #fff;
+                    text-align: center;
+                    padding: .5em;
+                    font-size: 2em;
+                }
+            </style>
+        </script>
         <script id="intro1" type="text/html">
             <a id='shuttle'></a>
-            <div id='text'>Created by Gavin Blair</div>
+            {{>skipintro}}
             <style>
                 #text {
                     top: 40%;
                     left: 5%;
-                }             
+                    background: transparent;
+                }
                 #game {
                     background: url(img/intro1.png) center center;
                 }
@@ -99,6 +108,7 @@
                 }
             </style>
             <script>
+                say("Created by Gavin Blair");
                 titleMusic.play();
                 //12 seconds intro 1: shuttle rocketing to earth -- 13 seconds may be too long
                 var musicTime = requestAnimationFrame(music);
@@ -110,14 +120,20 @@
                     }
                     if(musicTime) musicTime = requestAnimationFrame(music);
                 }
+                $('#skip').on('click', function(){
+                    musicTime = null;
+                    scene('beach');
+                    return false;
+                });
             </script>
         </script>
         <script id="intro2" type="text/html">
             <a id='shuttle'></a>
-            <div id='text'>Music by Brandon Blair</div>
+            {{>skipintro}}
             <style>
                 #text {
                     top: 40%;
+                    background: transparent;
                     /*-webkit-animation: scrolling 13s steps(24) forwards;
                     animation-iteration-count: 1;*/
                 }
@@ -155,6 +171,7 @@
                 }
             </style>
             <script>
+                say("Music by Brandon Blair");
                 var musicTime = requestAnimationFrame(music);
                 function music(){
 
@@ -171,16 +188,22 @@
                     }
                     if(musicTime) musicTime = requestAnimationFrame(music);
                 }
+                $('#skip').on('click', function(){
+                    musicTime = null;
+                    scene('beach');
+                    return false;
+                });
             </script>
         </script>
         <script id="intro3" type="text/html">
             <div id='mover'><a id='shuttle' class='sinking'></a></div>
             <div id='foreground'></div>
             <div id='swimming'><a id='swimmer'></a></div>
-            <div id='text'>Artwork by Gavin Blair</div>
+            {{>skipintro}}
             <style>
                 #text {
                     top: 20%;
+                    background: transparent;
                     -webkit-animation: scrolling 6s steps(24) forwards;
                     animation-iteration-count: 1;
                 }
@@ -255,6 +278,7 @@
                 }
             </style>
             <script>
+                say("Artwork by Gavin Blair");
                 var musicTime = requestAnimationFrame(music);
                 function music(){
                     if(titleMusic.currentTime >= 39.5){
@@ -269,6 +293,11 @@
                     }
                     if(musicTime) musicTime = requestAnimationFrame(music);
                 }
+                $('#skip').on('click', function(){
+                    musicTime = null;
+                    scene('beach');
+                    return false;
+                });
             </script>
         </script>
         <script id="showinventory" class="partial" type="text/html">
@@ -411,9 +440,6 @@
                     background: url(img/beach_foreground.png) center center;
                     z-index: 10;
                 }
-                #text, a, #inventory {
-                    z-index: 9999;
-                }
                 #sprite {
                     cursor: pointer;
                     z-index: 9;
@@ -443,12 +469,13 @@
             </style>
             <script>
                 //ready the room with any necessary states
+                states.speed = 8;
                 if(states.comingfrom == "forest"){
                     $('#sprite').css('left', '10px');
                 }
                 if(!states.monologuecomplete) {
                     monologue();
-                    $('*').on('click', function(){
+                    $('#text').on('click', function(){
                         if(!states.monologuecomplete) {
                             var t = $('#text span').attr('data-say');
                             switch(t){
@@ -465,14 +492,17 @@
                                     say("\"I'm getting hungry. I wonder if there is some food nearby.\"");
                                     states.monologuecomplete = true;
                                 break;
+                                default:
+                                    say("");
+                                break;
                             }
                             return false;
                         }
                     });
                 }
                 function monologue(){
-                    states.monologuecomplete = false;
                     ask({one: "WOOO! I can't believe I survived! I am a new person. It's time to start living my life in honour of those I have left behind."});
+                    states.monologuecomplete = false;
                 }
                 function arrivedat(id){
                     var tool = current_tool();
@@ -509,7 +539,7 @@
                                         say("This looks like it would be a nice place for a campfire.");
                                     break;
                                     case 'hand':
-                                        say("I don't have anything to start a fire with.");
+                                        say("I'm going to leave that where it is.");
                                     break;
                                     case 'stick':
                                         say("This stick would burn, but it is so sturdy! I'm sure it will be more useful elsewhere.");
@@ -527,6 +557,7 @@
         <script id="forest" type="text/html">
             <a id="sprite"></a>
             <a id="tobeach"></a>
+            <a id="toshack"></a>
             <a id="stick"></a>
             <a id="rock"></a>
             {{>showinventory}}
@@ -556,6 +587,12 @@
                     height: 100%;
                     top: 0;
                 }
+                #toshack {
+                    left: 0;
+                    width: 70px;
+                    height: 100%;
+                    top: 0;
+                }
                 #sprite {
                     right: 20px;
                     bottom: 196px;
@@ -580,8 +617,12 @@
             </style>
             <script>
                 //ready the room with any necessary states
-                if(!states.leavingthesite){
+                states.speed = 10;
+                if(!states.leavingthesite && states.comingfrom != "shack"){
                     say("I'd better not stray TOO far away from the landing site, but I really have to find some food!");
+                }
+                if(states.comingfrom == 'shack') {
+                    $('#sprite').css('left', '20px');
                 }
                 if(hastool("rock")){
                     $("#rock").hide();
@@ -595,6 +636,10 @@
                         case 'tobeach':
                             states.comingfrom = "forest";
                             scene('beach');
+                        break;
+                        case 'toshack':
+                            states.comingfrom = "forest";
+                            scene('shack');
                         break;
                         case 'stick':
                             switch(tool){
@@ -625,6 +670,90 @@
                                     say("Poking the rock with the stick accomplished... nothing.");
                                 break;
                             }
+                        break;
+                    }
+                }
+            </script>
+        </script>
+        <script id="shack" type="text/html">
+            <a id="sprite"></a>
+            <a id="door"></a>
+            <a id="jerrycan"></a>
+            <a id="toforest"></a>
+            {{>showinventory}}
+            <style>
+                #game {
+                    background: url(img/shack.png) center center;
+                }
+                #door {
+                    height: 254px;
+                    width: 180px;
+                    top: 253px;
+                    left: 489px;
+                    z-index: 8;
+                    background: url(img/shack_door.png) center center;
+                }
+                #toforest {
+                    right: 0;
+                    width: 70px;
+                    height: 100%;
+                    top: 0;
+                }
+                #door.open {
+                    background: url(img/shack_door_open.png?v=1) center center;
+                }
+                #jerrycan {
+                    height: 70px;
+                    z-index: 8;
+                    width: 55px;
+                    top: 452px;
+                    left: 185px;
+                    background: url(img/jerrycan.png) center center;
+                }
+                #sprite {
+                    right: 20px;
+                    bottom: 115px;
+                    height: 200px;
+                    width: 52px;
+                    background: url(img/sprite.png?j) 0 0;
+                    -webkit-animation: standing 12s steps(2) infinite;
+                }
+                @-webkit-keyframes standing {
+                   from { background-position:    0 0px; }
+                     to { background-position: 0 -400px; }
+                }
+                #sprite.walking {
+                    background-image: url(img/walking.png?u);
+                    width: 60px;
+                    -webkit-animation: walking .8s steps(5) infinite;
+                }
+                @-webkit-keyframes walking {
+                   from { background-position:    0 0px; }
+                     to { background-position:  0 -1000px; }
+                }
+            </style>
+            <script>
+                //ready the room with any necessary states
+                states.speed = 10;
+                if(states.shackopen) {
+                    $('#door').addClass('open');
+                }
+                function arrivedat(id){
+                    var tool = current_tool();
+                    switch(id){
+                        case 'door':
+                            switch(tool){
+                                case 'rock':
+                                    say("SMASH!");
+                                    $('#door').addClass('open');
+                                    states.shackopen = true;
+                                    lose_tool('rock');
+                                break;
+                            }
+                        break;
+                        case 'toforest':
+                            states.comingfrom = 'shack';
+                            scene('forest');
                         break;
                     }
                 }
@@ -845,6 +974,20 @@
                 <div></div>
                 <div></div>
                 <div></div>
+                <style>
+                    #inventory [data-tool=eye]{
+                        background-image: url(img/eye.png);
+                    }
+                    #inventory [data-tool=hand]{
+                        background-image: url(img/hand.png);
+                    }
+                    #inventory [data-tool=rock]{
+                        background-image: url(img/rock_icon.png);
+                    }
+                    #inventory [data-tool=stick]{
+                        background-image: url(img/stick_icon.png);
+                    }
+                </style>
             </div>
         </div>
         <audio id="audioTitle" preload="auto"><source src="audio/Title.mp3" type='audio/mp3; codecs="mp3"' /></audio>
