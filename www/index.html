@@ -515,6 +515,7 @@
                         break;
                         case 'toforest':
                             scene('forest');
+                            states.comingfrom = 'beach';
                         break;
                         case 'bird':
                             switch(tool){
@@ -618,7 +619,7 @@
             <script>
                 //ready the room with any necessary states
                 states.speed = 10;
-                if(!states.leavingthesite && states.comingfrom != "shack"){
+                if(states.comingfrom == "beach"){
                     say("I'd better not stray TOO far away from the landing site, but I really have to find some food!");
                 }
                 if(states.comingfrom == 'shack') {
@@ -744,10 +745,58 @@
                         case 'door':
                             switch(tool){
                                 case 'rock':
-                                    say("SMASH!");
+                                    say("I smashed the handle with the rock, and the door easily slid open.");
                                     $('#door').addClass('open');
                                     states.shackopen = true;
                                     lose_tool('rock');
+                                break;
+                                case 'stick':
+                                    if(!states.shackopen){
+                                        say("It's a sturdy stick, but it's no match for a locked sliding door.");
+                                    } else {
+                                        say("Waving the stick around tells me that yes, the door is in fact open.");
+                                    }
+                                break;
+                                case 'eye':
+                                    if(!states.shackopen){
+                                        say("It's a sliding door.");
+                                    } else {
+                                        //enter shack
+                                        states.comingfrom = "shack";
+                                        /**///scene('kitchen');
+                                        /**/say('todo: kitchen');
+                                    }
+                                break;
+                                case 'hand':
+                                    if(!states.shackopen){
+                                        say("The door is locked.");
+                                    } else {
+                                        //enter shack
+                                        states.comingfrom = "shack";
+                                        /**///scene('kitchen');
+                                        /**/say('todo: kitchen');
+                                    }
+                                break;
+                                case 'jerrycan':
+                                    say("Soaking the shack in gasoline is not going to accomplish anything.");
+                                break;
+                            }
+                        break;
+                        case 'jerrycan':
+                            switch(tool){
+                                case 'eye':
+                                    say("There is still some gas in this jerry can.");
+                                break;
+                                case 'hand':
+                                    add_tool('jerrycan');
+                                    $('#jerrycan').hide();
+                                    say("I'm just going to borrow this for a while...");
+                                break;
+                                case 'rock':
+
+                                break;
+                                case 'stick':
+
                                 break;
                             }
                         break;
@@ -986,6 +1035,9 @@
                     }
                     #inventory [data-tool=stick]{
                         background-image: url(img/stick_icon.png);
+                    }
+                    #inventory [data-tool=jerrycan]{
+                        background-image: url(img/jerrycan_icon.png);
                     }
                 </style>
             </div>
