@@ -927,9 +927,6 @@
                    from { background-position:    0 0px; }
                      to { background-position: 0 -760px; }
                 }
-                #inventory [data-tool=sword]{
-                    background-image: url(img/sword.png);
-                }
             </style>
             <script>
                 function arrivedat(id){
@@ -1016,28 +1013,31 @@
             <div id='scene'></div>
             <div id='text'></div>
             <div id='inventory'>
-                <div data-tool='eye' class='has active'>eye</div>
-                <div data-tool='hand' class='has'>hand</div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div data-tool='eye' class='has active'><a class='target'></a></div>
+                <div data-tool='hand' class='has'><a class='target'></a></div>
+                <div><a class='target'></a></div>
+                <div><a class='target'></a></div>
+                <div><a class='target'></a></div>
+                <div><a class='target'></a></div>
+                <div><a class='target'></a></div>
                 <style>
+                    a {
+                        cursor: url(img/eye.png?v=1), pointer;
+                    }
                     #inventory [data-tool=eye]{
-                        background-image: url(img/eye.png);
+                        background-image: url(img/eye.png?v=1);
                     }
                     #inventory [data-tool=hand]{
-                        background-image: url(img/hand.png);
+                        background-image: url(img/hand.png?v=1);
                     }
                     #inventory [data-tool=rock]{
-                        background-image: url(img/rock_icon.png);
+                        background-image: url(img/rock_icon.png?v=1);
                     }
                     #inventory [data-tool=stick]{
-                        background-image: url(img/stick_icon.png);
+                        background-image: url(img/stick_icon.png?v=1);
                     }
                     #inventory [data-tool=jerrycan]{
-                        background-image: url(img/jerrycan_icon.png);
+                        background-image: url(img/jerrycan_icon.png?v=1);
                     }
                 </style>
             </div>

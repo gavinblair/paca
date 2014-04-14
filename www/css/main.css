@@ -214,6 +214,7 @@ a, #inventory {
     cursor: pointer;
     background: #000 no-repeat center center;
     text-indent: -9999px;
+    position: relative;
 }
 #inventory .active {
     background-color: #c00;
@@ -229,8 +230,19 @@ a, #inventory {
     padding: .5em 0;
     font-size: 2em;
 }
-
-
+#inventory .target {
+    display: none;
+}
+#inventory .has .target {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    background: url(../img/target.png) center center;
+    z-index: 9999;
+}
 
 
 /* ==========================================================================

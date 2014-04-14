@@ -26,10 +26,12 @@ jQuery(document).ready(function($){
 			if($(this).hasClass('has')) {
 				$('#inventory .active').removeClass('active');
 				$(this).addClass('active');
+				$('a').css('cursor', $(this).css('background-image')+', auto');
 			}
 		}
 		return false;
 	});
+
 	$('#sprite').on('click', function(e){
 		e.preventDefault();
 	});
@@ -57,6 +59,46 @@ jQuery(document).ready(function($){
 			return false;
 		}
 	});
+
+	$('.target').on('click', function(e){
+        var targeted = $(this).parent().attr('data-tool');
+        var tool = current_tool();
+        switch(targeted){
+            case 'eye':
+
+            break;
+            case 'hand':
+                switch(tool){
+                    case 'eye':
+                        say("My hands are shaking from hunger.");
+                    break;
+                }
+            break;
+            case 'rock':
+                switch(tool){
+                    case 'eye':
+                        say("It's a rock.");
+                    break;
+                }
+            break;
+            case 'stick':
+                switch(tool){
+                    case 'eye':
+                        say("It's a sturdy stick.");
+                    break;
+                }
+            break;
+            case 'jerrycan':
+                switch(tool){
+                    case 'eye':
+                        say("It's a jerry can with a little gas in it.");
+                    break;
+                }
+            break;
+        }
+        e.preventdefault();
+        return false;
+    });
 
 });
 var pressing = false;
@@ -144,7 +186,7 @@ function load(){
 		var game = JSON.parse(localStorage.game);
 		states = game.states;
 		for(var i in game.inventory){
-			$('#inventory .has:last').next().addClass('has').attr('data-tool', game.inventory[i]).text(game.inventory[i]);
+			$('#inventory .has:last').next().addClass('has').attr('data-tool', game.inventory[i]);
 		}
 		scene(game.scene);
 		$('#sprite').css('left', game.left);
@@ -185,8 +227,10 @@ function scene(thescene){
 	$('#game').attr('data-scene', thescene);
 	$('a').on('click touchup',function(){
 		//walk to the object
-		var pos = $(this).position();
-		walkto(pos.left, $(this).width(), $(this).attr('id'));
+		if(!$(this).hasClass('target')){
+			var pos = $(this).position();
+			walkto(pos.left, $(this).width(), $(this).attr('id'));
+		}
 		return false;
 	});
 }
@@ -194,10 +238,10 @@ function current_tool(){
 	return $('#inventory .active').attr('data-tool');
 }
 function add_tool(tool){
-	$('#inventory div:not(.has):first').addClass('has').attr('data-tool', tool).text(tool);
+	$('#inventory div:not(.has):first').addClass('has').attr('data-tool', tool);
 }
 function lose_tool(tool){
-	$('#inventory [data-tool='+tool+']').removeClass('has').attr('data-tool', '').text('');
+	$('#inventory [data-tool='+tool+']').removeClass('has').attr('data-tool', '');
 	$('#inventory [data-tool=eye]').click();
 }
 
