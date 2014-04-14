@@ -194,7 +194,7 @@ function current_tool(){
 	return $('#inventory .active').attr('data-tool');
 }
 function add_tool(tool){
-	$('#inventory .has:last').next().addClass('has').attr('data-tool', tool).text(tool);
+	$('#inventory div:not(.has):first').addClass('has').attr('data-tool', tool).text(tool);
 }
 function lose_tool(tool){
 	$('#inventory [data-tool='+tool+']').removeClass('has').attr('data-tool', '').text('');
