@@ -1,3 +1,4 @@
+- maintenance: tests (qunit)
 - critical: ability to use items on items - how? dragging probably
 - critical: make it obvious that you can't do anything until you dismiss the text
 - UI: left click = use current tool, right click = use hand (or eye?)
