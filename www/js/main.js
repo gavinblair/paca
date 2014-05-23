@@ -24,6 +24,7 @@ jQuery(document).ready(function($){
 	$('#inventory div').on('click',function(){
 		if($('#text').text() === "") {
 			if($(this).hasClass('has')) {
+				$('.target').css('background-image', $(this).css('background-image'));
 				$('#inventory .active').removeClass('active');
 				$(this).addClass('active');
 				$('a').css('cursor', $(this).css('background-image')+', auto');
@@ -55,11 +56,10 @@ jQuery(document).ready(function($){
 	});
 	$('#text').on('click', function(){
 		if($(this).children('span').length === 0) {
-			$('#text').text('').hide();
+			$('#text').text('').fadeOut('fast');
 			return false;
 		}
 	});
-
 	$('.target').on('click', function(e){
         var targeted = $(this).parent().attr('data-tool');
         var tool = current_tool();
@@ -189,7 +189,6 @@ function load(){
 			$('#inventory .has:last').next().addClass('has').attr('data-tool', game.inventory[i]);
 		}
 		scene(game.scene);
-		$('#sprite').css('left', game.left);
 	} else {
 		$('#newgame').click();
 	}
@@ -205,9 +204,9 @@ function say(text, color){
 		text = '"'+text+'"';
 	}
 	var t = $('#text');
-	t.text(text).show();
+	t.text(text).fadeIn('fast');
 	if(text === '') {
-		t.hide();
+		t.fadeOut('fast');
 	}
 	t.css('color', color);
 }
@@ -217,7 +216,7 @@ function ask(options) {
 	for(var i in options){
 		h += "<span data-say='"+i+"'>\""+options[i]+"\"</span>";
 	}
-	t.html(h).show();
+	t.html(h).fadeIn('fast');
 	t.css('color', '#fff');
 }
 function scene(thescene){

@@ -148,16 +148,19 @@ span {
     cursor: pointer;
 }
 #text {
-    position: absolute;
-    top: 2.5em;
-    left: 0;
-    width: 100%;
-    padding: 1em;
-    color: #fff;
-    font-size: 2em;
-    background: #000;
-    cursor: pointer;
-    display: none;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding: 1em;
+height: 100%;
+color: #fff;
+font-size: 2em;
+background: #000;
+cursor: pointer;
+display: none;
+padding-top: 2em;
+opacity: .7;
 }
 #text span {
     display: block;
@@ -234,14 +237,23 @@ a, #inventory {
     display: none;
 }
 #inventory .has .target {
-    display: block;
+    display: none;
     position: absolute;
     bottom: 0;
     right: 0;
     height: 25px;
     width: 25px;
-    background: url(../img/target.png) center center;
+    background: #000 url(../img/eye.png?v=2) center center;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+    background-size: contain;
     z-index: 9999;
+}
+#inventory .has:hover .target {
+    display: block;
+}
+#inventory .active:hover .target {
+    display: none;
 }
 
 

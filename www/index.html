@@ -511,7 +511,7 @@
                             monologue();
                         break;
                         case 'ocean':
-                            say("My pod is down there. I'll let the rescue crew worry about it.");
+                            scene('ocean');
                         break;
                         case 'toforest':
                             scene('forest');
@@ -625,7 +625,7 @@
                 if(states.comingfrom == 'shack') {
                     $('#sprite').css('left', '20px');
                 }
-                if(hastool("rock")){
+                if(hastool('rock') || states.shackopen){
                     $("#rock").hide();
                 }
                 if(hastool("stick")){
@@ -739,6 +739,9 @@
                 if(states.shackopen) {
                     $('#door').addClass('open');
                 }
+                if(hastool('jerrycan')){
+                    $('#jerrycan').hide();
+                }
                 function arrivedat(id){
                     var tool = current_tool();
                     switch(id){
@@ -808,8 +811,56 @@
                 }
             </script>
         </script>
-        <script id="pod" type="text/html">
-            
+        <script id="ocean" type="text/html">
+            <a id="sprite" class="swimming right"></a>
+            <div class='fishies'>
+                <span class="fish"></span>
+                <span class="bubbles"></span>
+            </div>
+            <div id='foreground'></div>
+            <a id="tobeach"></a>
+            <a id="pod"></a>
+            {{>showinventory}}
+            <style>
+                #game {
+                    background: url(img/ocean.png?a) center center;
+                }
+                #foreground {
+                    pointer-events:none;
+                    position: absolute;
+                    z-index: 999;
+                    height: 100%;
+                    width: 100%;
+                    background: url(img/ocean_rays.png?a) center center;
+                    z-index: 10;
+                }
+                #sprite {
+                    cursor: pointer;
+                    z-index: 9;
+                    left: 20px;
+                    bottom: 183px;
+                    height: 100px;
+                    width: 211px;
+                    background: url(img/swimming.png?l) 0 0 no-repeat;
+                    background-size: 211px 600px;
+                    -webkit-animation: swimming 2s steps(6) infinite;
+                }
+                @-webkit-keyframes swimming {
+                   from { background-position:    0 0px; }
+                     to { background-position: 0 -600px; }
+                }
+            </style>
+            <script>
+                //ready the room with any necessary states
+                states.speed = 8;
+                
+                function arrivedat(id){
+                    var tool = current_tool();
+                    switch(id){
+                        
+                    }
+                }
+            </script>
         </script>
         <script id="room1" type="text/html">
             <a id='door' class='locked'></a>
@@ -1022,13 +1073,13 @@
                 <div><a class='target'></a></div>
                 <style>
                     a {
-                        cursor: url(img/eye.png?v=1), pointer;
+                        cursor: url(img/eye.png?v=2), pointer;
                     }
                     #inventory [data-tool=eye]{
-                        background-image: url(img/eye.png?v=1);
+                        background-image: url(img/eye.png?v=2);
                     }
                     #inventory [data-tool=hand]{
-                        background-image: url(img/hand.png?v=1);
+                        background-image: url(img/hand.png?v=2);
                     }
                     #inventory [data-tool=rock]{
                         background-image: url(img/rock_icon.png?v=1);
