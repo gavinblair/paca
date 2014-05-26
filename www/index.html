@@ -511,7 +511,7 @@
                             monologue();
                         break;
                         case 'ocean':
-                            say("My pod is down there. I'll let the rescue crew worry about it.");
+                            scene('ocean');
                         break;
                         case 'toforest':
                             scene('forest');
@@ -625,7 +625,7 @@
                 if(states.comingfrom == 'shack') {
                     $('#sprite').css('left', '20px');
                 }
-                if(hastool("rock")){
+                if(hastool('rock') || states.shackopen){
                     $("#rock").hide();
                 }
                 if(hastool("stick")){
@@ -739,6 +739,9 @@
                 if(states.shackopen) {
                     $('#door').addClass('open');
                 }
+                if(hastool('jerrycan')){
+                    $('#jerrycan').hide();
+                }
                 function arrivedat(id){
                     var tool = current_tool();
                     switch(id){
@@ -808,93 +811,142 @@
                 }
             </script>
         </script>
-        <script id="pod" type="text/html">
-            
-        </script>
-        <script id="room1" type="text/html">
-            <a id='door' class='locked'></a>
-            <a id='key'></a>
-            <a id='sprite'></a>
+        <script id="ocean" type="text/html">
+            <a id="sprite" class="swimming right"></a>
+            <div class='fishies'>
+                <span class="fish"></span>
+                <span class="fish"></span>
+                <span class="bubbles"></span>
+            </div>
+            <div id='foreground'></div>
+            <a id="tobeach"></a>
+            <a id="pod"></a>
+            <a id="tangled"></a>
+            <a id="tobeach"></a>
             {{>showinventory}}
             <style>
                 #game {
-                    background: url(img/room.png) center center;
+                    background: url(img/ocean.png?b) center center;
                 }
-                #sprite {
-                    left: 182px;
+                .fish {
+                    background: url(img/fish.gif?a);
+                    top: 200px;
+                    left: -56px;
+                    height: 32px;
+                    width: 56px;
+                    cursor: default;
+                    pointer-events: none;
+                    -webkit-animation: fish1 120s infinite;
+                }
+                @-webkit-keyframes fish1{
+                    from {left: -50px;}
+                    to {left: 100%;}
+                }
+                .fish:nth-child(2){
+                    top: 160px;
+                    left: 100%;
+                    -moz-transform: scaleX(-1);
+                    -o-transform: scaleX(-1);
+                    -webkit-transform: scaleX(-1);
+                    transform: scaleX(-1);
+                    filter: FlipH;
+                    -ms-filter: "FlipH";
+                    -webkit-animation: fish2 70s infinite;
 
                 }
-                #door {
-                    width: 76px;
-                    height: 215px;
-                    bottom: 150px;
-                    left: 489px;
-                    top: 285px;
+                @-webkit-keyframes fish2{
+                    from {left: 100%;}
+                    to {left: -70px;}
                 }
-                #door.locked {
-                    background: url(img/door.png);
+                #foreground {
+                    pointer-events:none;
+                    position: absolute;
+                    z-index: 999;
+                    height: 100%;
+                    width: 100%;
+                    background: url(img/ocean_rays.png?a) center center;
+                    z-index: 10;
                 }
-                #key {
-                    width: 40px;
-                    height: 40px;
-                    background: url(img/key.png) center center no-repeat;
-                    bottom: 110px;
-                    right: 100px;
+                #sprite {
+                    cursor: pointer;
+                    z-index: 9;
+                    left: 20px;
+                    bottom: 183px;
+                    height: 100px;
+                    width: 211px;
+                    background: url(img/swimming.png?l) 0 0 no-repeat;
+                    background-size: 211px 600px;
+                    -webkit-animation: swimming 2s steps(6) infinite;
+                }
+                @-webkit-keyframes swimming {
+                   from { background-position:    0 0px; }
+                     to { background-position: 0 -600px; }
+                }
+                #pod {
+                    width: 362px;
+                    height: 345px;
+                    right: 27px;
+                    bottom: 43px;
+                    z-inded: 7;
+                    background: url('img/underwaterpod.png');
+                }
+                #tangled {
+                    height: 430px;
+                    width: 504px;
+                    right: 0;
+                    z-index: 8;
+                    bottom: 0;
+                    background: url('img/tangled.png');
+                }
+                #tobeach {
+                    left: 0;
+                    width: 70px;
+                    height: 100%;
+                    top: 0;
                 }
             </style>
             <script>
                 //ready the room with any necessary states
-                if(states.door === 'unlocked') {
-                    $('#door').removeClass('locked');
-                }
-                if(states.key === 'taken') {
-                    $('#key').remove();
-                }
-                if(states.used_door === 'true'){
-                    $('#sprite').css('left', $('#door').css('left'));
+                states.speed = 8;
+                if(states.untangled){
+                    $('#tangled').hide();
                 }
                 function arrivedat(id){
                     var tool = current_tool();
                     switch(id){
-                        case 'door':
-                            if(tool === 'eye'){
-                                if($('#door').hasClass('locked')){
-                                    say("It's a door.");
-                                } else {
-                                    say("It's an open door. I wonder what's on the other side?");
-                                }
-                            } else if(tool === 'hand'){
-                                if(hastool('key')) {
-                                    say("It's still locked. I wonder if this key will work?");
-                                } else {
-                                    if($('#door').hasClass('locked')) {
-                                        say("It's locked. I wonder where the key is?");
-                                    } else {
-                                        states.used_door = 'true';
-                                        scene('room2');
-                                    }
-                                }
-                            } else if(tool === 'key'){
-                                $('#door').removeClass('locked');
-                                states.door = 'unlocked';
-                                lose_tool('key');
-                                
-                                say("That was easy.");
+                        case 'tangled':
+                            switch(tool){
+                                case 'eye':
+                                    say("The pod is all tangled up with the parachute.");
+                                break;
+                                case 'hand':
+                                    say("I'll need to cut away the parachute to get at the pod.");
+                                break;
                             }
                         break;
-                        case 'key':
-                            if(tool === 'eye'){
-                                say("It's a key. How convenient.");
-                            } else if(tool === 'hand'){
-                                $('#key').remove();
-                                states.key = 'taken';
-                                add_tool('key');
+                        case 'pod':
+                            if(states.untangled){
+                                if(!states.pried){
+                                    switch(tool) {
+                                        case 'eye':
+                                            say("The door is suctioned shut.");
+                                        break;
+                                        case 'hand':
+                                            say("I can't pull it open - I'll need to pry it somehow.");
+                                        break;
+                                    }
+                                }
                             }
+                        break;
+                        case 'tobeach':
+                            states.comingfrom = 'ocean';
+                            scene('beach');
                         break;
                     }
                 }
             </script>
         </script>
+        <!-- -->        
         <script id="room2" type="text/html">
             <a id='sprite'></a>
             <a id='door'></a>
@@ -1022,13 +1074,13 @@
                 <div><a class='target'></a></div>
                 <style>
                     a {
-                        cursor: url(img/eye.png?v=1), pointer;
+                        cursor: url(img/eye.png?v=2), pointer;
                     }
                     #inventory [data-tool=eye]{
-                        background-image: url(img/eye.png?v=1);
+                        background-image: url(img/eye.png?v=2);
                     }
                     #inventory [data-tool=hand]{
-                        background-image: url(img/hand.png?v=1);
+                        background-image: url(img/hand.png?v=2);
                     }
                     #inventory [data-tool=rock]{
                         background-image: url(img/rock_icon.png?v=1);

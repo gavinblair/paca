@@ -1,9 +1,8 @@
 - maintenance: tests (qunit)
-- critical: ability to use items on items - how? dragging probably
-- critical: make it obvious that you can't do anything until you dismiss the text
+- preload scenes and other images
+- important: when you lose a tool, select the eye
 - UI: left click = use current tool, right click = use hand (or eye?)
 - important: double click to exit immediately (exits we've already been to)
-- UI: inventory labels?
 - ios: tiptap to move - single tap only for buttons
 - soon: elevation (stairs)
 
