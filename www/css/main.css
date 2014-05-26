@@ -167,7 +167,7 @@ opacity: .7;
     cursor: pointer;
     position: static;
 }
-a, #inventory {
+#inventory {
     z-index: 9999;
 }
 #text {

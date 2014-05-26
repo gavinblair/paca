@@ -1,3 +1,4 @@
+- preload scenes and other images
 - important: when you lose a tool, select the eye
 - UI: left click = use current tool, right click = use hand (or eye?)
 - important: double click to exit immediately (exits we've already been to)
