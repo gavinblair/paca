@@ -1,11 +1,11 @@
 jQuery(document).ready(function($){
-    
+
     scene('menu');
 
     $('#preload div').each(function(){
-    	var p = $(this);
-    	p.css('background-image', p.data('preload'));
-    	/**/
+		var p = $(this);
+		p.css('background-image', p.data('preload'));
+		/**/
     });
 
 	$('#game').on('click',function(e){
@@ -15,12 +15,11 @@ jQuery(document).ready(function($){
 				var target = e.offsetX;
 				//walk to position
 				walkto(target, 10);
-				
 			}
 			glowaction = false;
 		}
 	});
-	
+
 	$('#inventory div').on('click',function(){
 		if($('#text').text() === "") {
 			if($(this).hasClass('has')) {
@@ -232,6 +231,7 @@ function scene(thescene){
 		}
 		return false;
 	});
+	$('a').css('cursor', $('#inventory .active').css('background-image')+', auto');
 }
 function current_tool(){
 	return $('#inventory .active').attr('data-tool');

@@ -11,7 +11,7 @@
         <meta name='HandheldFriendly' content='True'>
         <meta name='MobileOptimized' content='640'>
 
- 
+
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
     <script src="js/icanhaz.min.js"></script>
@@ -89,7 +89,7 @@
                     background: transparent;
                 }
                 #game {
-                    background: url(img/intro1.png) center center;
+                    background: url(img/scenes/intro1.png) center center;
                 }
                 #shuttle {
                     height: 94px;
@@ -142,7 +142,7 @@
                      to { top: 50% }
                 }*/
                 #game {
-                    background: url(img/intro2.png?v=1) center center;
+                    background: url(img/scenes/intro2.png?v=1) center center;
                 }
                 #shuttle {
                     height: 132px;
@@ -212,7 +212,7 @@
                      to { top: 10% }
                 }
                 #game {
-                    background: url(img/intro3.png) center center;
+                    background: url(img/scenes/intro3.png) center center;
                 }
                 #foreground {
                     position: absolute;
@@ -318,7 +318,7 @@
             {{>showinventory}}
             <style>
                 #game {
-                    background: url(img/.png) center center;
+                    background: url(img/scenes/.png) center center;
                 }
                 #sprite {
                     left: 20px;
@@ -429,7 +429,7 @@
                     top: 0;
                 }
                 #game {
-                    background: url(img/beach.png?d) center center;
+                    background: url(img/scenes/beach.png?d) center center;
                 }
                 #foreground {
                     pointer-events:none;
@@ -564,7 +564,7 @@
             {{>showinventory}}
             <style>
                 #game {
-                    background: url(img/forest.png?a) center center;
+                    background: url(img/scenes/forest.png?a) center center;
                 }
                 #stick {
                     top: 436px;
@@ -684,7 +684,7 @@
             {{>showinventory}}
             <style>
                 #game {
-                    background: url(img/shack.png) center center;
+                    background: url(img/scenes/shack.png) center center;
                 }
                 #door {
                     height: 254px;
@@ -748,10 +748,10 @@
                         case 'door':
                             switch(tool){
                                 case 'rock':
+                                    lose_tool('rock');
                                     say("I smashed the handle with the rock, and the door easily slid open.");
                                     $('#door').addClass('open');
                                     states.shackopen = true;
-                                    lose_tool('rock');
                                 break;
                                 case 'stick':
                                     if(!states.shackopen){
@@ -826,7 +826,7 @@
             {{>showinventory}}
             <style>
                 #game {
-                    background: url(img/ocean.png?b) center center;
+                    background: url(img/scenes/ocean.png?b) center center;
                 }
                 .fish {
                     background: url(img/fish.gif?a);
@@ -954,7 +954,7 @@
             {{>showinventory}}
             <style>
                 #game {
-                    background: url(img/room2.png) center center;
+                    background: url(img/scenes/room2.png) center center;
                 }
                 #sprite {
                     left: 182px;
