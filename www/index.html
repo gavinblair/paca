@@ -96,7 +96,7 @@
                     width: 140px;
                     top: 238px;
                     left: 808px;
-                    background-image: url(img/shuttle.png?d);
+                    background-image: url(img/shuttle.png);
                     -webkit-animation: rocketing .3s steps(5) infinite;
                 }
                 #inventory {
@@ -109,7 +109,7 @@
             </style>
             <script>
                 say("Created by Gavin Blair");
-                titleMusic.play();
+                ///**/titleMusic.play();
                 //12 seconds intro 1: shuttle rocketing to earth -- 13 seconds may be too long
                 var musicTime = requestAnimationFrame(music);
                 function music(){
@@ -142,14 +142,14 @@
                      to { top: 50% }
                 }*/
                 #game {
-                    background: url(img/scenes/intro2.png?v=1) center center;
+                    background: url(img/scenes/intro2.png) center center;
                 }
                 #shuttle {
                     height: 132px;
                     width: 112px;
                     top: 100px;
                     left: 508px;
-                    background-image: url(img/parachute.png?d);
+                    background-image: url(img/parachute.png);
                     -webkit-animation: falling 6s forwards steps(24);
                     animation-iteration-count: 1;
                 }
@@ -226,7 +226,7 @@
                     width: 80px;
                     top: 0;
                     left: 0;
-                    background-image: url(img/sinking.png?c);
+                    background-image: url(img/sinking.png);
                 }
                 #shuttle.sinking {
                     -webkit-animation: sinking 1s steps(5) infinite;
@@ -325,7 +325,7 @@
                     bottom: 128px;
                     height: 200px;
                     width: 52px;
-                    background: url(img/sprite.png?j) 0 0;
+                    background: url(img/sprite.png) 0 0;
                     -webkit-animation: standing 12s steps(2) infinite;
                 }
                 @-webkit-keyframes standing {
@@ -333,7 +333,7 @@
                      to { background-position: 0 -400px; }
                 }
                 #sprite.walking {
-                    background-image: url(img/walking.png?u);
+                    background-image: url(img/walking.png);
                     width: 60px;
                     -webkit-animation: walking .8s steps(5) infinite;
                 }
@@ -380,12 +380,12 @@
                 #bird, .fly {
                     top: 100px;
                     left: 170px;
-                    background: url(img/bird.gif?a);
+                    background: url(img/bird.gif);
                     height: 32px;
                     width: 36px;
                 }
                 .fly {
-                    background: url(img/fly.gif?a);
+                    background: url(img/fly.gif);
                     top: 400px;
                     left: 400px;
                     cursor: default;
@@ -429,7 +429,7 @@
                     top: 0;
                 }
                 #game {
-                    background: url(img/scenes/beach.png?d) center center;
+                    background: url(img/scenes/beach.png) center center;
                 }
                 #foreground {
                     pointer-events:none;
@@ -447,7 +447,7 @@
                     bottom: 83px;
                     height: 203px;
                     width: 26px;
-                    background: url(img/sprite_reflection.png?l) 0 0 no-repeat;
+                    background: url(img/sprite_reflection.png) 0 0 no-repeat;
                     background-size: 25px 406px;
                     -webkit-animation: standing_reflection 12s steps(2) infinite;
                 }
@@ -456,7 +456,7 @@
                      to { background-position: 0 -406px; }
                 }
                 #sprite.walking {
-                    background-image: url(img/walking_reflection.png?v);
+                    background-image: url(img/walking_reflection.png);
                     width: 30px;
                     background-size: 30px 1016px;
                     -webkit-animation: walking_reflection .8s steps(5) infinite;
@@ -564,7 +564,7 @@
             {{>showinventory}}
             <style>
                 #game {
-                    background: url(img/scenes/forest.png?a) center center;
+                    background: url(img/scenes/forest.png) center center;
                 }
                 #stick {
                     top: 436px;
@@ -599,7 +599,7 @@
                     bottom: 196px;
                     height: 200px;
                     width: 52px;
-                    background: url(img/sprite.png?j) 0 0;
+                    background: url(img/sprite.png) 0 0;
                     -webkit-animation: standing 12s steps(2) infinite;
                 }
                 @-webkit-keyframes standing {
@@ -607,7 +607,7 @@
                      to { background-position: 0 -400px; }
                 }
                 #sprite.walking {
-                    background-image: url(img/walking.png?u);
+                    background-image: url(img/walking.png);
                     width: 60px;
                     -webkit-animation: walking .8s steps(5) infinite;
                 }
@@ -701,7 +701,7 @@
                     top: 0;
                 }
                 #door.open {
-                    background: url(img/shack_door_open.png?v=1) center center;
+                    background: url(img/shack_door_open.png) center center;
                 }
                 #jerrycan {
                     height: 70px;
@@ -716,7 +716,7 @@
                     bottom: 115px;
                     height: 200px;
                     width: 52px;
-                    background: url(img/sprite.png?j) 0 0;
+                    background: url(img/sprite.png) 0 0;
                     -webkit-animation: standing 12s steps(2) infinite;
                 }
                 @-webkit-keyframes standing {
@@ -724,7 +724,7 @@
                      to { background-position: 0 -400px; }
                 }
                 #sprite.walking {
-                    background-image: url(img/walking.png?u);
+                    background-image: url(img/walking.png);
                     width: 60px;
                     -webkit-animation: walking .8s steps(5) infinite;
                 }
@@ -826,10 +826,10 @@
             {{>showinventory}}
             <style>
                 #game {
-                    background: url(img/scenes/ocean.png?b) center center;
+                    background: url(img/scenes/ocean.png) center center;
                 }
                 .fish {
-                    background: url(img/fish.gif?a);
+                    background: url(img/fish.gif);
                     top: 200px;
                     left: -56px;
                     height: 32px;
@@ -864,7 +864,7 @@
                     z-index: 999;
                     height: 100%;
                     width: 100%;
-                    background: url(img/ocean_rays.png?a) center center;
+                    background: url(img/ocean_rays.png) center center;
                     z-index: 10;
                 }
                 #sprite {
@@ -874,7 +874,7 @@
                     bottom: 183px;
                     height: 100px;
                     width: 211px;
-                    background: url(img/swimming.png?l) 0 0 no-repeat;
+                    background: url(img/swimming.png) 0 0 no-repeat;
                     background-size: 211px 600px;
                     -webkit-animation: swimming 2s steps(6) infinite;
                 }
@@ -972,7 +972,7 @@
                     bottom: 128px;
                     right: 50px;
                     
-                    background: url(img/wizard.png?b) 0 0;
+                    background: url(img/wizard.png) 0 0;
                     -webkit-animation: wizarding 6s steps(5) infinite;
                 }
                 @-webkit-keyframes wizarding {
@@ -1074,55 +1074,59 @@
                 <div><a class='target'></a></div>
                 <style>
                     a {
-                        cursor: url(img/eye.png?v=2), pointer;
+                        cursor: url(img/eye.png), pointer;
                     }
                     #inventory [data-tool=eye]{
-                        background-image: url(img/eye.png?v=2);
+                        background-image: url(img/eye.png);
                     }
                     #inventory [data-tool=hand]{
-                        background-image: url(img/hand.png?v=2);
+                        background-image: url(img/hand.png);
                     }
                     #inventory [data-tool=rock]{
-                        background-image: url(img/rock_icon.png?v=1);
+                        background-image: url(img/rock_icon.png);
                     }
                     #inventory [data-tool=stick]{
-                        background-image: url(img/stick_icon.png?v=1);
+                        background-image: url(img/stick_icon.png);
                     }
                     #inventory [data-tool=jerrycan]{
-                        background-image: url(img/jerrycan_icon.png?v=1);
+                        background-image: url(img/jerrycan_icon.png);
                     }
                 </style>
             </div>
         </div>
         <audio id="audioTitle" preload="auto"><source src="audio/Title.mp3" type='audio/mp3; codecs="mp3"' /></audio>
         <div id='preload'>
-            <!-- rooms -->
-            <div data-preload='img/intro1.png'></div>
-            <div data-preload='img/intro2.png'></div>
-            <div data-preload='img/intro3.png'></div>
-            <div data-preload='img/intro3_fg.png'></div>
-            <div data-preload='img/room.png'></div>
-            <div data-preload='img/room2.png'></div>
-            <!-- sprites -->
-            <div data-preload='img/parachute.png'></div>
-            <div data-preload='img/shuttle.png'></div>
-            <div data-preload='img/sinking.png'></div>
-            <div data-preload='img/soldier.png'></div>
-            <div data-preload='img/soldier_walking.png'></div>
-            <div data-preload='img/sprite.png'></div>
-            <div data-preload='img/sprite_demo.png'></div>
-            <div data-preload='img/swimming.png'></div>
-            <div data-preload='img/underwater.png'></div>
-            <div data-preload='img/walking.png'></div>
-            <div data-preload='img/walking_demo.png'></div>
-            <div data-preload='img/wizard.png'></div>
-            <!-- inventory/other -->
-            <div data-preload='img/sword.png'></div>
-            <div data-preload='img/bigkey.png'></div>
-            <div data-preload='img/door.png'></div>
-            <div data-preload='img/eye.png'></div>
-            <div data-preload='img/hand.png'></div>
-            <div data-preload='img/key.png'></div>
+            <img src='img/scenes/intro1.png' />
+            <img src='img/scenes/intro2.png' />
+            <img src='img/scenes/intro3.png' />
+            <img src='img/intro3_fg.png' />
+            <img src='img/sinking.gif' />
+            <img src='img/swimming.png' />
+            <img src='img/underwater.png' />
+            <img src='img/fireplace.png' />
+            <img src='img/bird.gif' />
+            <img src='img/fly.gif' />
+            <img src='img/scenes/beach.png' />
+            <img src='img/beach_foreground.png' />
+            <img src='img/sprite_reflection.png' />
+            <img src='img/walking_reflection.png' />
+            <img src='img/scenes/forest.png' />
+            <img src='img/stick.png' />
+            <img src='img/rock.png' />
+            <img src='img/sprite.png' />
+            <img src='img/walking.png' />
+            <img src='img/scenes/shack.png' />
+            <img src='img/shack_door.png' />
+            <img src='img/shack_door_open.png' />
+            <img src='img/jerrycan.png' />
+            <img src='img/scenes/ocean.png' />
+            <img src='img/fish.gif' />
+            <img src='img/ocean_rays.png' />
+            <img src='img/room1.png' />
+            <img src='img/shuttle.png' />
+            <img src='img/underwaterpod.png' />
+            <img src='img/tangled.png' />
+            <img src='img/parachute.png' />
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

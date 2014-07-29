@@ -2,12 +2,6 @@ jQuery(document).ready(function($){
 
     scene('menu');
 
-    $('#preload div').each(function(){
-		var p = $(this);
-		p.css('background-image', p.data('preload'));
-		/**/
-    });
-
 	$('#game').on('click',function(e){
 
 		if($('#sprite').length) {

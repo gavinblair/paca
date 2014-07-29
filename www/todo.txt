@@ -1,9 +1,6 @@
-- important: when you lose a tool, select the eye
-- preload scenes and other images
+- important: double click to exit immediately (exits we've already been to)
 - maintenance: clean up the git project, lose phonegap
 - maintenance: tests (qunit)
-- UI: left click = use current tool, right click = use hand (or eye?)
-- important: double click to exit immediately (exits we've already been to)
 - important: responsive (work on mobile)
 - ios: tiptap to move/use - single tap only for buttons/ui
 - ios: close button to close dialog (must be used)
