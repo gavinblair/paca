@@ -1,874 +1,0 @@
-THelloWorld
-v6
-r1
-cCheck dependencies
-cProcessInfoPlistFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Info.plist /websites/paca-phonegap/platforms/ios/HelloWorld/HelloWorld-Info.plist
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/device/HelloWorld.app/ResourceRules.plist
-cPhaseScriptExecution Copy\ www\ directory /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
-cCpResource HelloWorld/config.xml build/device/HelloWorld.app/config.xml
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-76.png HelloWorld/Resources/icons/icon-76.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-40@2x.png HelloWorld/Resources/icons/icon-40@2x.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-72.png HelloWorld/Resources/icons/icon-72.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon.png HelloWorld/Resources/icons/icon.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon@2x.png HelloWorld/Resources/icons/icon@2x.png
-cCopyStringsFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings
-cCompileXIB /websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.xib
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-50.png HelloWorld/Resources/icons/icon-50.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-60@2x.png HelloWorld/Resources/icons/icon-60@2x.png
-cCopyStringsFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-small.png HelloWorld/Resources/icons/icon-small.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Landscape@2x~ipad.png HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Landscape~ipad.png HelloWorld/Resources/splash/Default-Landscape~ipad.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Portrait@2x~ipad.png HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-small@2x.png HelloWorld/Resources/icons/icon-small@2x.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Portrait~ipad.png HelloWorld/Resources/splash/Default-Portrait~ipad.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-40.png HelloWorld/Resources/icons/icon-40.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default@2x~iphone.png HelloWorld/Resources/splash/Default@2x~iphone.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-60.png HelloWorld/Resources/icons/icon-60.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default~iphone.png HelloWorld/Resources/splash/Default~iphone.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-568h@2x~iphone.png HelloWorld/Resources/splash/Default-568h@2x~iphone.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-50@2x.png HelloWorld/Resources/icons/icon-50@2x.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-76@2x.png HelloWorld/Resources/icons/icon-76@2x.png
-cCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-72@2x.png HelloWorld/Resources/icons/icon-72@2x.png
-cProcessPCH /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-cduqbwlynkosykhhyznvrjhcolei/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o /websites/paca-phonegap/platforms/ios/HelloWorld/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o /websites/paca-phonegap/platforms/ios/HelloWorld/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/MainViewController.o /websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/HelloWorld normal armv7
-cGenerateDSYMFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app.dSYM /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/HelloWorld
-cProcessProductPackaging /Users/gblair/Library/MobileDevice/Provisioning\ Profiles/B670F22A-3D22-4E18-8108-B7F655BC97A5.mobileprovision /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/embedded.mobileprovision
-cTouch /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent
-cCodeSign /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
-c0000000053119F860000000000000132
-t1393663878
-s306
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-c00000000531F16070000000000000094
-t1394546183
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-c00000000531F16070000000000000096
-t1394546183
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
-c00000000531F1607000000000000036B
-t1394546183
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531F1607000000000000019E
-t1394546183
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
-c00000000531F16080000000000075BA0
-t1394546184
-s482208
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000531F160A00000000004D7BC0
-t1394546186
-s5077952
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c00000000531F160A0000000000152370
-t1394546186
-s1385328
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-c00000000531F160C0000000000210E90
-t1394546188
-s2166416
-
-N/Users/gblair/Library/MobileDevice/Provisioning Profiles/B670F22A-3D22-4E18-8108-B7F655BC97A5.mobileprovision
-c000000005307BCE60000000000002902
-t1393016038
-s10498
-
-N/var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-cduqbwlynkosykhhyznvrjhcolei/HelloWorld-Prefix.pch.pch
-t1394742607
-s5306644
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Classes/AppDelegate.m
-c00000000531E859500000000000013AB
-t1394509205
-s5035
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.m
-c00000000531E8595000000000000126B
-t1394509205
-s4715
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.xib
-c00000000531E85950000000000001759
-t1394509205
-s5977
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/HelloWorld-Info.plist
-c00000000532217FA0000000000000A1E
-t1394743290
-s2590
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/HelloWorld-Prefix.pch
-c00000000531E859500000000000003C5
-t1394509205
-s965
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/de.lproj/Localizable.strings
-c00000000531E859500000000000004BF
-t1394509205
-s1215
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/en.lproj/Localizable.strings
-c00000000531E859500000000000004AA
-t1394509205
-s1194
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-40.png
-c00000000531E85950000000000000FF2
-t1394509205
-s4082
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-40@2x.png
-c00000000531E85950000000000001CF3
-t1394509205
-s7411
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-50.png
-c00000000531E8595000000000000130A
-t1394509205
-s4874
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-50@2x.png
-c00000000531E8595000000000000258B
-t1394509205
-s9611
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-60.png
-c00000000531E859500000000000016B3
-t1394509205
-s5811
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-60@2x.png
-c00000000531E85950000000000002E94
-t1394509205
-s11924
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-72.png
-c00000000531E85950000000000001350
-t1394509205
-s4944
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-72@2x.png
-c00000000531E85950000000000002DBA
-t1394509205
-s11706
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-76.png
-c00000000531E85950000000000001B71
-t1394509205
-s7025
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-76@2x.png
-c00000000531E85950000000000003B9E
-t1394509205
-s15262
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-small.png
-c00000000531E85950000000000000CDE
-t1394509205
-s3294
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-small@2x.png
-c00000000531E859500000000000015E8
-t1394509205
-s5608
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon.png
-c00000000531E85950000000000000F3E
-t1394509205
-s3902
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon@2x.png
-c00000000531E85950000000000001EBD
-t1394509205
-s7869
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-568h@2x~iphone.png
-c00000000531E859500000000000085B1
-t1394509205
-s34225
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png
-c00000000531E85950000000000012DF4
-t1394509205
-s77300
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-Landscape~ipad.png
-c00000000531E85950000000000008877
-t1394509205
-s34935
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png
-c00000000531E85950000000000012B02
-t1394509205
-s76546
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-Portrait~ipad.png
-c00000000531E859500000000000085E6
-t1394509205
-s34278
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default@2x~iphone.png
-c00000000531E85950000000000007323
-t1394509205
-s29475
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default~iphone.png
-c00000000531E8595000000000000289A
-t1394509205
-s10394
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/config.xml
-c00000000532217FA000000000000126A
-t1394743290
-s4714
-
-N/websites/paca-phonegap/platforms/ios/HelloWorld/main.m
-c00000000531E8595000000000000045C
-t1394509205
-s1116
-
-N/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent
-t1394743295
-s420
-
-N/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o
-t1394743295
-s74416
-
-N/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld.LinkFileList
-c00000000532217FD0000000000000180
-t1394743293
-s384
-
-N/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/MainViewController.o
-t1394743295
-s50532
-
-N/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o
-t1394743295
-s3016
-
-N/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
-c00000000532217FD000000000000002D
-t1394743293
-s45
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app
-t1394743295
-s1088
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app.dSYM
-t2
-s0
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-568h@2x~iphone.png
-t1394743295
-s61990
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Landscape@2x~ipad.png
-t1394743294
-s143186
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Landscape~ipad.png
-t1394743294
-s65305
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Portrait@2x~ipad.png
-t1394743294
-s136924
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Portrait~ipad.png
-t1394743294
-s63460
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default@2x~iphone.png
-t1394743294
-s55319
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default~iphone.png
-t1394743295
-s20021
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/HelloWorld
-t1394743295
-s280196
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Info.plist
-t1394743293
-s1561
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/MainViewController.nib
-t1394743294
-s1332
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/PkgInfo
-t2
-s0
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/ResourceRules.plist
-t1394743293
-s150
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/config.xml
-t1394743294
-s4714
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/de.lproj/Localizable.strings
-t1394743294
-s280
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/embedded.mobileprovision
-t1394743295
-s10498
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/en.lproj/Localizable.strings
-t1394743294
-s166
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-40.png
-t1394743294
-s4450
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-40@2x.png
-t1394743294
-s8883
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-50.png
-t1394743294
-s5557
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-50@2x.png
-t1394743295
-s11331
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-60.png
-t1394743294
-s6838
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-60@2x.png
-t1394743294
-s14152
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-72.png
-t1394743294
-s8045
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-72@2x.png
-t1394743295
-s17926
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-76.png
-t1394743294
-s8463
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-76@2x.png
-t1394743295
-s16629
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-small.png
-t1394743294
-s3349
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-small@2x.png
-t1394743294
-s6585
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon.png
-t1394743294
-s5977
-
-N/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon@2x.png
-t1394743294
-s13012
-
-N/websites/paca-phonegap/platforms/ios/build/device/libCordova.a
-c00000000532217FD00000000001AF098
-t1394743293
-s1765528
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7ee3f37d4fd2b841^fca6f47d4fd2b841^---0#1#1#--18"Check dependencies36"93DE7965-7043-4876-BB1D-4146BAEBC1B5-
-
-CCodeSign /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app
-s416436095.303013
-e416436095.468685
-r1
-xCodeSign
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"CodeSign build/device/HelloWorld.app36"CodeSign build/device/HelloWorld.appebad4d7f4fd2b841^e3fa777f4fd2b841^---0#0#1#-19%DVTDocumentLocation2@73"file:///websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/0000000000000000^1427"CodeSign build/device/HelloWorld.app    cd /websites/paca-phonegap/platforms/ios    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    Using code signing identity "iPhone Developer: Ashish Bhagrath (65P2YAFY43)" and provisioning profile "iOS Team Provisioning Profile: *" (B670F22A-3D22-4E18-8108-B7F655BC97A5)    /usr/bin/codesign --force --sign 256E995138E3E8ED7A60089253B2A99BA8636871 --resource-rules=/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/ResourceRules.plist --entitlements /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app36"966A7F38-A13C-4084-911D-B57AE810F48F-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o /websites/paca-phonegap/platforms/ios/HelloWorld/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s416436095.136866
-e416436095.206491
-r1
-xCompileC
-xbuild/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o
-x/websites/paca-phonegap/platforms/ios/HelloWorld/Classes/AppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/websites/paca-phonegap/platforms/ios/HelloWorld/Classes/AppDelegate.m
-d/websites/paca-phonegap/platforms/ios/HelloWorld/Classes/AppDelegate.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-d/websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /websites/paca-phonegap/platforms/ios/HelloWorld/Classes/AppDelegate.m200"CompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o HelloWorld/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler1e34237f4fd2b841^a9dc347f4fd2b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Classes/AppDelegate.m0000000000000000^3838"CompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o HelloWorld/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/device/include -I/websites/paca-phonegap/platforms/ios/build/device/usr/local/lib/include -I/websites/paca-phonegap/platforms/ios/build/UninstalledProducts/include -I/websites/paca-phonegap/platforms/ios/build/device -I/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/device -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-cduqbwlynkosykhhyznvrjhcolei/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.dia -c /websites/paca-phonegap/platforms/ios/HelloWorld/Classes/AppDelegate.m -o /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o36"E6C0EAA4-E21E-4CB8-B588-0DC45725BE4D-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/MainViewController.o /websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s416436095.157461
-e416436095.203302
-r1
-xCompileC
-xbuild/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/MainViewController.o
-x/websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.m
-d/websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-d/websites/paca-phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.m214"CompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/MainViewController.o HelloWorld/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler747c287f4fd2b841^aa0b347f4fd2b841^---0#0#1#-19%DVTDocumentLocation2@84"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.m0000000000000000^3880"CompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/MainViewController.o HelloWorld/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/device/include -I/websites/paca-phonegap/platforms/ios/build/device/usr/local/lib/include -I/websites/paca-phonegap/platforms/ios/build/UninstalledProducts/include -I/websites/paca-phonegap/platforms/ios/build/device -I/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/device -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-cduqbwlynkosykhhyznvrjhcolei/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/MainViewController.dia -c /websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.m -o /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/MainViewController.o36"38A77C91-8966-4902-9B4A-2F9CC108A430-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o /websites/paca-phonegap/platforms/ios/HelloWorld/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s416436095.136520
-e416436095.157199
-r1
-xCompileC
-xbuild/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o
-x/websites/paca-phonegap/platforms/ios/HelloWorld/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/websites/paca-phonegap/platforms/ios/HelloWorld/main.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /websites/paca-phonegap/platforms/ios/HelloWorld/main.m178"CompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o HelloWorld/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerdd23237f4fd2b841^1c3f287f4fd2b841^---0#0#1#-19%DVTDocumentLocation2@62"file:///websites/paca-phonegap/platforms/ios/HelloWorld/main.m0000000000000000^3780"CompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o HelloWorld/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /websites/paca-phonegap/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/websites/paca-phonegap/platforms/ios/build/device/include -I/websites/paca-phonegap/platforms/ios/build/device/usr/local/lib/include -I/websites/paca-phonegap/platforms/ios/build/UninstalledProducts/include -I/websites/paca-phonegap/platforms/ios/build/device -I/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources -F/websites/paca-phonegap/platforms/ios/build/device -include /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-cduqbwlynkosykhhyznvrjhcolei/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/main.d --serialize-diagnostics /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/main.dia -c /websites/paca-phonegap/platforms/ios/HelloWorld/main.m -o /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o36"5CA2AD60-3DF7-4C4C-9F3D-74510798617C-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCompileXIB /websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.xib
-s416436094.330133
-e416436094.349297
-r1
-xCompileXIB
-x/websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.xib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compiling /websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.xib52"CompileXIB HelloWorld/Classes/MainViewController.xibf5a0547e4fd2b841^f86c597e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@86"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.xib0000000000000000^1186"CompileXIB HelloWorld/Classes/MainViewController.xib    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/MainViewController.nib /websites/paca-phonegap/platforms/ios/HelloWorld/Classes/MainViewController.xib36"495DA396-CF81-4FCD-B071-F55EEA6D8CA5-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-568h@2x~iphone.png HelloWorld/Resources/splash/Default-568h@2x~iphone.png
-s416436094.993426
-e416436095.124433
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-568h@2x~iphone.png
-xHelloWorld/Resources/splash/Default-568h@2x~iphone.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"CopyPNGFile build/device/HelloWorld.app/Default-568h@2x~iphone.png HelloWorld/Resources/splash/Default-568h@2x~iphone.png121"CopyPNGFile build/device/HelloWorld.app/Default-568h@2x~iphone.png HelloWorld/Resources/splash/Default-568h@2x~iphone.png4c70fe7e4fd2b841^63ed1f7f4fd2b841^---0#0#1#-19%DVTDocumentLocation2@99"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-568h@2x~iphone.png0000000000000000^1123"CopyPNGFile build/device/HelloWorld.app/Default-568h@2x~iphone.png HelloWorld/Resources/splash/Default-568h@2x~iphone.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-568h@2x~iphone.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-568h@2x~iphone.png36"545BF790-D777-4A5B-BEDF-2CEF51F49DFD-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Landscape@2x~ipad.png HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png
-s416436094.397439
-e416436094.751298
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Landscape@2x~ipad.png
-xHelloWorld/Resources/splash/Default-Landscape@2x~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"CopyPNGFile build/device/HelloWorld.app/Default-Landscape@2x~ipad.png HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png127"CopyPNGFile build/device/HelloWorld.app/Default-Landscape@2x~ipad.png HelloWorld/Resources/splash/Default-Landscape@2x~ipad.pngdfe2657e4fd2b841^9b8ec07e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png0000000000000000^1135"CopyPNGFile build/device/HelloWorld.app/Default-Landscape@2x~ipad.png HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Landscape@2x~ipad.png36"764FA1D0-1771-42F9-838E-16F62DCA4693-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Landscape~ipad.png HelloWorld/Resources/splash/Default-Landscape~ipad.png
-s416436094.418192
-e416436094.530515
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Landscape~ipad.png
-xHelloWorld/Resources/splash/Default-Landscape~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"CopyPNGFile build/device/HelloWorld.app/Default-Landscape~ipad.png HelloWorld/Resources/splash/Default-Landscape~ipad.png121"CopyPNGFile build/device/HelloWorld.app/Default-Landscape~ipad.png HelloWorld/Resources/splash/Default-Landscape~ipad.pngf92c6b7e4fd2b841^42d2877e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@99"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-Landscape~ipad.png0000000000000000^1123"CopyPNGFile build/device/HelloWorld.app/Default-Landscape~ipad.png HelloWorld/Resources/splash/Default-Landscape~ipad.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-Landscape~ipad.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Landscape~ipad.png36"30F922E2-5AA0-4375-A71C-C0352B5D7B9B-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Portrait@2x~ipad.png HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png
-s416436094.530790
-e416436094.861413
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Portrait@2x~ipad.png
-xHelloWorld/Resources/splash/Default-Portrait@2x~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"CopyPNGFile build/device/HelloWorld.app/Default-Portrait@2x~ipad.png HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png125"CopyPNGFile build/device/HelloWorld.app/Default-Portrait@2x~ipad.png HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png5001887e4fd2b841^e38ddc7e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png0000000000000000^1131"CopyPNGFile build/device/HelloWorld.app/Default-Portrait@2x~ipad.png HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Portrait@2x~ipad.png36"0F4A02E2-10A3-4630-A5DF-E0F698886589-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Portrait~ipad.png HelloWorld/Resources/splash/Default-Portrait~ipad.png
-s416436094.788425
-e416436094.915275
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Portrait~ipad.png
-xHelloWorld/Resources/splash/Default-Portrait~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"CopyPNGFile build/device/HelloWorld.app/Default-Portrait~ipad.png HelloWorld/Resources/splash/Default-Portrait~ipad.png119"CopyPNGFile build/device/HelloWorld.app/Default-Portrait~ipad.png HelloWorld/Resources/splash/Default-Portrait~ipad.png6af5c97e4fd2b841^fa44ea7e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-Portrait~ipad.png0000000000000000^1119"CopyPNGFile build/device/HelloWorld.app/Default-Portrait~ipad.png HelloWorld/Resources/splash/Default-Portrait~ipad.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default-Portrait~ipad.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default-Portrait~ipad.png36"8D6C265B-879F-432E-BA9F-CD0F00D23BBA-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default@2x~iphone.png HelloWorld/Resources/splash/Default@2x~iphone.png
-s416436094.899289
-e416436094.993026
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default@2x~iphone.png
-xHelloWorld/Resources/splash/Default@2x~iphone.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CopyPNGFile build/device/HelloWorld.app/Default@2x~iphone.png HelloWorld/Resources/splash/Default@2x~iphone.png111"CopyPNGFile build/device/HelloWorld.app/Default@2x~iphone.png HelloWorld/Resources/splash/Default@2x~iphone.png2157e67e4fd2b841^6538fe7e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default@2x~iphone.png0000000000000000^1103"CopyPNGFile build/device/HelloWorld.app/Default@2x~iphone.png HelloWorld/Resources/splash/Default@2x~iphone.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default@2x~iphone.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default@2x~iphone.png36"269B9703-3039-4776-AEF4-A6B05BA28C83-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default~iphone.png HelloWorld/Resources/splash/Default~iphone.png
-s416436094.952188
-e416436095.003011
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default~iphone.png
-xHelloWorld/Resources/splash/Default~iphone.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"CopyPNGFile build/device/HelloWorld.app/Default~iphone.png HelloWorld/Resources/splash/Default~iphone.png105"CopyPNGFile build/device/HelloWorld.app/Default~iphone.png HelloWorld/Resources/splash/Default~iphone.pngc2dff37e4fd2b841^05db007f4fd2b841^---0#0#1#-19%DVTDocumentLocation2@91"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default~iphone.png0000000000000000^1091"CopyPNGFile build/device/HelloWorld.app/Default~iphone.png HelloWorld/Resources/splash/Default~iphone.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/splash/Default~iphone.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Default~iphone.png36"2CD03EA1-B388-4E0D-9DBF-191DA5218A6C-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-40.png HelloWorld/Resources/icons/icon-40.png
-s416436094.861708
-e416436094.895859
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-40.png
-xHelloWorld/Resources/icons/icon-40.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/device/HelloWorld.app/icon-40.png HelloWorld/Resources/icons/icon-40.png90"CopyPNGFile build/device/HelloWorld.app/icon-40.png HelloWorld/Resources/icons/icon-40.png69c4dc7e4fd2b841^7159e57e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@83"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-40.png0000000000000000^1061"CopyPNGFile build/device/HelloWorld.app/icon-40.png HelloWorld/Resources/icons/icon-40.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-40.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-40.png36"C38B5780-F345-4E48-9094-5800924B6F3F-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-40@2x.png HelloWorld/Resources/icons/icon-40@2x.png
-s416436094.283677
-e416436094.326448
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-40@2x.png
-xHelloWorld/Resources/icons/icon-40@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile build/device/HelloWorld.app/icon-40@2x.png HelloWorld/Resources/icons/icon-40@2x.png96"CopyPNGFile build/device/HelloWorld.app/icon-40@2x.png HelloWorld/Resources/icons/icon-40@2x.png8cbc487e4fd2b841^1896537e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@86"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-40@2x.png0000000000000000^1073"CopyPNGFile build/device/HelloWorld.app/icon-40@2x.png HelloWorld/Resources/icons/icon-40@2x.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-40@2x.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-40@2x.png36"C50AF706-735D-43A2-A6B6-F9755C6AF5DE-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-50.png HelloWorld/Resources/icons/icon-50.png
-s416436094.349662
-e416436094.383972
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-50.png
-xHelloWorld/Resources/icons/icon-50.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/device/HelloWorld.app/icon-50.png HelloWorld/Resources/icons/icon-50.png90"CopyPNGFile build/device/HelloWorld.app/icon-50.png HelloWorld/Resources/icons/icon-50.png249d597e4fd2b841^ee5a627e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@83"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-50.png0000000000000000^1061"CopyPNGFile build/device/HelloWorld.app/icon-50.png HelloWorld/Resources/icons/icon-50.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-50.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-50.png36"20477D4A-B090-4C92-8D7B-64B7E4435D28-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-50@2x.png HelloWorld/Resources/icons/icon-50@2x.png
-s416436095.003324
-e416436095.037451
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-50@2x.png
-xHelloWorld/Resources/icons/icon-50@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile build/device/HelloWorld.app/icon-50@2x.png HelloWorld/Resources/icons/icon-50@2x.png96"CopyPNGFile build/device/HelloWorld.app/icon-50@2x.png HelloWorld/Resources/icons/icon-50@2x.pngadf6007f4fd2b841^fa9a097f4fd2b841^---0#0#1#-19%DVTDocumentLocation2@86"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-50@2x.png0000000000000000^1073"CopyPNGFile build/device/HelloWorld.app/icon-50@2x.png HelloWorld/Resources/icons/icon-50@2x.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-50@2x.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-50@2x.png36"3DB33F1C-2B94-400D-9E02-EA99EE3C4F02-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-60.png HelloWorld/Resources/icons/icon-60.png
-s416436094.915420
-e416436094.951789
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-60.png
-xHelloWorld/Resources/icons/icon-60.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/device/HelloWorld.app/icon-60.png HelloWorld/Resources/icons/icon-60.png90"CopyPNGFile build/device/HelloWorld.app/icon-60.png HelloWorld/Resources/icons/icon-60.png8979ea7e4fd2b841^01bef37e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@83"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-60.png0000000000000000^1061"CopyPNGFile build/device/HelloWorld.app/icon-60.png HelloWorld/Resources/icons/icon-60.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-60.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-60.png36"BC2E0904-FC41-4A14-82DC-0A140CB009A4-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-60@2x.png HelloWorld/Resources/icons/icon-60@2x.png
-s416436094.359828
-e416436094.397159
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-60@2x.png
-xHelloWorld/Resources/icons/icon-60@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile build/device/HelloWorld.app/icon-60@2x.png HelloWorld/Resources/icons/icon-60@2x.png96"CopyPNGFile build/device/HelloWorld.app/icon-60@2x.png HelloWorld/Resources/icons/icon-60@2x.png58585c7e4fd2b841^68b0657e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@86"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-60@2x.png0000000000000000^1073"CopyPNGFile build/device/HelloWorld.app/icon-60@2x.png HelloWorld/Resources/icons/icon-60@2x.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-60@2x.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-60@2x.png36"81B5A4C8-067C-4B29-9156-24A54AD10762-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-72.png HelloWorld/Resources/icons/icon-72.png
-s416436094.284254
-e416436094.324377
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-72.png
-xHelloWorld/Resources/icons/icon-72.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/device/HelloWorld.app/icon-72.png HelloWorld/Resources/icons/icon-72.png90"CopyPNGFile build/device/HelloWorld.app/icon-72.png HelloWorld/Resources/icons/icon-72.png11e4487e4fd2b841^8c0f537e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@83"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-72.png0000000000000000^1061"CopyPNGFile build/device/HelloWorld.app/icon-72.png HelloWorld/Resources/icons/icon-72.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-72.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-72.png36"7F301572-C786-48EE-8CFA-2E11889EBC60-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-72@2x.png HelloWorld/Resources/icons/icon-72@2x.png
-s416436095.095428
-e416436095.135475
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-72@2x.png
-xHelloWorld/Resources/icons/icon-72@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile build/device/HelloWorld.app/icon-72@2x.png HelloWorld/Resources/icons/icon-72@2x.png96"CopyPNGFile build/device/HelloWorld.app/icon-72@2x.png HelloWorld/Resources/icons/icon-72@2x.pngc98f187f4fd2b841^e1b2227f4fd2b841^---0#0#1#-19%DVTDocumentLocation2@86"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-72@2x.png0000000000000000^1073"CopyPNGFile build/device/HelloWorld.app/icon-72@2x.png HelloWorld/Resources/icons/icon-72@2x.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-72@2x.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-72@2x.png36"261CC1E9-EE6E-4BEB-8691-BBB118298153-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-76.png HelloWorld/Resources/icons/icon-76.png
-s416436094.283432
-e416436094.328128
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-76.png
-xHelloWorld/Resources/icons/icon-76.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/device/HelloWorld.app/icon-76.png HelloWorld/Resources/icons/icon-76.png90"CopyPNGFile build/device/HelloWorld.app/icon-76.png HelloWorld/Resources/icons/icon-76.png9cc0487e4fd2b841^7e02547e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@83"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-76.png0000000000000000^1061"CopyPNGFile build/device/HelloWorld.app/icon-76.png HelloWorld/Resources/icons/icon-76.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-76.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-76.png36"F7DF2471-F5B2-41EA-9092-F03AB733B5A7-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-76@2x.png HelloWorld/Resources/icons/icon-76@2x.png
-s416436095.037668
-e416436095.095214
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-76@2x.png
-xHelloWorld/Resources/icons/icon-76@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile build/device/HelloWorld.app/icon-76@2x.png HelloWorld/Resources/icons/icon-76@2x.png96"CopyPNGFile build/device/HelloWorld.app/icon-76@2x.png HelloWorld/Resources/icons/icon-76@2x.pngfcc4097f4fd2b841^4564187f4fd2b841^---0#0#1#-19%DVTDocumentLocation2@86"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-76@2x.png0000000000000000^1073"CopyPNGFile build/device/HelloWorld.app/icon-76@2x.png HelloWorld/Resources/icons/icon-76@2x.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-76@2x.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-76@2x.png36"3120E668-AAE7-4C88-B8DC-A35B9BCA53C5-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-small.png HelloWorld/Resources/icons/icon-small.png
-s416436094.385876
-e416436094.417754
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-small.png
-xHelloWorld/Resources/icons/icon-small.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile build/device/HelloWorld.app/icon-small.png HelloWorld/Resources/icons/icon-small.png96"CopyPNGFile build/device/HelloWorld.app/icon-small.png HelloWorld/Resources/icons/icon-small.pngc5e7627e4fd2b841^c2fb6a7e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@86"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-small.png0000000000000000^1073"CopyPNGFile build/device/HelloWorld.app/icon-small.png HelloWorld/Resources/icons/icon-small.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-small.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-small.png36"84876C14-B2E9-48B4-8D82-F8A185F5A26D-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-small@2x.png HelloWorld/Resources/icons/icon-small@2x.png
-s416436094.751990
-e416436094.788127
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-small@2x.png
-xHelloWorld/Resources/icons/icon-small@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile build/device/HelloWorld.app/icon-small@2x.png HelloWorld/Resources/icons/icon-small@2x.png102"CopyPNGFile build/device/HelloWorld.app/icon-small@2x.png HelloWorld/Resources/icons/icon-small@2x.png4ab4c07e4fd2b841^6ec2c97e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@89"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-small@2x.png0000000000000000^1085"CopyPNGFile build/device/HelloWorld.app/icon-small@2x.png HelloWorld/Resources/icons/icon-small@2x.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon-small@2x.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon-small@2x.png36"881668AD-9822-43F9-A7DA-7FE69E328E94-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon.png HelloWorld/Resources/icons/icon.png
-s416436094.285188
-e416436094.325398
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon.png
-xHelloWorld/Resources/icons/icon.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile build/device/HelloWorld.app/icon.png HelloWorld/Resources/icons/icon.png84"CopyPNGFile build/device/HelloWorld.app/icon.png HelloWorld/Resources/icons/icon.png933a497e4fd2b841^7b13537e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@80"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon.png0000000000000000^1049"CopyPNGFile build/device/HelloWorld.app/icon.png HelloWorld/Resources/icons/icon.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon.png36"9002439A-DF6D-430C-B6A9-2F1F55C8DC4A-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyPNGFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon@2x.png HelloWorld/Resources/icons/icon@2x.png
-s416436094.324620
-e416436094.359569
-r1
-xCopyPNGFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon@2x.png
-xHelloWorld/Resources/icons/icon@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/device/HelloWorld.app/icon@2x.png HelloWorld/Resources/icons/icon@2x.png90"CopyPNGFile build/device/HelloWorld.app/icon@2x.png HelloWorld/Resources/icons/icon@2x.pngd239537e4fd2b841^8b165c7e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@83"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon@2x.png0000000000000000^1061"CopyPNGFile build/device/HelloWorld.app/icon@2x.png HelloWorld/Resources/icons/icon@2x.png    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /websites/paca-phonegap/platforms/ios/HelloWorld/Resources/icons/icon@2x.png /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/icon@2x.png36"31DBB999-48B6-4518-9E9A-53306F9C97D8-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyStringsFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings
-s416436094.384320
-e416436094.385535
-r1
-xCopyStringsFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/de.lproj/Localizable.strings
-xHelloWorld/Resources/de.lproj/Localizable.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HelloWorld/Resources/de.lproj/Localizable.strings122"CopyStringsFile build/device/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings4182627e4fd2b841^f2b2627e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/de.lproj/Localizable.strings0000000000000000^1045"CopyStringsFile build/device/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/de.lproj -- HelloWorld/Resources/de.lproj/Localizable.strings36"3772F8B2-CE2D-44CB-89EC-0F76AE388B16-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCopyStringsFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings
-s416436094.328404
-e416436094.329808
-r1
-xCopyStringsFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/en.lproj/Localizable.strings
-xHelloWorld/Resources/en.lproj/Localizable.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HelloWorld/Resources/en.lproj/Localizable.strings122"CopyStringsFile build/device/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings2f33547e4fd2b841^037b547e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///websites/paca-phonegap/platforms/ios/HelloWorld/Resources/en.lproj/Localizable.strings0000000000000000^1045"CopyStringsFile build/device/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/en.lproj -- HelloWorld/Resources/en.lproj/Localizable.strings36"6A2CF517-7B70-4823-B1AB-2A2777C92240-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/device/HelloWorld.app/ResourceRules.plist
-s416436093.959128
-e416436093.960084
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-xbuild/device/HelloWorld.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/device/HelloWorld.app/ResourceRules.plist180"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/device/HelloWorld.app/ResourceRules.plistdfa4f57d4fd2b841^97c8f57d4fd2b841^---0#0#1#-19%DVTDocumentLocation2@92"file:///websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/ResourceRules.plist0034dc76dcffdf42^1185"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/device/HelloWorld.app/ResourceRules.plist    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app36"BEDB92AD-5898-486E-B7F7-BF860D98D851-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CCpResource HelloWorld/config.xml build/device/HelloWorld.app/config.xml
-s416436094.283224
-e416436094.284893
-r1
-xCpResource
-xHelloWorld/config.xml
-xbuild/device/HelloWorld.app/config.xml
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/device/HelloWorld.app/config.xml71"CpResource HelloWorld/config.xml build/device/HelloWorld.app/config.xmlc1a8487e4fd2b841^88f3487e4fd2b841^---0#0#1#-19%DVTDocumentLocation2@83"file:///websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/config.xml0034dc76dcffdf42^1014"CpResource HelloWorld/config.xml build/device/HelloWorld.app/config.xml    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /websites/paca-phonegap/platforms/ios/HelloWorld/config.xml /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app36"95EA3E39-AFDD-404C-80E2-FA9CC8ADC44A-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CGenerateDSYMFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app.dSYM /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/HelloWorld
-s416436095.257923
-e416436095.294233
-r1
-xGenerateDSYMFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app.dSYM
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/HelloWorld
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Generate /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app.dSYM88"GenerateDSYMFile build/device/HelloWorld.app.dSYM build/device/HelloWorld.app/HelloWorld9a24427f4fd2b841^a8524b7f4fd2b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app.dSYM0034dc76dcffdf42^1044"GenerateDSYMFile build/device/HelloWorld.app.dSYM build/device/HelloWorld.app/HelloWorld    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/HelloWorld -o /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app.dSYM36"F7FA69C7-4580-4AF0-B660-3160A9AB73D4-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CLd /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/HelloWorld normal armv7
-s416436095.207204
-e416436095.257099
-r1
-xLd
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/HelloWorld
-xnormal
-xarmv7
-d/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld.LinkFileList
-d/websites/paca-phonegap/platforms/ios/build/device/libCordova.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/crt1.3.1.o
-d/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o
-d/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/AppDelegate.o
-d/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/MainViewController.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Link /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/HelloWorld54"Ld build/device/HelloWorld.app/HelloWorld normal armv78522357f4fd2b841^28d2417f4fd2b841^---0#0#1#--1977"Ld build/device/HelloWorld.app/HelloWorld normal armv7    cd /websites/paca-phonegap/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/websites/paca-phonegap/platforms/ios/build/device -F/websites/paca-phonegap/platforms/ios/build/device -filelist /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld.LinkFileList -dead_strip -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /websites/paca-phonegap/platforms/ios/build/device/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.0 -framework AssetsLibrary /websites/paca-phonegap/platforms/ios/build/device/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld_dependency_info.dat -o /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/HelloWorld36"499C1F4D-4873-4E21-80EF-21D78466AD9F-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CPhaseScriptExecution Copy\ www\ directory /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
-s416436093.961507
-e416436094.282598
-r1
-xPhaseScriptExecution
-xCopy www directory
-x/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
-o
-oreal	0m0.293s
-ouser	0m0.112s
-osys	0m0.173s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'131"PhaseScriptExecution Copy\ www\ directory build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Script-304B58A110DAC018002A0835.sh1101f77d4fd2b841^7670487e4fd2b841^-42"real	0m0.293suser	0m0.112ssys	0m0.173s3(21%IDEActivityLogMessage2@14"real	0m0.293s-416436094#1#14#-0#-----2@14"user	0m0.112s-416436094#15#14#-0#-----2@13"sys	0m0.173s-416436094#29#13#-0#-----0#0#1#--21900"PhaseScriptExecution Copy\ www\ directory build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Script-304B58A110DAC018002A0835.sh    cd /websites/paca-phonegap/platforms/ios    export ACTION=build    export AD_HOC_CODE_SIGNING_ALLOWED=NO    export ALTERNATE_GROUP=staff    export ALTERNATE_MODE=u+w,go-w,a+rX    export ALTERNATE_OWNER=gblair    export ALWAYS_SEARCH_USER_PATHS=NO    export ALWAYS_USE_SEPARATE_HEADERMAPS=YES    export APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer    export APPLE_INTERNAL_DIR=/AppleInternal    export APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation    export APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library    export APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools    export APPLY_RULES_IN_COPY_FILES=NO    export ARCHS=armv7    export ARCHS_STANDARD="armv7 armv7s arm64"    export ARCHS_STANDARD_32_64_BIT="armv7 armv7s arm64"    export ARCHS_STANDARD_32_BIT="armv7 armv7s"    export ARCHS_STANDARD_64_BIT=arm64    export ARCHS_STANDARD_INCLUDING_64_BIT="armv7 armv7s arm64"    export ARCHS_UNIVERSAL_IPHONE_OS="armv7 armv7s arm64"    export AVAILABLE_PLATFORMS="iphonesimulator macosx iphoneos"    export BUILD_COMPONENTS="headers build"    export BUILD_DIR=/websites/paca-phonegap/platforms/ios/build    export BUILD_ROOT=/websites/paca-phonegap/platforms/ios/build    export BUILD_STYLE=    export BUILD_VARIANTS=normal    export BUILT_PRODUCTS_DIR=/websites/paca-phonegap/platforms/ios/build/device    export CACHE_ROOT=/var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode    export CCHROOT=/var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode    export CHMOD=/bin/chmod    export CHOWN=/usr/sbin/chown    export CLANG_ENABLE_OBJC_ARC=YES    export CLANG_WARN_BOOL_CONVERSION=YES    export CLANG_WARN_CONSTANT_CONVERSION=YES    export CLANG_WARN_EMPTY_BODY=YES    export CLANG_WARN_ENUM_CONVERSION=YES    export CLANG_WARN_INT_CONVERSION=YES    export CLANG_WARN__DUPLICATE_METHOD_MATCH=YES    export CLASS_FILE_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/JavaClasses    export CLEAN_PRECOMPS=YES    export CLONE_HEADERS=NO    export CODESIGNING_FOLDER_PATH=/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app    export CODE_SIGNING_ALLOWED=YES    export CODE_SIGNING_REQUIRED=YES    export CODE_SIGN_CONTEXT_CLASS=XCiPhoneOSCodeSignContext    export CODE_SIGN_IDENTITY="iPhone Developer"    export COLOR_DIAGNOSTICS=NO    export COMBINE_HIDPI_IMAGES=NO    export COMMAND_MODE=legacy    export COMPOSITE_SDK_DIRS=/var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/CompositeSDKs    export COMPRESS_PNG_FILES=YES    export CONFIGURATION=Debug    export CONFIGURATION_BUILD_DIR=/websites/paca-phonegap/platforms/ios/build/device    export CONFIGURATION_TEMP_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos    export CONTENTS_FOLDER_PATH=HelloWorld.app    export COPYING_PRESERVES_HFS_DATA=NO    export COPY_PHASE_STRIP=NO    export COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES    export CP=/bin/cp    export CREATE_INFOPLIST_SECTION_IN_BINARY=NO    export CURRENT_ARCH=armv7    export CURRENT_VARIANT=normal    export DEAD_CODE_STRIPPING=YES    export DEBUGGING_SYMBOLS=YES    export DEBUG_INFORMATION_FORMAT=dwarf-with-dsym    export DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0    export DEFAULT_KEXT_INSTALL_PATH=/System/Library/Extensions    export DEPLOYMENT_LOCATION=NO    export DEPLOYMENT_POSTPROCESSING=NO    export DERIVED_FILES_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources    export DERIVED_FILE_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources    export DERIVED_SOURCES_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources    export DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_FRAMEWORKS_DIR_QUOTED=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library    export DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    export DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools    export DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export DEVELOPMENT_LANGUAGE=English    export DOCUMENTATION_FOLDER_PATH=HelloWorld.app/English.lproj/Documentation    export DO_HEADER_SCANNING_IN_JAM=NO    export DSTROOT=/tmp/HelloWorld.dst    export DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    export DWARF_DSYM_FILE_NAME=HelloWorld.app.dSYM    export DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO    export DWARF_DSYM_FOLDER_PATH=/websites/paca-phonegap/platforms/ios/build/device    export EFFECTIVE_PLATFORM_NAME=-iphoneos    export EMBEDDED_PROFILE_NAME=embedded.mobileprovision    export ENABLE_HEADER_DEPENDENCIES=YES    export ENTITLEMENTS_ALLOWED=YES    export ENTITLEMENTS_REQUIRED=YES    export EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=".DS_Store .svn .git .hg CVS"    export EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES="*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    export EXECUTABLES_FOLDER_PATH=HelloWorld.app/Executables    export EXECUTABLE_FOLDER_PATH=HelloWorld.app    export EXECUTABLE_NAME=HelloWorld    export EXECUTABLE_PATH=HelloWorld.app/HelloWorld    export FILE_LIST=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects/LinkFileList    export FIXED_FILES_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/FixedFiles    export FRAMEWORKS_FOLDER_PATH=HelloWorld.app/Frameworks    export FRAMEWORK_FLAG_PREFIX=-framework    export FRAMEWORK_SEARCH_PATHS="/websites/paca-phonegap/platforms/ios/build/device "    export FRAMEWORK_VERSION=A    export FULL_PRODUCT_NAME=HelloWorld.app    export GCC3_VERSION=3.3    export GCC_C_LANGUAGE_STANDARD=c99    export GCC_DYNAMIC_NO_PIC=NO    export GCC_INLINES_ARE_PRIVATE_EXTERN=YES    export GCC_OPTIMIZATION_LEVEL=0    export GCC_PFE_FILE_C_DIALECTS="c objective-c c++ objective-c++"    export GCC_PRECOMPILE_PREFIX_HEADER=YES    export GCC_PREFIX_HEADER=HelloWorld/HelloWorld-Prefix.pch    export GCC_SYMBOLS_PRIVATE_EXTERN=YES    export GCC_THUMB_SUPPORT=NO    export GCC_TREAT_WARNINGS_AS_ERRORS=NO    export GCC_VERSION=com.apple.compilers.llvm.clang.1_0    export GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0    export GCC_WARN_ABOUT_RETURN_TYPE=YES    export GCC_WARN_UNDECLARED_SELECTOR=YES    export GCC_WARN_UNINITIALIZED_AUTOS=YES    export GCC_WARN_UNUSED_FUNCTION=YES    export GCC_WARN_UNUSED_VARIABLE=YES    export GENERATE_MASTER_OBJECT_FILE=NO    export GENERATE_PKGINFO_FILE=YES    export GENERATE_PROFILING_CODE=NO    export GID=20    export GROUP=staff    export HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES    export HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES    export HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES    export HEADERMAP_INCLUDES_PROJECT_HEADERS=YES    export HEADER_SEARCH_PATHS="/websites/paca-phonegap/platforms/ios/build/device/include \"/websites/paca-phonegap/platforms/ios/build/device/usr/local/lib/include\" \"/websites/paca-phonegap/platforms/ios/build/UninstalledProducts/include\" \"/websites/paca-phonegap/platforms/ios/build/device\""    export ICONV=/usr/bin/iconv    export INFOPLIST_EXPAND_BUILD_SETTINGS=YES    export INFOPLIST_FILE=HelloWorld/HelloWorld-Info.plist    export INFOPLIST_OUTPUT_FORMAT=binary    export INFOPLIST_PATH=HelloWorld.app/Info.plist    export INFOPLIST_PREPROCESS=NO    export INFOSTRINGS_PATH=HelloWorld.app/English.lproj/InfoPlist.strings    export INSTALL_DIR=/tmp/HelloWorld.dst/Applications    export INSTALL_GROUP=staff    export INSTALL_MODE_FLAG=u+w,go-w,a+rX    export INSTALL_OWNER=gblair    export INSTALL_PATH=/Applications    export INSTALL_ROOT=/tmp/HelloWorld.dst    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export JAVAC_DEFAULT_FLAGS="-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    export JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    export JAVA_ARCHIVE_CLASSES=YES    export JAVA_ARCHIVE_TYPE=JAR    export JAVA_COMPILER=/usr/bin/javac    export JAVA_FOLDER_PATH=HelloWorld.app/Java    export JAVA_FRAMEWORK_RESOURCES_DIRS=Resources    export JAVA_JAR_FLAGS=cv    export JAVA_SOURCE_SUBDIR=.    export JAVA_USE_DEPENDENCIES=YES    export JAVA_ZIP_FLAGS=-urg    export JIKES_DEFAULT_FLAGS="+E +OLDCSO"    export KEEP_PRIVATE_EXTERNS=NO    export LD_DEPENDENCY_INFO_FILE=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld_dependency_info.dat    export LD_GENERATE_MAP_FILE=NO    export LD_MAP_FILE_PATH=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-LinkMap-normal-armv7.txt    export LD_NO_PIE=NO    export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER=YES    export LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    export LEX=lex    export LIBRARY_FLAG_NOSPACE=YES    export LIBRARY_FLAG_PREFIX=-l    export LIBRARY_KEXT_INSTALL_PATH=/Library/Extensions    export LIBRARY_SEARCH_PATHS="/websites/paca-phonegap/platforms/ios/build/device "    export LINKER_DISPLAYS_MANGLED_NAMES=NO    export LINK_FILE_LIST_normal_armv7=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld.LinkFileList    export LINK_WITH_STANDARD_LIBRARIES=YES    export LOCALIZED_RESOURCES_FOLDER_PATH=HelloWorld.app/English.lproj    export LOCAL_ADMIN_APPS_DIR=/Applications/Utilities    export LOCAL_APPS_DIR=/Applications    export LOCAL_DEVELOPER_DIR=/Library/Developer    export LOCAL_LIBRARY_DIR=/Library    export MACH_O_TYPE=mh_execute    export MAC_OS_X_PRODUCT_BUILD_VERSION=13C64    export MAC_OS_X_VERSION_ACTUAL=1092    export MAC_OS_X_VERSION_MAJOR=1090    export MAC_OS_X_VERSION_MINOR=0902    export NATIVE_ARCH=armv7    export NATIVE_ARCH_32_BIT=i386    export NATIVE_ARCH_64_BIT=x86_64    export NATIVE_ARCH_ACTUAL=x86_64    export NO_COMMON=YES    export OBJECT_FILE_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects    export OBJECT_FILE_DIR_normal=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal    export OBJROOT=/websites/paca-phonegap/platforms/ios/build    export ONLY_ACTIVE_ARCH=YES    export OPTIMIZATION_LEVEL=0    export OS=MACOS    export OSAC=/usr/bin/osacompile    export OTHER_LDFLAGS="-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/websites/paca-phonegap/platforms/ios/build/device/libCordova.a\" -ObjC"    export PACKAGE_TYPE=com.apple.package-type.wrapper.application    export PASCAL_STRINGS=YES    export PATH="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES="/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    export PBDEVELOPMENTPLIST_PATH=HelloWorld.app/pbdevelopment.plist    export PFE_FILE_C_DIALECTS=objective-c    export PKGINFO_FILE_PATH=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/PkgInfo    export PKGINFO_PATH=HelloWorld.app/PkgInfo    export PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    export PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    export PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    export PLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    export PLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    export PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    export PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    export PLATFORM_NAME=iphoneos    export PLATFORM_PREFERRED_ARCH=arm64    export PLATFORM_PRODUCT_BUILD_VERSION=11D167    export PLIST_FILE_OUTPUT_FORMAT=binary    export PLUGINS_FOLDER_PATH=HelloWorld.app/PlugIns    export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES    export PRECOMP_DESTINATION_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/PrefixHeaders    export PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO    export PRIVATE_HEADERS_FOLDER_PATH=HelloWorld.app/PrivateHeaders    export PRODUCT_NAME=HelloWorld    export PRODUCT_SETTINGS_PATH=/websites/paca-phonegap/platforms/ios/HelloWorld/HelloWorld-Info.plist    export PRODUCT_TYPE=com.apple.product-type.application    export PROFILING_CODE=NO    export PROJECT=HelloWorld    export PROJECT_DERIVED_FILE_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/DerivedSources    export PROJECT_DIR=/websites/paca-phonegap/platforms/ios    export PROJECT_FILE_PATH=/websites/paca-phonegap/platforms/ios/HelloWorld.xcodeproj    export PROJECT_NAME=HelloWorld    export PROJECT_TEMP_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build    export PROJECT_TEMP_ROOT=/websites/paca-phonegap/platforms/ios/build    export PROVISIONING_PROFILE_REQUIRED=YES    export PUBLIC_HEADERS_FOLDER_PATH=HelloWorld.app/Headers    export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES    export REMOVE_CVS_FROM_RESOURCES=YES    export REMOVE_GIT_FROM_RESOURCES=YES    export REMOVE_HG_FROM_RESOURCES=YES    export REMOVE_SVN_FROM_RESOURCES=YES    export RESOURCE_RULES_REQUIRED=YES    export REZ_COLLECTOR_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/ResourceManagerResources    export REZ_OBJECTS_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/ResourceManagerResources/Objects    export REZ_SEARCH_PATHS="/websites/paca-phonegap/platforms/ios/build/device "    export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO    export SCRIPTS_FOLDER_PATH=HelloWorld.app/Scripts    export SCRIPT_INPUT_FILE_COUNT=0    export SCRIPT_OUTPUT_FILE_COUNT=0    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk    export SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk    export SDK_NAME=iphoneos7.1    export SDK_PRODUCT_BUILD_VERSION=11D167    export SED=/usr/bin/sed    export SEPARATE_STRIP=NO    export SEPARATE_SYMBOL_EDIT=NO    export SET_DIR_MODE_OWNER_GROUP=YES    export SET_FILE_MODE_OWNER_GROUP=NO    export SHALLOW_BUNDLE=YES    export SHARED_DERIVED_FILE_DIR=/websites/paca-phonegap/platforms/ios/build/device/DerivedSources    export SHARED_FRAMEWORKS_FOLDER_PATH=HelloWorld.app/SharedFrameworks    export SHARED_PRECOMPS_DIR=/var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders    export SHARED_SUPPORT_FOLDER_PATH=HelloWorld.app/SharedSupport    export SKIP_INSTALL=NO    export SOURCE_ROOT=/websites/paca-phonegap/platforms/ios    export SRCROOT=/websites/paca-phonegap/platforms/ios    export STRINGS_FILE_OUTPUT_ENCODING=binary    export STRIP_INSTALLED_PRODUCT=YES    export STRIP_STYLE=all    export SUPPORTED_DEVICE_FAMILIES=1,2    export SUPPORTED_PLATFORMS="iphonesimulator iphoneos"    export SYMROOT=/websites/paca-phonegap/platforms/ios/build    export SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities    export SYSTEM_APPS_DIR=/Applications    export SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices    export SYSTEM_DEMOS_DIR=/Applications/Extras    export SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export SYSTEM_DEVELOPER_DEMOS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    export SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export SYSTEM_DEVELOPER_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    export SYSTEM_DEVELOPER_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    export SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools    export SYSTEM_DEVELOPER_TOOLS_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    export SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities    export SYSTEM_DOCUMENTATION_DIR=/Library/Documentation    export SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions    export SYSTEM_LIBRARY_DIR=/System/Library    export TARGETED_DEVICE_FAMILY=1,2    export TARGETNAME=HelloWorld    export TARGET_BUILD_DIR=/websites/paca-phonegap/platforms/ios/build/device    export TARGET_NAME=HelloWorld    export TARGET_TEMP_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build    export TEMP_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build    export TEMP_FILES_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build    export TEMP_FILE_DIR=/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build    export TEMP_ROOT=/websites/paca-phonegap/platforms/ios/build    export TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault    export UID=501    export UNLOCALIZED_RESOURCES_FOLDER_PATH=HelloWorld.app    export UNSTRIPPED_PRODUCT=NO    export USER=gblair    export USER_APPS_DIR=/Users/gblair/Applications    export USER_LIBRARY_DIR=/Users/gblair/Library    export USE_DYNAMIC_NO_PIC=YES    export USE_HEADERMAP=YES    export USE_HEADER_SYMLINKS=NO    export VALIDATE_PRODUCT=NO    export VALID_ARCHS="armv7 armv7s"    export VERBOSE_PBXCP=NO    export VERSIONPLIST_PATH=HelloWorld.app/version.plist    export VERSION_INFO_BUILDER=gblair    export VERSION_INFO_FILE=HelloWorld_vers.c    export VERSION_INFO_STRING="\"@(#)PROGRAM:HelloWorld  PROJECT:HelloWorld-\""    export WRAPPER_EXTENSION=app    export WRAPPER_NAME=HelloWorld.app    export WRAPPER_SUFFIX=.app    export XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode    export XCODE_PRODUCT_BUILD_VERSION=5B130a    export XCODE_VERSION_ACTUAL=0510    export XCODE_VERSION_MAJOR=0500    export XCODE_VERSION_MINOR=0510    export XPCSERVICES_FOLDER_PATH=HelloWorld.app/XPCServices    export YACC=yacc    export arch=armv7    export variant=normal    /bin/sh -c /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Script-304B58A110DAC018002A0835.sh36"D7D3BD6E-5E5D-4D36-A5CA-4E6748D3BB30-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CProcessInfoPlistFile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Info.plist /websites/paca-phonegap/platforms/ios/HelloWorld/HelloWorld-Info.plist
-s416436093.956437
-e416436093.958691
-r1
-xProcessInfoPlistFile
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Info.plist
-x/websites/paca-phonegap/platforms/ios/HelloWorld/HelloWorld-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Process /websites/paca-phonegap/platforms/ios/HelloWorld/HelloWorld-Info.plist92"ProcessInfoPlistFile build/device/HelloWorld.app/Info.plist HelloWorld/HelloWorld-Info.plistf8fcf47d4fd2b841^f86cf57d4fd2b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///websites/paca-phonegap/platforms/ios/HelloWorld/HelloWorld-Info.plist0000000000000000^1223"ProcessInfoPlistFile build/device/HelloWorld.app/Info.plist HelloWorld/HelloWorld-Info.plist    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-infoPlistUtility /websites/paca-phonegap/platforms/ios/HelloWorld/HelloWorld-Info.plist -genpkginfo /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/ResourceRules.plist -o /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/Info.plist36"8E0E2D1C-728D-49B4-88A0-8FAC0101211A-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CProcessPCH /var/folders/y4/rs_1q9mx1lz42lnp7c6qblgh0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-cduqbwlynkosykhhyznvrjhcolei/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent
-s416436095.301174
-e416436095.302650
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-x/websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection216"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent216"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcentfd2d4d7f4fd2b841^ee7a4d7f4fd2b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent0034dc76dcffdf42^1217"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /websites/paca-phonegap/platforms/ios/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent36"69FE5CE9-C205-47F7-AF5B-8B9396953B91-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CProcessProductPackaging /Users/gblair/Library/MobileDevice/Provisioning\ Profiles/B670F22A-3D22-4E18-8108-B7F655BC97A5.mobileprovision /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/embedded.mobileprovision
-s416436095.294691
-e416436095.295703
-r1
-xProcessProductPackaging
-x/Users/gblair/Library/MobileDevice/Provisioning Profiles/B670F22A-3D22-4E18-8108-B7F655BC97A5.mobileprovision
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection187"ProcessProductPackaging /Users/gblair/Library/MobileDevice/Provisioning\ Profiles/B670F22A-3D22-4E18-8108-B7F655BC97A5.mobileprovision build/device/HelloWorld.app/embedded.mobileprovision187"ProcessProductPackaging /Users/gblair/Library/MobileDevice/Provisioning\ Profiles/B670F22A-3D22-4E18-8108-B7F655BC97A5.mobileprovision build/device/HelloWorld.app/embedded.mobileprovisionb1864b7f4fd2b841^5ab94b7f4fd2b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/embedded.mobileprovision0034dc76dcffdf42^1133"ProcessProductPackaging /Users/gblair/Library/MobileDevice/Provisioning\ Profiles/B670F22A-3D22-4E18-8108-B7F655BC97A5.mobileprovision build/device/HelloWorld.app/embedded.mobileprovision    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    builtin-productPackagingUtility /Users/gblair/Library/MobileDevice/Provisioning\ Profiles/B670F22A-3D22-4E18-8108-B7F655BC97A5.mobileprovision -o /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app/embedded.mobileprovision36"107C8E87-32AB-416C-BF90-EBC8066A8ADA-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
-CTouch /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app
-s416436095.296951
-e416436095.300754
-r1
-xTouch
-x/websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Touch /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app33"Touch build/device/HelloWorld.app8b164c7f4fd2b841^65ff4c7f4fd2b841^---0#0#1#--826"Touch build/device/HelloWorld.app    cd /websites/paca-phonegap/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/gblair/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/gblair/.rvm/bin:/usr/local/opt/php54/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Applications/adt-bundle-mac-x86_64-20131030/sdk/tools:/Applications/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/gblair/pear/bin:/Users/gblair/pear/bin/drush"    /usr/bin/touch -c /websites/paca-phonegap/platforms/ios/build/device/HelloWorld.app36"6C12E8E5-3B4B-4958-9956-8FB6A601C2C2-
-b521FB018-7A63-4994-BFED-DD4C31799ECD
-
