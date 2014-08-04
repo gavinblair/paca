@@ -53,45 +53,6 @@ jQuery(document).ready(function($){
 			return false;
 		}
 	});
-	$('.target').on('click', function(e){
-        var targeted = $(this).parent().attr('data-tool');
-        var tool = current_tool();
-        switch(targeted){
-            case 'eye':
-
-            break;
-            case 'hand':
-                switch(tool){
-                    case 'eye':
-                        say("My hands are shaking from hunger.");
-                    break;
-                }
-            break;
-            case 'rock':
-                switch(tool){
-                    case 'eye':
-                        say("It's a rock.");
-                    break;
-                }
-            break;
-            case 'stick':
-                switch(tool){
-                    case 'eye':
-                        say("It's a sturdy stick.");
-                    break;
-                }
-            break;
-            case 'jerrycan':
-                switch(tool){
-                    case 'eye':
-                        say("It's a jerry can with a little gas in it.");
-                    break;
-                }
-            break;
-        }
-        e.preventdefault();
-        return false;
-    });
 
 });
 var pressing = false;
@@ -221,7 +182,11 @@ function scene(thescene){
 		//walk to the object
 		if(!$(this).hasClass('target')){
 			var pos = $(this).position();
-			walkto(pos.left, $(this).width(), $(this).attr('id'));
+			var target = pos.left;
+			if($('#sprite').hasClass('right')){
+				target -= ($('#sprite').width());
+			}
+			walkto(target, $(this).width(), $(this).attr('id'));
 		}
 		return false;
 	});
@@ -231,7 +196,13 @@ function current_tool(){
 	return $('#inventory .active').attr('data-tool');
 }
 function add_tool(tool){
-	$('#inventory div:not(.has):first').addClass('has').attr('data-tool', tool);
+	if($('#inventory div:not(.has):first').length) {
+		$('#inventory div:not(.has):first').addClass('has').attr('data-tool', tool);
+	} else {
+		say("I can't carry anything else!");
+		return false;
+	}
+	return true;
 }
 function lose_tool(tool){
 	$('#inventory [data-tool='+tool+']').removeClass('has').attr('data-tool', '');
@@ -240,4 +211,3 @@ function lose_tool(tool){
 
 var isPlaying = false;
 var readyStateInterval = null;
-var titleMusic = new Audio('audio/title.mp3');
