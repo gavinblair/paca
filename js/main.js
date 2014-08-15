@@ -1,5 +1,20 @@
 jQuery(document).ready(function($){
 
+
+    $(window).resize(CheckSizeZoom);
+    function CheckSizeZoom() {
+		var minW = 1136;
+        var zoomLev = $(window).width() / minW;
+        $(document.body).css('zoom', zoomLev);
+        var bottom = $('#game').height()*zoomLev;
+		var bottomOfVisibleWindow = $(window).height();
+		var half = (bottomOfVisibleWindow-bottom)/3;
+		$(document.body).css('margin-top', half+'px');
+    }
+    CheckSizeZoom();
+
+    $('#game').css('visibility', 'visible');
+
     scene('menu');
 
 	$('#game').on('click',function(e){

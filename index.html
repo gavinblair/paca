@@ -15,7 +15,6 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
     <script src="js/icanhaz.min.js"></script>
-    <script src="phonegap.js"></script>
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
         <script id="menu" type="text/html">
             <h1>HTML Adventure</h1>
@@ -1061,13 +1060,14 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
         <script>
-            jQuery(document).ready(function($){
+            //audio
+            var titleMusic = new Audio('audio/title.mp3');
 
-                //audio
-                var titleMusic = new Audio('audio/title.mp3');
-                
+
+            $(document).ready(function(){
+
                 //inventory events
                 $('.target').on('click', function(e){
                     var targeted = $(this).parent().attr('data-tool');
@@ -1147,9 +1147,7 @@
         <div id='preload'>
             <img src='img/scenes/intro1.png' />
             <img src='img/scenes/intro2.png' />
-            <img src='img/scenes/intro3.png' />
             <img src='img/intro3_fg.png' />
-            <img src='img/sinking.gif' />
             <img src='img/swimming.png' />
             <img src='img/underwater.png' />
             <img src='img/fireplace.png' />
@@ -1171,14 +1169,13 @@
             <img src='img/scenes/ocean.png' />
             <img src='img/fish.gif' />
             <img src='img/ocean_rays.png' />
-            <img src='img/room1.png' />
             <img src='img/shuttle.png' />
             <img src='img/underwaterpod.png' />
             <img src='img/tangled.png' />
             <img src='img/parachute.png' />
         </div>
 
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
