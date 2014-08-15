@@ -16,8 +16,84 @@
         <link rel="stylesheet" href="css/main.css">
     <script src="js/icanhaz.min.js"></script>
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+        <script id="login" type="text/html">
+            <h1>Decompression: Demo</h1>
+            <input class='btn' id='email' placeholder="Email Address" />
+            <input class='btn' id='password' type='password' placeholder="Password" />
+            <span class='btn' id='submit'>Log In</span>
+            <style>
+                h1 {
+                    position: absolute;
+                    width: 100%;
+                    text-align: center;
+                    top: 100px;
+                    color: #fff;
+                    font-size: 3em;
+                }
+                #inventory {
+                    display: none;
+                }
+                input.btn {
+                    top: 400px;
+                    position: absolute;
+                    color: #000;
+                }
+                #email {
+                    top: 300px;
+                }
+                #password {
+                    top: 400px;
+                }
+                #submit {
+                    top: 510px;
+                }
+            </style>
+            <script>
+                $('#email').val(localStorage.email);
+                $('#password').val(localStorage.password);
+
+                $('#submit').on('click', function(){
+                    if (!navigator.onLine) {
+                        if(localStorage.loggedin != undefined) {
+                            //we have logged in before, play offline is an option. just jump in.
+                            scene('menu');
+                        } else {
+                            alert('Please connect to the internet and try again.');
+                        }
+                    } else {
+                        var ROLE = 'authenticated user';
+                        $.ajax({
+                            url: 'http://zoeandgavin.gav.rtr/gamelogin',
+                            data: 'u='+$('#email').val()+'&p='+$('#password').val()+'&r='+ROLE,
+                            type: 'post',
+                            dataType: 'json',
+                            success: function(msg){
+                                if(msg.loggedin == 'true') {
+                                    localStorage.loggedin = true;
+                                    localStorage.email = $('#email').val();
+                                    localStorage.password = $('#password').val();
+                                    scene('menu');
+                                } else {
+                                    alert('Invalid email address or password. Please try again.');
+                                }
+                            },
+                            error: function(){
+                                //probably offline.
+                                if(localStorage.loggedin != undefined) {
+                                    //we have logged in before, play offline is an option. just jump in.
+                                    scene('menu');
+                                } else {
+                                    alert('An error occurred. Please try again later.');
+                                }
+                            }
+                        });
+                    }
+                    return false;
+                });
+            </script>
+        </script>
         <script id="menu" type="text/html">
-            <h1>HTML Adventure</h1>
+            <h1>Decompression: Demo</h1>
             <span class='btn' id='continue'>Continue</span>
             <span class='btn' id='newgame'>New Game</span>
             <span class='btn' id='options'>Options</span>

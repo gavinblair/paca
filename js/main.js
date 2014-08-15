@@ -1,10 +1,11 @@
+var zoomLev;
 jQuery(document).ready(function($){
 
 
     $(window).resize(CheckSizeZoom);
     function CheckSizeZoom() {
 		var minW = 1136;
-        var zoomLev = $(window).width() / minW;
+        zoomLev = $(window).width() / minW;
         $(document.body).css('zoom', zoomLev);
         var bottom = $('#game').height()*zoomLev;
 		var bottomOfVisibleWindow = $(window).height();
@@ -15,13 +16,13 @@ jQuery(document).ready(function($){
 
     $('#game').css('visibility', 'visible');
 
-    scene('menu');
+    scene('login');
 
 	$('#game').on('click',function(e){
 
 		if($('#sprite').length) {
 			if(!glowaction) {
-				var target = e.offsetX;
+				var target = e.offsetX / zoomLev;
 				//walk to position
 				walkto(target, 10);
 			}
