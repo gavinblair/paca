@@ -16,7 +16,7 @@ jQuery(document).ready(function($){
 
     $('#game').css('visibility', 'visible');
 
-    scene('login');
+    scene('menu');
 
 	$('#game').on('click',function(e){
 

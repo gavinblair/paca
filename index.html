@@ -63,7 +63,7 @@
                     } else {
                         var ROLE = 'authenticated user';
                         $.ajax({
-                            url: 'http://zoeandgavin.gav.rtr/gamelogin',
+                            url: 'http://zoeandgavin.com/gamelogin',
                             data: 'u='+$('#email').val()+'&p='+$('#password').val()+'&r='+ROLE,
                             type: 'post',
                             dataType: 'json',
@@ -127,7 +127,7 @@
                     $('#continue').hide();
                 }
                 $('#newgame').on('click', function(){
-                    scene('intro1');
+                    scene('beach');
                     states = {};
                     localStorage.game = '';
                     return false;
@@ -576,7 +576,7 @@
                     });
                 }
                 function monologue(){
-                    ask({one: "WOOO! I can't believe I survived! I am a new person. It's time to start living my life in honour of those I have left behind."});
+                    ask({one: "WOOO! I can't believe I survived that crash!"});
                     states.monologuecomplete = false;
                 }
                 function arrivedat(id){
@@ -842,7 +842,7 @@
                                         //enter shack
                                         states.comingfrom = "shack";
                                         /**///scene('kitchen');
-                                        /**/say('todo: kitchen');
+                                        /**/say('YOU WIN! This demo is over :)');
                                     }
                                 break;
                                 case 'hand':
@@ -852,7 +852,7 @@
                                         //enter shack
                                         states.comingfrom = "shack";
                                         /**///scene('kitchen');
-                                        /**/say('todo: kitchen');
+                                        /**/say('YOU WIN! This demo is over :)');
                                     }
                                 break;
                                 case 'jerrycan':
